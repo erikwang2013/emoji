@@ -32,10 +32,6 @@
   .ex-motion, [class*="ex-anim-"] { animation: none !important; }
 }
 </style><g class="ex-motion ex-knocking"><g class="ex-base"><defs>
-    <radialGradient id="drBadge" cx="50%" cy="36%" r="74%">
-      <stop offset="0" stop-color="#17384f"/>
-      <stop offset="1" stop-color="#0a1725"/>
-    </radialGradient>
     <linearGradient id="drOwl" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#ffd894"/>
       <stop offset="1" stop-color="#e09b3d"/>
@@ -50,11 +46,6 @@
     </linearGradient>
   </defs>
 
-  
-  <circle cx="80" cy="80" r="76" fill="url(#drBadge)"/>
-  <circle cx="80" cy="80" r="74" fill="none" stroke="#34d399" stroke-opacity=".4" stroke-width="1.5"/>
-
-  
   <path d="M40 120 L40 140 A40 9 0 0 0 120 140 L120 120 Z" fill="url(#drPool)"/>
   <ellipse cx="80" cy="120" rx="40" ry="9" fill="#3a90c0"/>
   <ellipse cx="80" cy="120" rx="32" ry="6.4" fill="#123f5e"/>

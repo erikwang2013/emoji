@@ -3,9 +3,6 @@
   <title>吞吞（TunTun）· 欢乐 / Joy</title>
   <desc>项目宠物吞吞的彩色动态表情：欢乐（Joy）。</desc>
   <defs>
-        <radialGradient id="bgGrad" cx="50%" cy="42%" r="70%">
-          <stop offset="0" stop-color="#fefce8"/><stop offset="1" stop-color="#fde68a"/>
-        </radialGradient>
     <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#7ba3cc"/><stop offset="1" stop-color="#55779c"/>
     </linearGradient>
@@ -41,9 +38,6 @@
       <circle cx="394" cy="410" r="5" fill="#4ade80"/>
     </g>
   </defs>
-  <rect x="1" y="1" width="358" height="398" rx="26" fill="url(#bgGrad)" stroke="#eab308" stroke-opacity="0.18"/>
-  <circle cx="300" cy="72" r="46" fill="#eab308" opacity="0.10"/>
-  <circle cx="62" cy="330" r="34" fill="#eab308" opacity="0.08"/>
   <g transform="translate(-58,-118) scale(0.85)">
     <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="0.65s" repeatCount="indefinite"/>
     <use xlink:href="#bucket" href="#bucket"/>
