@@ -1,6 +1,6 @@
 # 项目宠物 Emoji 图鉴 · Pet Emoji Atlas
 
-**55 个项目 × 12 种形态 = 660 枚宠物表情 emoji。**
+**56 个项目 × 12 种形态 = 672 枚宠物表情 emoji。**
 每一枚同时提供 **图片（SVG / PNG）+ 彩色字体（CBDT/CBLC TTF）+ 短码（shortcode）**。
 
 > **授权 / License**：本项目中的项目宠物、图片、图标、表情及字体中的图形字形均为
@@ -37,7 +37,7 @@
 
 - 主短码：`:<项目>-<形态>:`
 - 别名：`:emoji-<项目>-<形态>:`
-- 字体码位：`U+E000..U+E293`
+- 字体码位：`U+E000..U+E29F`
 - 全量映射见 [shortcodes.json](shortcodes.json)；字体内置主短码 `:<项目>-<形态>:` 的 `liga` 连字。
 - `:emoji-<项目>-<形态>:` 别名可用 `shortcodes.json` 映射为图片或对应码位；需要把短码渲染成图片时，查 `image` 字段。
 
@@ -100,6 +100,7 @@
 | 53 | Sniffy | `erikwang2013/webman-scout` | `:webman-scout-*:` | 12 |
 | 54 | Xhpy | `erikwang2013/xhprof` | `:xhprof-*:` | 12 |
 | 55 | 焰焰 | `erikwang2013/xhprof-webman` | `:xhprof-webman-*:` | 12 |
+| 56 | Pax | `polypack` | `:polypack-*:` | 12 |
 
 ## 逐项目预览
 
@@ -598,10 +599,19 @@
 </table>
 
 </details>
+<details>
+<summary><b>Pax</b> · <code>polypack</code> · <code>:polypack-*:</code></summary>
+
+<table align="center">
+<tr><td align="center"><img src="pets/polypack/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:polypack-smile:</code></td><td align="center"><img src="pets/polypack/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:polypack-joy:</code></td><td align="center"><img src="pets/polypack/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:polypack-cry:</code></td><td align="center"><img src="pets/polypack/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:polypack-depressed:</code></td><td align="center"><img src="pets/polypack/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:polypack-terrified:</code></td><td align="center"><img src="pets/polypack/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:polypack-angry:</code></td></tr>
+<tr><td align="center"><img src="pets/polypack/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:polypack-coquettish:</code></td><td align="center"><img src="pets/polypack/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:polypack-cute:</code></td><td align="center"><img src="pets/polypack/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:polypack-pleasing:</code></td><td align="center"><img src="pets/polypack/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:polypack-knocking:</code></td><td align="center"><img src="pets/polypack/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:polypack-facepalm:</code></td><td align="center"><img src="pets/polypack/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:polypack-tongue:</code></td></tr>
+</table>
+
+</details>
 
 ## 说明
 
 - 图片源文件在 `pets/<项目>/<形态>.svg`，PNG 在 `png/<项目>/<形态>.png`。
 - `preview.png` 是所有项目「笑」形态的总览。
-- 已有独立表情体系的 `bag/opi`、`oss`、`package-tools` 暂未纳入本图鉴，见各自仓库。
+- 已有独立表情体系的 `bag/opi`、`oss` 暂未纳入本图鉴，见各自仓库。
 - 本项目代码与生成脚本仍遵循其原有许可；视觉资产适用 [ASSETS-LICENSE.md](ASSETS-LICENSE.md)。

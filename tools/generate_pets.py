@@ -345,8 +345,8 @@ PETS = [
       skip=True, note='all 12 forms already exist (docs/opi-pet-forms.svg)'),
     P('oss', 'oss/docs/assets/mascot.svg', '吞吞', (0, 0, 0), 10, [], '#000',
       skip=True, note='existing expression sheet (docs/assets/mascot-expressions.svg)'),
-    P('package-tools', 'package-tools/docs/assets/pax.svg', 'Pax', (0, 0, 0), 10, [], '#000',
-      skip=True, note='existing mood generator (tools/build-pax.mjs)'),
+    P('polypack', 'polypack/docs/assets/pax.svg', 'Pax', (0, 0, 0), 10, [], '#000',
+      skip=True, note='existing 12-form generator (tools/build-pax.mjs)'),
 ]
 
 # ---------------------------------------------------------------------------

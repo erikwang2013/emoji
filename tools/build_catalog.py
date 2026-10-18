@@ -11,6 +11,16 @@ spec = importlib.util.spec_from_file_location('gp', EMOJI / 'tools/generate_pets
 gp = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(gp)
 
+CATALOG_EXTRA = [dict(
+    key='polypack', pet='Pax', out='docs/assets', skip=False,
+    file_map={'smile': 'pax-smile.svg', 'joy': 'pax-joy.svg', 'cry': 'pax-cry.svg',
+              'depressed': 'pax-dejected.svg', 'terrified': 'pax-shock.svg',
+              'angry': 'pax-angry.svg', 'coquettish': 'pax-coquettish.svg',
+              'cute': 'pax-cute.svg', 'pleasing': 'pax-ingratiating.svg',
+              'knocking': 'pax-knock.svg', 'facepalm': 'pax-facepalm.svg',
+              'tongue': 'pax-tongue.svg'},
+)]
+
 MOOD_ZH = {m[0]: m[1] for m in gp.MOODS}
 MOOD_EN = {m[0]: m[2] for m in gp.MOODS}
 
@@ -23,8 +33,8 @@ def project_slug(key: str) -> str:
 def make_entries():
     entries, projects = [], []
     idx = 0
-    for cfg in gp.PETS:
-        if cfg['skip']:
+    for cfg in (gp.PETS + CATALOG_EXTRA):
+        if cfg.get('skip'):
             continue
         slug = project_slug(cfg['key'])
         src_dir = ROOT / cfg['key'] / cfg['out']
@@ -34,20 +44,28 @@ def make_entries():
         out_png.mkdir(parents=True, exist_ok=True)
         forms = []
         for mood, zh, en, _ in gp.MOODS:
-            src = src_dir / f'{mood}.svg'
+            src = src_dir / cfg.get('file_map', {}).get(mood, f'{mood}.svg')
             if not src.exists():
                 raise FileNotFoundError(src)
             dst = out_img / f'{mood}.svg'
-            shutil.copyfile(src, dst)
+            if not dst.exists():
+                shutil.copyfile(src, dst)
             png = out_png / f'{mood}.png'
-            subprocess.run(['rsvg-convert', '-w', '128', '-h', '128', str(dst), '-o', str(png)],
-                           check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-            im = Image.open(png).convert('RGBA')
-            if im.size != (128, 128):
-                canvas = Image.new('RGBA', (128, 128), (0, 0, 0, 0))
-                canvas.alpha_composite(im, ((128 - im.width) // 2, (128 - im.height) // 2))
-                im = canvas
-                im.save(png, optimize=True)
+            need_render = True
+            if png.exists():
+                try:
+                    if Image.open(png).size == (128, 128):
+                        need_render = False
+                except Exception:
+                    pass
+            if need_render:
+                subprocess.run(['rsvg-convert', '-w', '128', '-h', '128', str(dst), '-o', str(png)],
+                               check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                im = Image.open(png).convert('RGBA')
+                if im.size != (128, 128):
+                    canvas = Image.new('RGBA', (128, 128), (0, 0, 0, 0))
+                    canvas.alpha_composite(im, ((128 - im.width) // 2, (128 - im.height) // 2))
+                    canvas.save(png, optimize=True)
             cp = 0xE000 + idx
             e = {
                 'project': cfg['key'],
@@ -170,7 +188,7 @@ def write_readme(projects, entries, manifest):
 
 - 图片源文件在 `pets/<项目>/<形态>.svg`，PNG 在 `png/<项目>/<形态>.png`。
 - `preview.png` 是所有项目「笑」形态的总览。
-- 已有独立表情体系的 `bag/opi`、`oss`、`package-tools` 暂未纳入本图鉴，见各自仓库。
+- 已有独立表情体系的 `bag/opi`、`oss` 暂未纳入本图鉴，见各自仓库。
 - 本项目代码与生成脚本仍遵循其原有许可；视觉资产适用 [ASSETS-LICENSE.md](ASSETS-LICENSE.md)。
 '''
     (EMOJI / 'README.md').write_text(readme, encoding='utf-8')

@@ -10558,5 +10558,197 @@
     "png": "png/xhprof-webman/tongue.png",
     "pet": "焰焰",
     "project": "erikwang2013/xhprof-webman"
+  },
+  ":polypack-smile:": {
+    "slug": "polypack-smile",
+    "codepoint": "U+E294",
+    "image": "pets/polypack/smile.svg",
+    "png": "png/polypack/smile.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":emoji-polypack-smile:": {
+    "slug": "polypack-smile",
+    "codepoint": "U+E294",
+    "image": "pets/polypack/smile.svg",
+    "png": "png/polypack/smile.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":polypack-joy:": {
+    "slug": "polypack-joy",
+    "codepoint": "U+E295",
+    "image": "pets/polypack/joy.svg",
+    "png": "png/polypack/joy.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":emoji-polypack-joy:": {
+    "slug": "polypack-joy",
+    "codepoint": "U+E295",
+    "image": "pets/polypack/joy.svg",
+    "png": "png/polypack/joy.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":polypack-cry:": {
+    "slug": "polypack-cry",
+    "codepoint": "U+E296",
+    "image": "pets/polypack/cry.svg",
+    "png": "png/polypack/cry.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":emoji-polypack-cry:": {
+    "slug": "polypack-cry",
+    "codepoint": "U+E296",
+    "image": "pets/polypack/cry.svg",
+    "png": "png/polypack/cry.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":polypack-depressed:": {
+    "slug": "polypack-depressed",
+    "codepoint": "U+E297",
+    "image": "pets/polypack/depressed.svg",
+    "png": "png/polypack/depressed.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":emoji-polypack-depressed:": {
+    "slug": "polypack-depressed",
+    "codepoint": "U+E297",
+    "image": "pets/polypack/depressed.svg",
+    "png": "png/polypack/depressed.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":polypack-terrified:": {
+    "slug": "polypack-terrified",
+    "codepoint": "U+E298",
+    "image": "pets/polypack/terrified.svg",
+    "png": "png/polypack/terrified.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":emoji-polypack-terrified:": {
+    "slug": "polypack-terrified",
+    "codepoint": "U+E298",
+    "image": "pets/polypack/terrified.svg",
+    "png": "png/polypack/terrified.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":polypack-angry:": {
+    "slug": "polypack-angry",
+    "codepoint": "U+E299",
+    "image": "pets/polypack/angry.svg",
+    "png": "png/polypack/angry.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":emoji-polypack-angry:": {
+    "slug": "polypack-angry",
+    "codepoint": "U+E299",
+    "image": "pets/polypack/angry.svg",
+    "png": "png/polypack/angry.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":polypack-coquettish:": {
+    "slug": "polypack-coquettish",
+    "codepoint": "U+E29A",
+    "image": "pets/polypack/coquettish.svg",
+    "png": "png/polypack/coquettish.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":emoji-polypack-coquettish:": {
+    "slug": "polypack-coquettish",
+    "codepoint": "U+E29A",
+    "image": "pets/polypack/coquettish.svg",
+    "png": "png/polypack/coquettish.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":polypack-cute:": {
+    "slug": "polypack-cute",
+    "codepoint": "U+E29B",
+    "image": "pets/polypack/cute.svg",
+    "png": "png/polypack/cute.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":emoji-polypack-cute:": {
+    "slug": "polypack-cute",
+    "codepoint": "U+E29B",
+    "image": "pets/polypack/cute.svg",
+    "png": "png/polypack/cute.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":polypack-pleasing:": {
+    "slug": "polypack-pleasing",
+    "codepoint": "U+E29C",
+    "image": "pets/polypack/pleasing.svg",
+    "png": "png/polypack/pleasing.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":emoji-polypack-pleasing:": {
+    "slug": "polypack-pleasing",
+    "codepoint": "U+E29C",
+    "image": "pets/polypack/pleasing.svg",
+    "png": "png/polypack/pleasing.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":polypack-knocking:": {
+    "slug": "polypack-knocking",
+    "codepoint": "U+E29D",
+    "image": "pets/polypack/knocking.svg",
+    "png": "png/polypack/knocking.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":emoji-polypack-knocking:": {
+    "slug": "polypack-knocking",
+    "codepoint": "U+E29D",
+    "image": "pets/polypack/knocking.svg",
+    "png": "png/polypack/knocking.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":polypack-facepalm:": {
+    "slug": "polypack-facepalm",
+    "codepoint": "U+E29E",
+    "image": "pets/polypack/facepalm.svg",
+    "png": "png/polypack/facepalm.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":emoji-polypack-facepalm:": {
+    "slug": "polypack-facepalm",
+    "codepoint": "U+E29E",
+    "image": "pets/polypack/facepalm.svg",
+    "png": "png/polypack/facepalm.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":polypack-tongue:": {
+    "slug": "polypack-tongue",
+    "codepoint": "U+E29F",
+    "image": "pets/polypack/tongue.svg",
+    "png": "png/polypack/tongue.png",
+    "pet": "Pax",
+    "project": "polypack"
+  },
+  ":emoji-polypack-tongue:": {
+    "slug": "polypack-tongue",
+    "codepoint": "U+E29F",
+    "image": "pets/polypack/tongue.svg",
+    "png": "png/polypack/tongue.png",
+    "pet": "Pax",
+    "project": "polypack"
   }
 }
