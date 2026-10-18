@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 240 250" width="240" height="250" role="img" aria-label="OPI 小欧 · 吐舌头"><defs>
+    <linearGradient id="forms-skirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9F3F1" />
+      <stop offset="1" stop-color="#D8E9E6" />
+    </linearGradient>
+
+    
+    <g id="forms-back">
+      <ellipse cx="120" cy="206" rx="72" ry="8" fill="#22272E" opacity="0.08" />
+      <g stroke="#2E8B80" fill="none" stroke-linecap="round">
+        <path d="M74 214 Q120 228 166 214" stroke-width="4" opacity="0.5" />
+        <path d="M92 226 Q120 236 148 226" stroke-width="4" opacity="0.28" />
+      </g>
+      <g stroke-linecap="round" fill="none">
+        <path d="M62 118 L36 128" stroke="#2E8B80" stroke-width="17" />
+        <path d="M62 118 L36 128" stroke="#FFFDF8" stroke-width="7" />
+        <path d="M178 118 L204 128" stroke="#2E8B80" stroke-width="17" />
+        <path d="M178 118 L204 128" stroke="#FFFDF8" stroke-width="7" />
+      </g>
+      <path d="M54 140 L44 184 Q42 202 62 202 L178 202 Q198 202 196 184 L186 140 Z" fill="url(#forms-skirt)" stroke="#2E8B80" stroke-width="5" stroke-linejoin="round" />
+      <text x="120" y="187" text-anchor="middle" fill="#1E6B63" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="21" font-weight="700" letter-spacing="4.5">OPI</text>
+    </g>
+
+    
+    <g id="forms-antenna">
+      <path d="M120 52 L120 28" stroke="#2E8B80" stroke-width="5" stroke-linecap="round" />
+      <path d="M103 20 L137 20" stroke="#D9553F" stroke-width="7" stroke-linecap="round" />
+    </g>
+    <g id="forms-antenna-up">
+      <path d="M120 52 L120 24" stroke="#2E8B80" stroke-width="5" stroke-linecap="round" />
+      <path d="M103 14 L137 14" stroke="#D9553F" stroke-width="7" stroke-linecap="round" />
+    </g>
+  </defs>
+
+  <g><use href="#forms-back" xlink:href="#forms-back" />
+      <use href="#forms-antenna" xlink:href="#forms-antenna" />
+      <rect x="52" y="46" width="136" height="104" rx="20" fill="#FFF0F6" stroke="#2E8B80" stroke-width="5" />
+      <ellipse cx="77" cy="117.5" rx="11" ry="5.5" fill="#EF5D8F" opacity="0.38" />
+      <ellipse cx="163" cy="117.5" rx="11" ry="5.5" fill="#EF5D8F" opacity="0.38" />
+      <circle cx="93" cy="95" r="11" fill="#1E6B63" />
+      <circle cx="89.2" cy="91.2" r="3.6" fill="#FFF0F6" />
+      <path d="M137.6 92.6 A 10 7 0 0 1 156.4 92.6" fill="none" stroke="#1E6B63" stroke-width="5" stroke-linecap="round" />
+      <ellipse cx="120" cy="141.5" rx="8" ry="7.5" fill="#EF5D8F" />
+      <path d="M120 138 L120 146" stroke="#1E6B63" stroke-width="2" opacity="0.6" stroke-linecap="round" />
+      <ellipse cx="120" cy="128" rx="10" ry="9" fill="none" stroke="#1E6B63" stroke-width="5" />
+    </g></svg>

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 400" width="360" height="400"
+     font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <title>吞吞（TunTun）· 撒娇 / Spoiled</title>
+  <desc>项目宠物吞吞的彩色动态表情：撒娇（Spoiled）。</desc>
+  <defs>
+        <radialGradient id="bgGrad" cx="50%" cy="42%" r="70%">
+          <stop offset="0" stop-color="#fdf2f8"/><stop offset="1" stop-color="#fce7f3"/>
+        </radialGradient>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7ba3cc"/><stop offset="1" stop-color="#55779c"/>
+    </linearGradient>
+    <linearGradient id="insideGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22303f"/><stop offset="1" stop-color="#31445a"/>
+    </linearGradient>
+    <g id="bucket">
+      <ellipse cx="280" cy="492" rx="185" ry="16" fill="#0f172a" opacity="0.07"/>
+      <ellipse cx="280" cy="200" rx="170" ry="58" fill="url(#insideGrad)"/>
+      <g>
+        <rect x="166" y="222" width="44" height="40" rx="6" fill="#60a5fa" stroke="#3b82f6" stroke-width="1.2"/>
+        <polygon points="166,222 188,205 232,205 210,222" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1.2"/>
+        <polygon points="210,222 232,205 232,245 210,262" fill="#3b82f6"/>
+      </g>
+      <g>
+        <rect x="256" y="216" width="44" height="44" rx="6" fill="#4ade80" stroke="#22c55e" stroke-width="1.2"/>
+        <polygon points="256,216 278,197 322,197 300,216" fill="#bbf7d0" stroke="#22c55e" stroke-width="1.2"/>
+        <polygon points="300,216 322,197 322,241 300,260" fill="#22c55e"/>
+      </g>
+      <g>
+        <rect x="338" y="226" width="44" height="38" rx="6" fill="#2dd4bf" stroke="#14b8a6" stroke-width="1.2"/>
+        <polygon points="338,226 360,209 404,209 382,226" fill="#99f6e4" stroke="#14b8a6" stroke-width="1.2"/>
+        <polygon points="382,226 404,209 404,245 382,264" fill="#14b8a6"/>
+      </g>
+      <path d="M450,200 A170,58 0 0 1 110,200 C104,260 132,370 162,430 A118,44 0 0 0 398,430 C428,370 456,260 450,200 Z"
+            fill="url(#bodyGrad)"/>
+      <path d="M152,272 C144,330 152,382 176,412" fill="none" stroke="#ffffff" stroke-width="13" stroke-linecap="round" opacity="0.2"/>
+      <path d="M156,378 A124,44 0 0 0 404,378" fill="none" stroke="#46617f" stroke-width="2" opacity="0.5"/>
+      <path fill-rule="evenodd" fill="#9ebcdf" d="M110,200 A170,58 0 0 1 450,200 A170,58 0 0 1 110,200 Z M128,200 A152,46 0 0 0 432,200 A152,46 0 0 0 128,200 Z"/>
+      <ellipse cx="228" cy="462" rx="34" ry="15" fill="#46617f"/>
+      <ellipse cx="332" cy="462" rx="34" ry="15" fill="#46617f"/>
+      <circle cx="394" cy="410" r="10" fill="#4ade80" opacity="0.25"/>
+      <circle cx="394" cy="410" r="5" fill="#4ade80"/>
+    </g>
+  </defs>
+  <rect x="1" y="1" width="358" height="398" rx="26" fill="url(#bgGrad)" stroke="#ec4899" stroke-opacity="0.18"/>
+  <circle cx="300" cy="72" r="46" fill="#ec4899" opacity="0.10"/>
+  <circle cx="62" cy="330" r="34" fill="#ec4899" opacity="0.08"/>
+  <g transform="translate(-58,-118) scale(0.85)">
+    <g><animateTransform attributeName="transform" type="rotate" values="-3 280 430;3 280 430;-3 280 430" dur="2.6s" repeatCount="indefinite"/>
+    <use xlink:href="#bucket" href="#bucket"/>
+    
+    <path d="M204,300 Q220,288 236,296" fill="none" stroke="#22303f" stroke-width="4" stroke-linecap="round"/>
+    <path d="M324,296 Q340,288 356,300" fill="none" stroke="#22303f" stroke-width="4" stroke-linecap="round"/>
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="1;1.07;1" dur="1.6s" repeatCount="indefinite"/>
+      <ellipse cx="222" cy="318" rx="19" ry="23" fill="#22303f"/>
+      <circle cx="228" cy="308" r="6" fill="#ffffff"/>
+      <circle cx="216" cy="326" r="3" fill="#ffffff" opacity="0.9"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="1;1.07;1" dur="1.6s" begin="0.2s" repeatCount="indefinite"/>
+      <ellipse cx="338" cy="318" rx="19" ry="23" fill="#22303f"/>
+      <circle cx="344" cy="308" r="6" fill="#ffffff"/>
+      <circle cx="332" cy="326" r="3" fill="#ffffff" opacity="0.9"/>
+    </g>
+    <ellipse cx="280" cy="336" rx="6.5" ry="5" fill="#33506d"/>
+    <ellipse cx="194" cy="340" rx="18" ry="10" fill="#fb7185" opacity="0.55"><animate attributeName="opacity" values="0.55;0.8;0.55" dur="2s" repeatCount="indefinite"/></ellipse><ellipse cx="366" cy="340" rx="18" ry="10" fill="#fb7185" opacity="0.55"><animate attributeName="opacity" values="0.55;0.8;0.55" dur="2s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="280" cy="362" rx="8" ry="6" fill="#9f4a5a">
+      <animate attributeName="ry" values="6;4;6" dur="1.6s" repeatCount="indefinite"/>
+    </ellipse>
+    
+    <g transform="translate(160,258)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;-6 -26" dur="2.8s" begin="0s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.95;0" keyTimes="0;0.35;1" dur="2.8s" begin="0s" repeatCount="indefinite"/>
+        <path d="M0,8 C-12,-2 -24,10 0,26 C24,10 12,-2 0,8 Z" fill="#fb7185"/>
+      </g>
+    </g>
+    
+    <g transform="translate(402,246)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;8 -26" dur="3.1s" begin="0.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.95;0" keyTimes="0;0.35;1" dur="3.1s" begin="0.8s" repeatCount="indefinite"/>
+        <path d="M0,8 C-12,-2 -24,10 0,26 C24,10 12,-2 0,8 Z" fill="#f472b6"/>
+      </g>
+    </g>
+    
+    <g transform="translate(330,214)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;-4 -26" dur="2.6s" begin="1.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.95;0" keyTimes="0;0.35;1" dur="2.6s" begin="1.6s" repeatCount="indefinite"/>
+        <path d="M0,8 C-12,-2 -24,10 0,26 C24,10 12,-2 0,8 Z" fill="#fda4af"/>
+      </g>
+    </g>
+    
+    <g transform="translate(172,272)">
+      <path d="M0,-10 L3,-3 L10,0 L3,3 L0,10 L-3,3 L-10,0 L-3,-3 Z" fill="#fbbf24">
+        <animateTransform attributeName="transform" type="scale" values="0.8;1.25;0.8" dur="1.2s" repeatCount="indefinite"/>
+        <animate attributeName="fill" values="#fbbf24;#fde68a;#fbbf24" dur="1.2s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g transform="translate(394,264)">
+      <path d="M0,-8 L2.5,-2.5 L8,0 L2.5,2.5 L0,8 L-2.5,2.5 L-8,0 L-2.5,-2.5 Z" fill="#34d399">
+        <animateTransform attributeName="transform" type="scale" values="1.2;0.7;1.2" dur="1.5s" begin="0.3s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    </g>
+  </g>
+  <text x="180" y="344" font-size="24" font-weight="700" fill="#0f172a" text-anchor="middle">撒娇</text>
+  <text x="180" y="366" font-size="12" fill="#64748b" text-anchor="middle" letter-spacing="1.2">SPOILED</text>
+  <text x="336" y="388" font-size="9" fill="#94a3b8" text-anchor="end">© erik.xyz</text>
+</svg>

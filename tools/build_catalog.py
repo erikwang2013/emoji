@@ -19,6 +19,8 @@ CATALOG_EXTRA = [dict(
               'cute': 'pax-cute.svg', 'pleasing': 'pax-ingratiating.svg',
               'knocking': 'pax-knock.svg', 'facepalm': 'pax-facepalm.svg',
               'tongue': 'pax-tongue.svg'},
+), dict(
+    key='opi', pet='小欧', src_dir=str(EMOJI / 'sources' / 'opi'), skip=False,
 )]
 
 MOOD_ZH = {m[0]: m[1] for m in gp.MOODS}
@@ -34,10 +36,10 @@ def make_entries():
     entries, projects = [], []
     idx = 0
     for cfg in (gp.PETS + CATALOG_EXTRA):
-        if cfg.get('skip'):
+        if cfg.get('skip') or cfg.get('catalog_skip'):
             continue
         slug = project_slug(cfg['key'])
-        src_dir = ROOT / cfg['key'] / cfg['out']
+        src_dir = Path(cfg['src_dir']) if cfg.get('src_dir') else ROOT / cfg['key'] / cfg['out']
         out_img = EMOJI / 'pets' / slug
         out_png = EMOJI / 'png' / slug
         out_img.mkdir(parents=True, exist_ok=True)
@@ -188,7 +190,7 @@ def write_readme(projects, entries, manifest):
 
 - 图片源文件在 `pets/<项目>/<形态>.svg`，PNG 在 `png/<项目>/<形态>.png`。
 - `preview.png` 是所有项目「笑」形态的总览。
-- 已有独立表情体系的 `bag/opi`、`oss` 暂未纳入本图鉴，见各自仓库。
+- 已去除与其他项目重复的 8 个宠物入口：`aetherupload-rust`、`apidoc-go`、`apidoc-rust`、`apidoc-ui`、`encryptable-rust`、`hashids-rust`、`jwt-rust`、`snowflake-rust`；保留对应的 PHP / Webman 版本。
 - 本项目代码与生成脚本仍遵循其原有许可；视觉资产适用 [ASSETS-LICENSE.md](ASSETS-LICENSE.md)。
 '''
     (EMOJI / 'README.md').write_text(readme, encoding='utf-8')

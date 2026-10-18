@@ -1,6 +1,6 @@
 # 项目宠物 Emoji 图鉴 · Pet Emoji Atlas
 
-**56 个项目 × 12 种形态 = 672 枚宠物表情 emoji。**
+**50 个项目 × 12 种形态 = 600 枚宠物表情 emoji。**
 每一枚同时提供 **图片（SVG / PNG）+ 彩色字体（CBDT/CBLC TTF）+ 短码（shortcode）**。
 
 > **授权 / License**：本项目中的项目宠物、图片、图标、表情及字体中的图形字形均为
@@ -37,7 +37,7 @@
 
 - 主短码：`:<项目>-<形态>:`
 - 别名：`:emoji-<项目>-<形态>:`
-- 字体码位：`U+E000..U+E29F`
+- 字体码位：`U+E000..U+E257`
 - 全量映射见 [shortcodes.json](shortcodes.json)；字体内置主短码 `:<项目>-<形态>:` 的 `liga` 连字。
 - `:emoji-<项目>-<形态>:` 别名可用 `shortcodes.json` 映射为图片或对应码位；需要把短码渲染成图片时，查 `image` 字段。
 
@@ -68,39 +68,33 @@
 | 21 | Bub | `social` | `:social-*:` | 12 |
 | 22 | ssd | `ssd` | `:ssd-*:` | 12 |
 | 23 | 超猫 SuperCat | `super-ops` | `:super-ops-*:` | 12 |
-| 24 | 以太兽 | `bag/aetherupload-rust` | `:aetherupload-rust-*:` | 12 |
-| 25 | Apidoc | `bag/apidoc-go` | `:apidoc-go-*:` | 12 |
-| 26 | Apidoc | `bag/apidoc-rust` | `:apidoc-rust-*:` | 12 |
-| 27 | 小运 | `bag/canal` | `:canal-*:` | 12 |
-| 28 | 小德 | `bag/druid-rust` | `:druid-rust-*:` | 12 |
-| 29 | Locky | `bag/encryptable-rust` | `:encryptable-rust-*:` | 12 |
-| 30 | Locky | `bag/encryption-rust` | `:encryption-rust-*:` | 12 |
-| 31 | 小侦 Scouty | `bag/go-scout` | `:go-scout-*:` | 12 |
-| 32 | 哈希迪 Hashy | `bag/hashids-rust` | `:hashids-rust-*:` | 12 |
-| 33 | 钥匙小卫 Kee | `bag/jwt-rust` | `:jwt-rust-*:` | 12 |
-| 34 | Posty | `bag/poster-rust` | `:poster-rust-*:` | 12 |
-| 35 | Scout | `bag/rust-scout` | `:rust-scout-*:` | 12 |
-| 36 | 哨兵鼠 | `bag/security-go` | `:security-go-*:` | 12 |
-| 37 | 甲哨 Sentri | `bag/security-rust` | `:security-rust-*:` | 12 |
-| 38 | 雪花精灵 | `bag/snowflake-rust` | `:snowflake-rust-*:` | 12 |
-| 39 | 以太兽 | `erikwang2013/aetherupload-webman` | `:aetherupload-webman-*:` | 12 |
-| 40 | Apidoc | `erikwang2013/apidoc-php` | `:apidoc-php-*:` | 12 |
-| 41 | Apidoc UI | `erikwang2013/apidoc-ui` | `:apidoc-ui-*:` | 12 |
-| 42 | ClickHouse 小象 | `erikwang2013/clickhouse-php` | `:clickhouse-php-*:` | 12 |
-| 43 | Consu | `erikwang2013/consul-php` | `:consul-php-*:` | 12 |
-| 44 | Locky | `erikwang2013/encryptable` | `:encryptable-*:` | 12 |
-| 45 | Locky | `erikwang2013/encryption` | `:encryption-*:` | 12 |
-| 46 | Etchy | `erikwang2013/etcd` | `:etcd-*:` | 12 |
-| 47 | 哈希迪 Hashy | `erikwang2013/hashids` | `:hashids-*:` | 12 |
-| 48 | 钥匙小卫 Kee | `erikwang2013/jwt-webman` | `:jwt-webman-*:` | 12 |
-| 49 | Posty | `erikwang2013/poster-php` | `:poster-php-*:` | 12 |
-| 50 | Seasony 季灵 | `erikwang2013/season` | `:season-*:` | 12 |
-| 51 | 小盾 | `erikwang2013/security-php` | `:security-php-*:` | 12 |
-| 52 | 雪花精灵 | `erikwang2013/snowflake-php` | `:snowflake-php-*:` | 12 |
-| 53 | Sniffy | `erikwang2013/webman-scout` | `:webman-scout-*:` | 12 |
-| 54 | Xhpy | `erikwang2013/xhprof` | `:xhprof-*:` | 12 |
-| 55 | 焰焰 | `erikwang2013/xhprof-webman` | `:xhprof-webman-*:` | 12 |
-| 56 | Pax | `polypack` | `:polypack-*:` | 12 |
+| 24 | 小运 | `bag/canal` | `:canal-*:` | 12 |
+| 25 | 小德 | `bag/druid-rust` | `:druid-rust-*:` | 12 |
+| 26 | Locky | `bag/encryption-rust` | `:encryption-rust-*:` | 12 |
+| 27 | 小侦 Scouty | `bag/go-scout` | `:go-scout-*:` | 12 |
+| 28 | Posty | `bag/poster-rust` | `:poster-rust-*:` | 12 |
+| 29 | Scout | `bag/rust-scout` | `:rust-scout-*:` | 12 |
+| 30 | 哨兵鼠 | `bag/security-go` | `:security-go-*:` | 12 |
+| 31 | 甲哨 Sentri | `bag/security-rust` | `:security-rust-*:` | 12 |
+| 32 | 以太兽 | `erikwang2013/aetherupload-webman` | `:aetherupload-webman-*:` | 12 |
+| 33 | Apidoc | `erikwang2013/apidoc-php` | `:apidoc-php-*:` | 12 |
+| 34 | ClickHouse 小象 | `erikwang2013/clickhouse-php` | `:clickhouse-php-*:` | 12 |
+| 35 | Consu | `erikwang2013/consul-php` | `:consul-php-*:` | 12 |
+| 36 | Locky | `erikwang2013/encryptable` | `:encryptable-*:` | 12 |
+| 37 | Locky | `erikwang2013/encryption` | `:encryption-*:` | 12 |
+| 38 | Etchy | `erikwang2013/etcd` | `:etcd-*:` | 12 |
+| 39 | 哈希迪 Hashy | `erikwang2013/hashids` | `:hashids-*:` | 12 |
+| 40 | 钥匙小卫 Kee | `erikwang2013/jwt-webman` | `:jwt-webman-*:` | 12 |
+| 41 | Posty | `erikwang2013/poster-php` | `:poster-php-*:` | 12 |
+| 42 | Seasony 季灵 | `erikwang2013/season` | `:season-*:` | 12 |
+| 43 | 小盾 | `erikwang2013/security-php` | `:security-php-*:` | 12 |
+| 44 | 雪花精灵 | `erikwang2013/snowflake-php` | `:snowflake-php-*:` | 12 |
+| 45 | Sniffy | `erikwang2013/webman-scout` | `:webman-scout-*:` | 12 |
+| 46 | Xhpy | `erikwang2013/xhprof` | `:xhprof-*:` | 12 |
+| 47 | 焰焰 | `erikwang2013/xhprof-webman` | `:xhprof-webman-*:` | 12 |
+| 48 | 吞吞 | `oss` | `:oss-*:` | 12 |
+| 49 | Pax | `polypack` | `:polypack-*:` | 12 |
+| 50 | 小欧 | `opi` | `:opi-*:` | 12 |
 
 ## 逐项目预览
 
@@ -312,33 +306,6 @@
 
 </details>
 <details>
-<summary><b>以太兽</b> · <code>bag/aetherupload-rust</code> · <code>:aetherupload-rust-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/aetherupload-rust/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:aetherupload-rust-smile:</code></td><td align="center"><img src="pets/aetherupload-rust/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:aetherupload-rust-joy:</code></td><td align="center"><img src="pets/aetherupload-rust/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:aetherupload-rust-cry:</code></td><td align="center"><img src="pets/aetherupload-rust/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:aetherupload-rust-depressed:</code></td><td align="center"><img src="pets/aetherupload-rust/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:aetherupload-rust-terrified:</code></td><td align="center"><img src="pets/aetherupload-rust/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:aetherupload-rust-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/aetherupload-rust/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:aetherupload-rust-coquettish:</code></td><td align="center"><img src="pets/aetherupload-rust/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:aetherupload-rust-cute:</code></td><td align="center"><img src="pets/aetherupload-rust/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:aetherupload-rust-pleasing:</code></td><td align="center"><img src="pets/aetherupload-rust/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:aetherupload-rust-knocking:</code></td><td align="center"><img src="pets/aetherupload-rust/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:aetherupload-rust-facepalm:</code></td><td align="center"><img src="pets/aetherupload-rust/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:aetherupload-rust-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Apidoc</b> · <code>bag/apidoc-go</code> · <code>:apidoc-go-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/apidoc-go/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:apidoc-go-smile:</code></td><td align="center"><img src="pets/apidoc-go/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:apidoc-go-joy:</code></td><td align="center"><img src="pets/apidoc-go/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:apidoc-go-cry:</code></td><td align="center"><img src="pets/apidoc-go/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:apidoc-go-depressed:</code></td><td align="center"><img src="pets/apidoc-go/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:apidoc-go-terrified:</code></td><td align="center"><img src="pets/apidoc-go/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:apidoc-go-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/apidoc-go/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:apidoc-go-coquettish:</code></td><td align="center"><img src="pets/apidoc-go/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:apidoc-go-cute:</code></td><td align="center"><img src="pets/apidoc-go/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:apidoc-go-pleasing:</code></td><td align="center"><img src="pets/apidoc-go/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:apidoc-go-knocking:</code></td><td align="center"><img src="pets/apidoc-go/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:apidoc-go-facepalm:</code></td><td align="center"><img src="pets/apidoc-go/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:apidoc-go-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Apidoc</b> · <code>bag/apidoc-rust</code> · <code>:apidoc-rust-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/apidoc-rust/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:apidoc-rust-smile:</code></td><td align="center"><img src="pets/apidoc-rust/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:apidoc-rust-joy:</code></td><td align="center"><img src="pets/apidoc-rust/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:apidoc-rust-cry:</code></td><td align="center"><img src="pets/apidoc-rust/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:apidoc-rust-depressed:</code></td><td align="center"><img src="pets/apidoc-rust/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:apidoc-rust-terrified:</code></td><td align="center"><img src="pets/apidoc-rust/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:apidoc-rust-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/apidoc-rust/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:apidoc-rust-coquettish:</code></td><td align="center"><img src="pets/apidoc-rust/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:apidoc-rust-cute:</code></td><td align="center"><img src="pets/apidoc-rust/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:apidoc-rust-pleasing:</code></td><td align="center"><img src="pets/apidoc-rust/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:apidoc-rust-knocking:</code></td><td align="center"><img src="pets/apidoc-rust/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:apidoc-rust-facepalm:</code></td><td align="center"><img src="pets/apidoc-rust/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:apidoc-rust-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
 <summary><b>小运</b> · <code>bag/canal</code> · <code>:canal-*:</code></summary>
 
 <table align="center">
@@ -357,15 +324,6 @@
 
 </details>
 <details>
-<summary><b>Locky</b> · <code>bag/encryptable-rust</code> · <code>:encryptable-rust-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/encryptable-rust/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:encryptable-rust-smile:</code></td><td align="center"><img src="pets/encryptable-rust/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:encryptable-rust-joy:</code></td><td align="center"><img src="pets/encryptable-rust/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:encryptable-rust-cry:</code></td><td align="center"><img src="pets/encryptable-rust/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:encryptable-rust-depressed:</code></td><td align="center"><img src="pets/encryptable-rust/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:encryptable-rust-terrified:</code></td><td align="center"><img src="pets/encryptable-rust/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:encryptable-rust-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/encryptable-rust/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:encryptable-rust-coquettish:</code></td><td align="center"><img src="pets/encryptable-rust/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:encryptable-rust-cute:</code></td><td align="center"><img src="pets/encryptable-rust/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:encryptable-rust-pleasing:</code></td><td align="center"><img src="pets/encryptable-rust/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:encryptable-rust-knocking:</code></td><td align="center"><img src="pets/encryptable-rust/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:encryptable-rust-facepalm:</code></td><td align="center"><img src="pets/encryptable-rust/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:encryptable-rust-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
 <summary><b>Locky</b> · <code>bag/encryption-rust</code> · <code>:encryption-rust-*:</code></summary>
 
 <table align="center">
@@ -380,24 +338,6 @@
 <table align="center">
 <tr><td align="center"><img src="pets/go-scout/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:go-scout-smile:</code></td><td align="center"><img src="pets/go-scout/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:go-scout-joy:</code></td><td align="center"><img src="pets/go-scout/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:go-scout-cry:</code></td><td align="center"><img src="pets/go-scout/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:go-scout-depressed:</code></td><td align="center"><img src="pets/go-scout/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:go-scout-terrified:</code></td><td align="center"><img src="pets/go-scout/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:go-scout-angry:</code></td></tr>
 <tr><td align="center"><img src="pets/go-scout/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:go-scout-coquettish:</code></td><td align="center"><img src="pets/go-scout/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:go-scout-cute:</code></td><td align="center"><img src="pets/go-scout/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:go-scout-pleasing:</code></td><td align="center"><img src="pets/go-scout/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:go-scout-knocking:</code></td><td align="center"><img src="pets/go-scout/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:go-scout-facepalm:</code></td><td align="center"><img src="pets/go-scout/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:go-scout-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>哈希迪 Hashy</b> · <code>bag/hashids-rust</code> · <code>:hashids-rust-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/hashids-rust/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:hashids-rust-smile:</code></td><td align="center"><img src="pets/hashids-rust/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:hashids-rust-joy:</code></td><td align="center"><img src="pets/hashids-rust/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:hashids-rust-cry:</code></td><td align="center"><img src="pets/hashids-rust/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:hashids-rust-depressed:</code></td><td align="center"><img src="pets/hashids-rust/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:hashids-rust-terrified:</code></td><td align="center"><img src="pets/hashids-rust/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:hashids-rust-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/hashids-rust/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:hashids-rust-coquettish:</code></td><td align="center"><img src="pets/hashids-rust/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:hashids-rust-cute:</code></td><td align="center"><img src="pets/hashids-rust/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:hashids-rust-pleasing:</code></td><td align="center"><img src="pets/hashids-rust/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:hashids-rust-knocking:</code></td><td align="center"><img src="pets/hashids-rust/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:hashids-rust-facepalm:</code></td><td align="center"><img src="pets/hashids-rust/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:hashids-rust-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>钥匙小卫 Kee</b> · <code>bag/jwt-rust</code> · <code>:jwt-rust-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/jwt-rust/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:jwt-rust-smile:</code></td><td align="center"><img src="pets/jwt-rust/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:jwt-rust-joy:</code></td><td align="center"><img src="pets/jwt-rust/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:jwt-rust-cry:</code></td><td align="center"><img src="pets/jwt-rust/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:jwt-rust-depressed:</code></td><td align="center"><img src="pets/jwt-rust/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:jwt-rust-terrified:</code></td><td align="center"><img src="pets/jwt-rust/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:jwt-rust-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/jwt-rust/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:jwt-rust-coquettish:</code></td><td align="center"><img src="pets/jwt-rust/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:jwt-rust-cute:</code></td><td align="center"><img src="pets/jwt-rust/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:jwt-rust-pleasing:</code></td><td align="center"><img src="pets/jwt-rust/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:jwt-rust-knocking:</code></td><td align="center"><img src="pets/jwt-rust/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:jwt-rust-facepalm:</code></td><td align="center"><img src="pets/jwt-rust/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:jwt-rust-tongue:</code></td></tr>
 </table>
 
 </details>
@@ -438,15 +378,6 @@
 
 </details>
 <details>
-<summary><b>雪花精灵</b> · <code>bag/snowflake-rust</code> · <code>:snowflake-rust-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/snowflake-rust/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:snowflake-rust-smile:</code></td><td align="center"><img src="pets/snowflake-rust/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:snowflake-rust-joy:</code></td><td align="center"><img src="pets/snowflake-rust/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:snowflake-rust-cry:</code></td><td align="center"><img src="pets/snowflake-rust/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:snowflake-rust-depressed:</code></td><td align="center"><img src="pets/snowflake-rust/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:snowflake-rust-terrified:</code></td><td align="center"><img src="pets/snowflake-rust/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:snowflake-rust-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/snowflake-rust/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:snowflake-rust-coquettish:</code></td><td align="center"><img src="pets/snowflake-rust/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:snowflake-rust-cute:</code></td><td align="center"><img src="pets/snowflake-rust/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:snowflake-rust-pleasing:</code></td><td align="center"><img src="pets/snowflake-rust/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:snowflake-rust-knocking:</code></td><td align="center"><img src="pets/snowflake-rust/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:snowflake-rust-facepalm:</code></td><td align="center"><img src="pets/snowflake-rust/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:snowflake-rust-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
 <summary><b>以太兽</b> · <code>erikwang2013/aetherupload-webman</code> · <code>:aetherupload-webman-*:</code></summary>
 
 <table align="center">
@@ -461,15 +392,6 @@
 <table align="center">
 <tr><td align="center"><img src="pets/apidoc-php/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:apidoc-php-smile:</code></td><td align="center"><img src="pets/apidoc-php/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:apidoc-php-joy:</code></td><td align="center"><img src="pets/apidoc-php/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:apidoc-php-cry:</code></td><td align="center"><img src="pets/apidoc-php/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:apidoc-php-depressed:</code></td><td align="center"><img src="pets/apidoc-php/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:apidoc-php-terrified:</code></td><td align="center"><img src="pets/apidoc-php/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:apidoc-php-angry:</code></td></tr>
 <tr><td align="center"><img src="pets/apidoc-php/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:apidoc-php-coquettish:</code></td><td align="center"><img src="pets/apidoc-php/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:apidoc-php-cute:</code></td><td align="center"><img src="pets/apidoc-php/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:apidoc-php-pleasing:</code></td><td align="center"><img src="pets/apidoc-php/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:apidoc-php-knocking:</code></td><td align="center"><img src="pets/apidoc-php/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:apidoc-php-facepalm:</code></td><td align="center"><img src="pets/apidoc-php/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:apidoc-php-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Apidoc UI</b> · <code>erikwang2013/apidoc-ui</code> · <code>:apidoc-ui-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/apidoc-ui/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:apidoc-ui-smile:</code></td><td align="center"><img src="pets/apidoc-ui/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:apidoc-ui-joy:</code></td><td align="center"><img src="pets/apidoc-ui/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:apidoc-ui-cry:</code></td><td align="center"><img src="pets/apidoc-ui/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:apidoc-ui-depressed:</code></td><td align="center"><img src="pets/apidoc-ui/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:apidoc-ui-terrified:</code></td><td align="center"><img src="pets/apidoc-ui/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:apidoc-ui-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/apidoc-ui/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:apidoc-ui-coquettish:</code></td><td align="center"><img src="pets/apidoc-ui/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:apidoc-ui-cute:</code></td><td align="center"><img src="pets/apidoc-ui/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:apidoc-ui-pleasing:</code></td><td align="center"><img src="pets/apidoc-ui/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:apidoc-ui-knocking:</code></td><td align="center"><img src="pets/apidoc-ui/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:apidoc-ui-facepalm:</code></td><td align="center"><img src="pets/apidoc-ui/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:apidoc-ui-tongue:</code></td></tr>
 </table>
 
 </details>
@@ -600,6 +522,15 @@
 
 </details>
 <details>
+<summary><b>吞吞</b> · <code>oss</code> · <code>:oss-*:</code></summary>
+
+<table align="center">
+<tr><td align="center"><img src="pets/oss/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:oss-smile:</code></td><td align="center"><img src="pets/oss/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:oss-joy:</code></td><td align="center"><img src="pets/oss/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:oss-cry:</code></td><td align="center"><img src="pets/oss/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:oss-depressed:</code></td><td align="center"><img src="pets/oss/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:oss-terrified:</code></td><td align="center"><img src="pets/oss/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:oss-angry:</code></td></tr>
+<tr><td align="center"><img src="pets/oss/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:oss-coquettish:</code></td><td align="center"><img src="pets/oss/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:oss-cute:</code></td><td align="center"><img src="pets/oss/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:oss-pleasing:</code></td><td align="center"><img src="pets/oss/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:oss-knocking:</code></td><td align="center"><img src="pets/oss/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:oss-facepalm:</code></td><td align="center"><img src="pets/oss/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:oss-tongue:</code></td></tr>
+</table>
+
+</details>
+<details>
 <summary><b>Pax</b> · <code>polypack</code> · <code>:polypack-*:</code></summary>
 
 <table align="center">
@@ -608,10 +539,19 @@
 </table>
 
 </details>
+<details>
+<summary><b>小欧</b> · <code>opi</code> · <code>:opi-*:</code></summary>
+
+<table align="center">
+<tr><td align="center"><img src="pets/opi/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:opi-smile:</code></td><td align="center"><img src="pets/opi/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:opi-joy:</code></td><td align="center"><img src="pets/opi/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:opi-cry:</code></td><td align="center"><img src="pets/opi/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:opi-depressed:</code></td><td align="center"><img src="pets/opi/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:opi-terrified:</code></td><td align="center"><img src="pets/opi/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:opi-angry:</code></td></tr>
+<tr><td align="center"><img src="pets/opi/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:opi-coquettish:</code></td><td align="center"><img src="pets/opi/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:opi-cute:</code></td><td align="center"><img src="pets/opi/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:opi-pleasing:</code></td><td align="center"><img src="pets/opi/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:opi-knocking:</code></td><td align="center"><img src="pets/opi/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:opi-facepalm:</code></td><td align="center"><img src="pets/opi/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:opi-tongue:</code></td></tr>
+</table>
+
+</details>
 
 ## 说明
 
 - 图片源文件在 `pets/<项目>/<形态>.svg`，PNG 在 `png/<项目>/<形态>.png`。
 - `preview.png` 是所有项目「笑」形态的总览。
-- 已有独立表情体系的 `bag/opi`、`oss` 暂未纳入本图鉴，见各自仓库。
+- 已去除与其他项目重复的 8 个宠物入口：`aetherupload-rust`、`apidoc-go`、`apidoc-rust`、`apidoc-ui`、`encryptable-rust`、`hashids-rust`、`jwt-rust`、`snowflake-rust`；保留对应的 PHP / Webman 版本。
 - 本项目代码与生成脚本仍遵循其原有许可；视觉资产适用 [ASSETS-LICENSE.md](ASSETS-LICENSE.md)。
