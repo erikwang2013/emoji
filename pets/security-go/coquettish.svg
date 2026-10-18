@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 320 400" width="320" height="400" role="img" aria-label="哨兵鼠 · 撒娇 Coquettish"><title>哨兵鼠 · 撒娇 Coquettish</title><desc>哨兵鼠 的 撒娇 表情形态 · animated expression form</desc><style>
+.ex-motion { animation: ex-sway 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+.ex-anim-tear { animation: ex-tear 1.8s ease-in infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-sweat { animation: ex-tear 1.5s ease-in infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-heart { animation: ex-heart 2.2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-spark { animation: ex-spark 1.9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-rain { animation: ex-rain 1.4s linear infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-confetti { animation: ex-confetti 2.4s linear infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-pulse { animation: ex-pulse 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-knock { animation: ex-knock 0.55s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-knockline { animation: ex-knockline 0.55s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-palm { animation: ex-palm 0.9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-steam { animation: ex-steam 1.8s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-shock { animation: ex-shock 0.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-please { animation: ex-please 1.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-drift { animation: ex-drift 4.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes ex-sway { 0%,100% { transform: rotate(0deg); } 50% { transform: rotate(-2.5deg); } }
+@keyframes ex-tear { 0% { transform: translateY(0); opacity: 0; } 18% { opacity: 1; } 100% { transform: translateY(9.35px); opacity: 0; } }
+@keyframes ex-heart { 0% { transform: translateY(0) scale(.65); opacity: 0; } 20% { opacity: 1; } 100% { transform: translateY(-15.3px) scale(1.15); opacity: 0; } }
+@keyframes ex-spark { 0%,100% { transform: scale(.6) rotate(0deg); opacity: .3; } 50% { transform: scale(1.15) rotate(25deg); opacity: 1; } }
+@keyframes ex-rain { 0% { transform: translateY(0); opacity: 0; } 20% { opacity: 1; } 100% { transform: translateY(10.2px); opacity: 0; } }
+@keyframes ex-confetti { 0% { transform: translateY(-4px) rotate(0deg); opacity: 1; } 100% { transform: translateY(14px) rotate(200deg); opacity: 0; } }
+@keyframes ex-pulse { 0%,100% { transform: scale(1); opacity: .35; } 50% { transform: scale(1.18); opacity: .7; } }
+@keyframes ex-knock { 0%,100% { transform: translateX(3.83px); } 35% { transform: translateX(0); } }
+@keyframes ex-knockline { 0%,100% { transform: scaleX(.6); opacity: .35; } 35% { transform: scaleX(1); opacity: 1; } }
+@keyframes ex-palm { 0%,100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-1.02px) rotate(-4deg); } }
+@keyframes ex-steam { 0% { transform: translateY(0); opacity: .7; } 100% { transform: translateY(-7.65px); opacity: 0; } }
+@keyframes ex-shock { 0%,100% { transform: scaleX(.7); opacity: .4; } 50% { transform: scaleX(1.25); opacity: 1; } }
+@keyframes ex-please { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-1.53px); } }
+@keyframes ex-drift { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-1.7px); } }
+@media (prefers-reduced-motion: reduce) {
+  .ex-motion, [class*="ex-anim-"] { animation: none !important; }
+}
+</style><g class="ex-motion ex-coquettish"><g class="ex-base"><defs>
+    <linearGradient id="p-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#45cdec"/>
+      <stop offset="0.55" stop-color="#00add8"/>
+      <stop offset="1" stop-color="#0891b4"/>
+    </linearGradient>
+    <linearGradient id="p-shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22385f"/>
+      <stop offset="1" stop-color="#121e35"/>
+    </linearGradient>
+    <linearGradient id="p-cap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#274271"/>
+      <stop offset="1" stop-color="#15223b"/>
+    </linearGradient>
+    <radialGradient id="p-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00add8" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#00add8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="p-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#152740" stroke-width="1"/>
+    </pattern>
+    <clipPath id="p-card"><rect width="320" height="400" rx="26"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#p-card)">
+    <rect width="320" height="400" fill="#0b1220"/>
+    <rect width="320" height="400" fill="url(#p-grid)"/>
+
+    
+    <g fill="none" stroke="#00add8" stroke-opacity="0.10" stroke-dasharray="6 10">
+      <circle cx="160" cy="212" r="118" stroke-width="1.5"/>
+      <circle cx="160" cy="212" r="150" stroke-width="1.5"/>
+      <circle cx="160" cy="212" r="182" stroke-width="1.5"/>
+    </g>
+
+    <circle cx="160" cy="210" r="150" fill="url(#p-glow)"/>
+
+    
+    <ellipse cx="160" cy="304" rx="86" ry="12" fill="#000" opacity="0.35"/>
+
+    
+    <g fill="#00a3cc" stroke="#067d9c" stroke-width="2">
+      <circle cx="86" cy="178" r="16"/>
+      <circle cx="234" cy="178" r="16"/>
+    </g>
+    <g fill="#7fd8ee">
+      <circle cx="85" cy="180" r="7.5"/>
+      <circle cx="235" cy="180" r="7.5"/>
+    </g>
+
+    
+    <path d="M160 296C104 296 80 264 80 226C80 166 110 126 160 126C210 126 240 166 240 226C240 264 216 296 160 296Z"
+          fill="url(#p-body)" stroke="#067d9c" stroke-width="3"/>
+
+    
+    <path d="M100 128C100 78 124 58 160 58C196 58 220 78 220 128Z"
+          fill="url(#p-cap)" stroke="#31517f" stroke-width="2.5"/>
+    <rect x="92" y="118" width="136" height="15" rx="7.5" fill="#16233d" stroke="#31517f" stroke-width="2"/>
+    <path d="M84 133C84 127 96 123 160 123C224 123 236 127 236 133C236 143 210 147 160 147C110 147 84 143 84 133Z"
+          fill="#0f1b30" stroke="#31517f" stroke-width="2"/>
+    <circle cx="160" cy="92" r="15" fill="#f5a623" stroke="#b8791a" stroke-width="2"/>
+    <path d="M160 83.5L169 87v7c0 6-3.8 10-9 12-5.2-2-9-6-9-12v-7Z" fill="#16233d"/>
+
+    
+    <g fill="#ffffff" stroke="#067d9c" stroke-width="2">
+      <ellipse cx="138" cy="186" rx="18" ry="20"/>
+      <ellipse cx="182" cy="186" rx="18" ry="20"/>
+    </g>
+    <circle cx="141" cy="190" r="8.5" fill="#0b1220"/>
+    <circle cx="185" cy="190" r="8.5" fill="#0b1220"/>
+    <circle cx="138.5" cy="186.5" r="3" fill="#ffffff"/>
+    <circle cx="182.5" cy="186.5" r="3" fill="#ffffff"/>
+
+    
+    <ellipse cx="160" cy="233" rx="38" ry="25" fill="#7fd8ee" stroke="#0a9ec4" stroke-width="2"/>
+    <ellipse cx="160" cy="220" rx="7" ry="5.5" fill="#0b1220"/>
+    <g fill="#ffffff" stroke="#a9d3e2" stroke-width="2">
+      <rect x="145" y="240" width="13" height="18" rx="3"/>
+      <rect x="162" y="240" width="13" height="18" rx="3"/>
+    </g>
+
+    
+    <circle cx="126" cy="256" r="14" fill="#00a3cc" stroke="#067d9c" stroke-width="2.5"/>
+    <g>
+      <path d="M84 202L115 213.5V244C115 266 101 282 84 291C67 282 53 266 53 244V213.5Z"
+            fill="url(#p-shield)" stroke="#3a5c93" stroke-width="3"/>
+      <path d="M84 210L108 219.4V244C108 261.5 97 274.5 84 282C71 274.5 60 261.5 60 244V219.4Z"
+            fill="none" stroke="#00add8" stroke-opacity="0.45" stroke-width="1.5"/>
+      <ellipse cx="84" cy="237" rx="15" ry="10" fill="none" stroke="#00add8" stroke-width="2.5"/>
+      <circle cx="84" cy="237" r="5" fill="#00add8"/>
+      <text x="84" y="278" text-anchor="middle" font-size="21" font-weight="700"
+            font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#7fd8ee">36</text>
+    </g>
+
+    
+    <path d="M226 240C246 233 257 217 261 200" fill="none" stroke="#00a3cc" stroke-width="17" stroke-linecap="round"/>
+    <path d="M226 240C246 233 257 217 261 200" fill="none" stroke="#067d9c" stroke-width="20" stroke-linecap="round" stroke-opacity="0.25"/>
+    <line x1="271" y1="176" x2="265" y2="189" stroke="#2b4470" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="264" cy="194" r="14" fill="#00a3cc" stroke="#067d9c" stroke-width="2.5"/>
+    <circle cx="282" cy="150" r="23" fill="#00add8" fill-opacity="0.12" stroke="#00add8" stroke-width="7"/>
+    <circle cx="282" cy="150" r="11" fill="#e5484d" fill-opacity="0.20"/>
+    <circle cx="282" cy="150" r="5.5" fill="#e5484d" stroke="#ff8b8f" stroke-width="1.5"/>
+    <path d="M271 137A15 15 0 0 1 283 134" fill="none" stroke="#cdf2ff" stroke-width="3" stroke-linecap="round" stroke-opacity="0.85"/>
+
+    
+    <rect x="112" y="314" width="96" height="1.5" fill="#22406b"/>
+    <text x="160" y="344" text-anchor="middle" font-size="18" font-weight="700" fill="#e6edf3"
+          font-family="system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif">哨兵鼠</text>
+    <text x="160" y="364" text-anchor="middle" font-size="11" letter-spacing="1.5" fill="#93a3b8"
+          font-family="system-ui, -apple-system, sans-serif">SENTINEL GOPHER</text>
+    <text x="160" y="384" text-anchor="middle" font-size="11.5" fill="#00add8"
+          font-family="ui-monospace, SFMono-Regular, Menlo, monospace">security-go · 36 detectors</text>
+  </g></g><g class="ex-face"><ellipse cx="163" cy="202" rx="44" ry="34" fill="url(#p-body)"/><ellipse cx="160" cy="235" rx="40" ry="26" fill="#7FD8EE"/><path d="M 132.93,192.38 Q 141,180.22 149.07,192.38" fill="none" stroke="#0B1220" stroke-width="1.8" stroke-linecap="round"/><path class="ex-anim-pulse" style="animation-delay:0s" d="M 185,193.39 C 175.9,186.43 179.82,180 185,185.72 C 190.18,180 194.1,186.43 185,193.39 Z" fill="#FF7AA2"/><ellipse cx="163" cy="235" rx="3.52" ry="3.37" fill="none" stroke="#0B1220" stroke-width="1.7"/><ellipse class="ex-anim-pulse" cx="134.62" cy="201.47" rx="6.63" ry="3.57" fill="#FF8FB3" opacity="0.7"/><ellipse class="ex-anim-pulse" cx="191.38" cy="201.47" rx="6.63" ry="3.57" fill="#FF8FB3" opacity="0.7"/><path class="ex-anim-heart" style="animation-delay:0.0s" d="M 131.27,164.5 C 125.2,159.86 127.82,155.57 131.27,159.38 C 134.72,155.57 137.34,159.86 131.27,164.5 Z" fill="#FF7AA2"/><path class="ex-anim-heart" style="animation-delay:0.7s" d="M 197.37,157.4 C 192.6,153.76 194.66,150.39 197.37,153.38 C 200.08,150.39 202.14,153.76 197.37,157.4 Z" fill="#FF7AA2"/><path class="ex-anim-heart" style="animation-delay:1.3s" d="M 186.8,176.69 C 183.5,174.17 184.92,171.84 186.8,173.91 C 188.67,171.84 190.09,174.17 186.8,176.69 Z" fill="#FF7AA2"/></g></g></svg>

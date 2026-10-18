@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 240 260" width="240" height="260" role="img" aria-label="Loupi · 卖萌 Cute"><title>Loupi · 卖萌 Cute</title><desc>Loupi 的 卖萌 表情形态 · animated expression form</desc><style>
+.ex-motion { animation: ex-hop 1.5s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+.ex-anim-tear { animation: ex-tear 1.8s ease-in infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-sweat { animation: ex-tear 1.5s ease-in infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-heart { animation: ex-heart 2.2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-spark { animation: ex-spark 1.9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-rain { animation: ex-rain 1.4s linear infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-confetti { animation: ex-confetti 2.4s linear infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-pulse { animation: ex-pulse 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-knock { animation: ex-knock 0.55s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-knockline { animation: ex-knockline 0.55s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-palm { animation: ex-palm 0.9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-steam { animation: ex-steam 1.8s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-shock { animation: ex-shock 0.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-please { animation: ex-please 1.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-drift { animation: ex-drift 4.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes ex-hop { 0%,100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-1.66px) rotate(2deg); } }
+@keyframes ex-tear { 0% { transform: translateY(0); opacity: 0; } 18% { opacity: 1; } 100% { transform: translateY(8px); opacity: 0; } }
+@keyframes ex-heart { 0% { transform: translateY(0) scale(.65); opacity: 0; } 20% { opacity: 1; } 100% { transform: translateY(-10px) scale(1.15); opacity: 0; } }
+@keyframes ex-spark { 0%,100% { transform: scale(.6) rotate(0deg); opacity: .3; } 50% { transform: scale(1.15) rotate(25deg); opacity: 1; } }
+@keyframes ex-rain { 0% { transform: translateY(0); opacity: 0; } 20% { opacity: 1; } 100% { transform: translateY(8px); opacity: 0; } }
+@keyframes ex-confetti { 0% { transform: translateY(-4px) rotate(0deg); opacity: 1; } 100% { transform: translateY(14px) rotate(200deg); opacity: 0; } }
+@keyframes ex-pulse { 0%,100% { transform: scale(1); opacity: .35; } 50% { transform: scale(1.18); opacity: .7; } }
+@keyframes ex-knock { 0%,100% { transform: translateX(3px); } 35% { transform: translateX(0); } }
+@keyframes ex-knockline { 0%,100% { transform: scaleX(.6); opacity: .35; } 35% { transform: scaleX(1); opacity: 1; } }
+@keyframes ex-palm { 0%,100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-1px) rotate(-4deg); } }
+@keyframes ex-steam { 0% { transform: translateY(0); opacity: .7; } 100% { transform: translateY(-7px); opacity: 0; } }
+@keyframes ex-shock { 0%,100% { transform: scaleX(.7); opacity: .4; } 50% { transform: scaleX(1.25); opacity: 1; } }
+@keyframes ex-please { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-1.5px); } }
+@keyframes ex-drift { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-1.5px); } }
+@media (prefers-reduced-motion: reduce) {
+  .ex-motion, [class*="ex-anim-"] { animation: none !important; }
+}
+</style><g class="ex-motion ex-cute"><g class="ex-base"><rect x="93.5" y="198" width="15" height="46" rx="7.5" fill="#1f2338"/>
+  <rect x="123.5" y="198" width="15" height="46" rx="7.5" fill="#1f2338"/>
+
+  
+  <path d="M 196.0 89.6 L 212.1 89.6 L 221.3 103.4 L 204 128.7 L 186.8 103.4 Z" fill="#008060"/>
+  <g stroke="#04634a" stroke-width="1.2" opacity="0.8">
+    <path d="M 186.8 103.4 L 221.3 103.4"/>
+    <path d="M 196.0 89.6 L 204 103.4"/><path d="M 212.1 89.6 L 204 103.4"/>
+    <path d="M 195.4 103.4 L 204 128.7"/><path d="M 212.6 103.4 L 204 128.7"/>
+  </g>
+  <circle cx="204" cy="114" r="2.2" fill="#ffffff" opacity="0.85"/>
+
+  
+  <path d="M 94 168 Q 66 172 58 196" fill="none" stroke="#1f2338" stroke-width="15" stroke-linecap="round"/>
+  <path d="M 142 166 Q 188 172 204 134" fill="none" stroke="#1f2338" stroke-width="15" stroke-linecap="round"/>
+
+  
+  <path d="M 77 132 L 155 132 L 139 202 A 23 23 0 0 1 93 202 Z" fill="#1f2338"/>
+
+  
+  <path d="M 77.6 152 L 154.4 152 L 152.4 162 L 79.6 162 Z" fill="#c8912f"/>
+  <g stroke="#a8761f" stroke-width="2" opacity="0.5">
+    <path d="M 92.5 155 L 92.1 159"/><path d="M 104.5 155 L 104.2 159"/>
+    <path d="M 127.5 155 L 127.8 159"/><path d="M 139.5 155 L 139.8 159"/>
+  </g>
+
+  
+  <circle cx="116" cy="86" r="62" fill="#c8912f"/>
+  <path d="M 65.2 62.3 A 56 56 0 0 1 116 30" fill="none" stroke="#e0a94a" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+
+  
+  <circle cx="116" cy="86" r="50" fill="#e7f5f0"/>
+  <path d="M 73.7 73.9 A 44 44 0 0 1 125.9 43.1" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+  <path d="M 150.4 102.1 A 38 38 0 0 1 136.1 118.2" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+
+  
+  <polygon points="148.3,99.4 129.4,118.3 102.6,118.3 83.7,99.4 83.7,72.6 102.6,53.7 129.4,53.7 148.3,72.6" fill="#008060" stroke="#04634a" stroke-width="1.5"/>
+  <polygon points="140.0,96.0 126.0,106.0 106.0,106.0 92.0,96.0 92.0,76.0 106.0,66.0 126.0,66.0 140.0,76.0" fill="#1c8f6e"/>
+  <polygon points="131.7,92.5 122.5,100.4 109.5,100.4 100.3,92.5 100.3,79.5 109.5,71.6 122.5,71.6 131.7,79.5" fill="#1f2338"/>
+  <g stroke="#04634a" stroke-width="1" opacity="0.55">
+    <path d="M131.7 92.5 L148.3 99.4"/><path d="M122.5 100.4 L129.4 118.3"/>
+    <path d="M109.5 100.4 L102.6 118.3"/><path d="M100.3 92.5 L83.7 99.4"/>
+    <path d="M100.3 79.5 L83.7 72.6"/><path d="M109.5 71.6 L102.6 53.7"/>
+    <path d="M122.5 71.6 L129.4 53.7"/><path d="M131.7 79.5 L148.3 72.6"/>
+  </g>
+  <circle cx="109" cy="78" r="6" fill="#ffffff" opacity="0.95"/>
+  <circle cx="124" cy="93" r="2.5" fill="#ffffff" opacity="0.6"/></g><g class="ex-face"><polygon points="131.7,92.5 122.5,100.4 109.5,100.4 100.3,92.5 100.3,79.5 109.5,71.6 122.5,71.6 131.7,79.5" fill="#1F2338"/><ellipse cx="109" cy="84" rx="5.2" ry="5.93" fill="#FFFFFF" stroke="#E7F5F0" stroke-width="1.3"/><ellipse cx="109" cy="84" rx="3.02" ry="3.79" fill="#008060"/><circle cx="107.86" cy="82.34" r="1.04" fill="#FFFFFF"/><circle cx="110.25" cy="85.78" r="0.52" fill="#FFFFFF" opacity=".9"/><ellipse cx="123" cy="84" rx="5.2" ry="5.93" fill="#FFFFFF" stroke="#E7F5F0" stroke-width="1.3"/><ellipse cx="123" cy="84" rx="3.02" ry="3.79" fill="#008060"/><circle cx="121.86" cy="82.34" r="1.04" fill="#FFFFFF"/><circle cx="124.25" cy="85.78" r="0.52" fill="#FFFFFF" opacity=".9"/><path d="M 112.41,95.44 Q 116,99.56 119.59,95.44" fill="none" stroke="#E7F5F0" stroke-width="1.7" stroke-linecap="round"/><ellipse class="ex-anim-pulse" cx="105.1" cy="91.02" rx="4.06" ry="2.18" fill="#7FD8C8" opacity="0.65"/><ellipse class="ex-anim-pulse" cx="126.9" cy="91.02" rx="4.06" ry="2.18" fill="#7FD8C8" opacity="0.65"/><path class="ex-anim-spark" style="animation-delay:0.0s" d="M 100.59,69.87 L 101.46,72.12 L 103.71,72.99 L 101.46,73.87 L 100.59,76.11 L 99.72,73.87 L 97.47,72.99 L 99.72,72.12 Z" fill="#FFC93C"/><path class="ex-anim-spark" style="animation-delay:0.4s" d="M 130.86,67.09 L 131.59,68.96 L 133.46,69.69 L 131.59,70.42 L 130.86,72.29 L 130.13,70.42 L 128.26,69.69 L 130.13,68.96 Z" fill="#FFC93C"/><path class="ex-anim-spark" style="animation-delay:0.8s" d="M 132.51,78.93 L 133.01,80.2 L 134.28,80.7 L 133.01,81.19 L 132.51,82.47 L 132.02,81.19 L 130.74,80.7 L 132.02,80.2 Z" fill="#FFC93C"/></g></g></svg>

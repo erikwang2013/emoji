@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 520" width="720" height="520" role="img" aria-label="小运 · 吐舌头 Tongue Out"><title>小运 · 吐舌头 Tongue Out</title><desc>小运 的 吐舌头 表情形态 · animated expression form</desc><style>
+.ex-motion { animation: ex-sway 2.0s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+.ex-anim-tear { animation: ex-tear 1.8s ease-in infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-sweat { animation: ex-tear 1.5s ease-in infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-heart { animation: ex-heart 2.2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-spark { animation: ex-spark 1.9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-rain { animation: ex-rain 1.4s linear infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-confetti { animation: ex-confetti 2.4s linear infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-pulse { animation: ex-pulse 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-knock { animation: ex-knock 0.55s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-knockline { animation: ex-knockline 0.55s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-palm { animation: ex-palm 0.9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-steam { animation: ex-steam 1.8s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-shock { animation: ex-shock 0.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-please { animation: ex-please 1.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-drift { animation: ex-drift 4.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes ex-sway { 0%,100% { transform: rotate(0deg); } 50% { transform: rotate(3deg); } }
+@keyframes ex-tear { 0% { transform: translateY(0); opacity: 0; } 18% { opacity: 1; } 100% { transform: translateY(28.6px); opacity: 0; } }
+@keyframes ex-heart { 0% { transform: translateY(0) scale(.65); opacity: 0; } 20% { opacity: 1; } 100% { transform: translateY(-46.8px) scale(1.15); opacity: 0; } }
+@keyframes ex-spark { 0%,100% { transform: scale(.6) rotate(0deg); opacity: .3; } 50% { transform: scale(1.15) rotate(25deg); opacity: 1; } }
+@keyframes ex-rain { 0% { transform: translateY(0); opacity: 0; } 20% { opacity: 1; } 100% { transform: translateY(31.2px); opacity: 0; } }
+@keyframes ex-confetti { 0% { transform: translateY(-9.1px) rotate(0deg); opacity: 1; } 100% { transform: translateY(41.6px) rotate(200deg); opacity: 0; } }
+@keyframes ex-pulse { 0%,100% { transform: scale(1); opacity: .35; } 50% { transform: scale(1.18); opacity: .7; } }
+@keyframes ex-knock { 0%,100% { transform: translateX(11.7px); } 35% { transform: translateX(0); } }
+@keyframes ex-knockline { 0%,100% { transform: scaleX(.6); opacity: .35; } 35% { transform: scaleX(1); opacity: 1; } }
+@keyframes ex-palm { 0%,100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-3.12px) rotate(-4deg); } }
+@keyframes ex-steam { 0% { transform: translateY(0); opacity: .7; } 100% { transform: translateY(-23.4px); opacity: 0; } }
+@keyframes ex-shock { 0%,100% { transform: scaleX(.7); opacity: .4; } 50% { transform: scaleX(1.25); opacity: 1; } }
+@keyframes ex-please { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4.68px); } }
+@keyframes ex-drift { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5.2px); } }
+@media (prefers-reduced-motion: reduce) {
+  .ex-motion, [class*="ex-anim-"] { animation: none !important; }
+}
+</style><g class="ex-motion ex-tongue"><g class="ex-base"><rect width="720" height="520" fill="none"/>
+  <defs>
+  <linearGradient id="shellGrad" x1="0.1" y1="0" x2="0.85" y2="1">
+    <stop offset="0" stop-color="#FFA77F"/><stop offset="0.46" stop-color="#E8552B"/>
+    <stop offset="1" stop-color="#A82C18"/>
+  </linearGradient>
+  <linearGradient id="limbGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#EE6432"/><stop offset="1" stop-color="#A82C18"/>
+  </linearGradient>
+  <linearGradient id="steelGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#93A9BC"/><stop offset="0.5" stop-color="#6A8195"/>
+    <stop offset="1" stop-color="#43596B"/>
+  </linearGradient>
+  <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#63D6F2"/><stop offset="0.5" stop-color="#2A93CC"/>
+    <stop offset="1" stop-color="#0E4A80"/>
+  </linearGradient>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="0.35" y2="1">
+    <stop offset="0" stop-color="#FFFDFA"/><stop offset="1" stop-color="#FFEEDF"/>
+  </linearGradient>
+  <radialGradient id="warmGlow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#FFC99E" stop-opacity="0.6"/>
+    <stop offset="1" stop-color="#FFC99E" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="dataGlow" cx="0.42" cy="0.34" r="0.62">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="0.45" stop-color="#9BEBFF"/>
+    <stop offset="1" stop-color="#41BAE9"/>
+  </radialGradient>
+  <clipPath id="frame"><rect x="0" y="0" width="720" height="520" rx="30"/></clipPath>
+</defs>
+  <g clip-path="url(#frame)">
+  <rect x="0" y="0" width="720" height="520" rx="12" fill="url(#bgGrad)" stroke="none" stroke-width="1.5"/>
+  <circle cx="360" cy="200" r="270" fill="url(#warmGlow)"/>
+  <path d="M0 404 Q 45 388 90 404 T 180 404 T 270 404 T 360 404 T 450 404 T 540 404 T 630 404 T 720 404 L720 520 L0 520 Z" fill="url(#waterGrad)" stroke="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M0 404 Q 45 388 90 404 T 180 404 T 270 404 T 360 404 T 450 404 T 540 404 T 630 404 T 720 404" fill="none" stroke="#C9F4FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M0 456 Q 45 442 90 456 T 180 456 T 270 456 T 360 456 T 450 456 T 540 456 T 630 456 T 720 456" fill="none" stroke="#8FE0F8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="18 16"/>
+  <path d="M0 496 Q 45 484 90 496 T 180 496 T 270 496 T 360 496 T 450 496 T 540 496 T 630 496 T 720 496" fill="none" stroke="#5FC4EA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="26 20"/>
+  <rect x="30" y="428" width="48" height="19" rx="9.5" fill="url(#dataGlow)" stroke="#2E7FA8" stroke-width="1.5"/>
+  <ellipse cx="44.4" cy="434" rx="7.68" ry="3.4" fill="#FFFFFF" opacity="0.85"/>
+  <rect x="176" y="472" width="36" height="19" rx="9.5" fill="url(#dataGlow)" stroke="#2E7FA8" stroke-width="1.5"/>
+  <ellipse cx="186.8" cy="478" rx="5.76" ry="3.4" fill="#FFFFFF" opacity="0.85"/>
+  <rect x="330" y="434" width="54" height="19" rx="9.5" fill="url(#dataGlow)" stroke="#2E7FA8" stroke-width="1.5"/>
+  <ellipse cx="346.2" cy="440" rx="8.64" ry="3.4" fill="#FFFFFF" opacity="0.85"/>
+  <rect x="452" y="480" width="38" height="19" rx="9.5" fill="url(#dataGlow)" stroke="#2E7FA8" stroke-width="1.5"/>
+  <ellipse cx="463.4" cy="486" rx="6.08" ry="3.4" fill="#FFFFFF" opacity="0.85"/>
+  <rect x="600" y="440" width="46" height="19" rx="9.5" fill="url(#dataGlow)" stroke="#2E7FA8" stroke-width="1.5"/>
+  <ellipse cx="613.8" cy="446" rx="7.36" ry="3.4" fill="#FFFFFF" opacity="0.85"/>
+  <rect x="668" y="486" width="30" height="19" rx="9.5" fill="url(#dataGlow)" stroke="#2E7FA8" stroke-width="1.5"/>
+  <ellipse cx="677.0" cy="492" rx="4.8" ry="3.4" fill="#FFFFFF" opacity="0.85"/>
+  <rect x="44" y="344" width="632" height="62" rx="10" fill="url(#steelGrad)" stroke="#2D2438" stroke-width="5"/>
+  <rect x="44" y="344" width="632" height="15" rx="10" fill="#A9BECD" stroke="#2D2438" stroke-width="5"/>
+  <rect x="44" y="352" width="632" height="8" rx="0" fill="#A9BECD" stroke="none" stroke-width="0"/>
+  <line x1="168" y1="361" x2="168" y2="404" stroke="#3E5566" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="292" y1="361" x2="292" y2="404" stroke="#3E5566" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="416" y1="361" x2="416" y2="404" stroke="#3E5566" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="540" y1="361" x2="540" y2="404" stroke="#3E5566" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="120" y1="361" x2="120" y2="404" stroke="#7B93A6" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="180" y1="373" x2="180" y2="404" stroke="#7B93A6" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="352" y1="361" x2="352" y2="404" stroke="#7B93A6" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="412" y1="373" x2="412" y2="404" stroke="#7B93A6" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="598" y1="361" x2="598" y2="404" stroke="#7B93A6" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="658" y1="373" x2="658" y2="404" stroke="#7B93A6" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="368" cy="346" rx="152" ry="11" fill="#2D2438" opacity="0.16"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M332 294 L324 322 L320 344" fill="none" stroke="#2D2438" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M310 290 L294 320 L286 344" fill="none" stroke="#2D2438" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M288 276 L262 308 L250 344" fill="none" stroke="#2D2438" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M268 254 L230 292 L216 344" fill="none" stroke="#2D2438" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M388 294 L396 322 L400 344" fill="none" stroke="#2D2438" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M410 290 L426 320 L434 344" fill="none" stroke="#2D2438" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M432 276 L458 308 L470 344" fill="none" stroke="#2D2438" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M452 254 L490 292 L504 344" fill="none" stroke="#2D2438" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M332 294 L324 322 L320 344" fill="none" stroke="url(#limbGrad)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M310 290 L294 320 L286 344" fill="none" stroke="url(#limbGrad)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M288 276 L262 308 L250 344" fill="none" stroke="url(#limbGrad)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M268 254 L230 292 L216 344" fill="none" stroke="url(#limbGrad)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M388 294 L396 322 L400 344" fill="none" stroke="url(#limbGrad)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M410 290 L426 320 L434 344" fill="none" stroke="url(#limbGrad)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M432 276 L458 308 L470 344" fill="none" stroke="url(#limbGrad)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M452 254 L490 292 L504 344" fill="none" stroke="url(#limbGrad)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M256 240 C 240 234, 228 228, 216 226" fill="none" stroke="#2D2438" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M256 240 C 240 234, 228 228, 216 226" fill="none" stroke="url(#limbGrad)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M464 186 C 492 172, 510 172, 522 176" fill="none" stroke="#2D2438" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M464 186 C 492 172, 510 172, 522 176" fill="none" stroke="url(#limbGrad)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="128" y="320" width="36" height="26" rx="7" fill="url(#steelGrad)" stroke="#2D2438" stroke-width="5"/>
+  <circle cx="146" cy="292" r="46" fill="#F3B44A" stroke="#2D2438" stroke-width="5"/>
+  <line x1="163.0" y1="292.0" x2="186.0" y2="292.0" stroke="#2D2438" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="158.02081528017132" y1="304.0208152801713" x2="174.2842712474619" y2="320.2842712474619" stroke="#2D2438" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="146.0" y1="309.0" x2="146.0" y2="332.0" stroke="#2D2438" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="133.97918471982868" y1="304.0208152801713" x2="117.7157287525381" y2="320.2842712474619" stroke="#2D2438" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="129.0" y1="292.0" x2="106.0" y2="292.0" stroke="#2D2438" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="133.97918471982868" y1="279.9791847198287" x2="117.7157287525381" y2="263.7157287525381" stroke="#2D2438" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="146.0" y1="275.0" x2="146.0" y2="252.0" stroke="#2D2438" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="158.0208152801713" y1="279.9791847198287" x2="174.2842712474619" y2="263.7157287525381" stroke="#2D2438" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="146" cy="292" r="16" fill="#C98A24" stroke="#2D2438" stroke-width="4.5"/>
+  <circle cx="146" cy="292" r="5.5" fill="#7A4E10"/>
+  <g transform="translate(214 224) rotate(-45) scale(0.72)">
+  <path d="M-4 -18 Q -56 -48 -84 -32" fill="none" stroke="#2D2438" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M-4 12 Q -50 34 -74 18" fill="none" stroke="#2D2438" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M-4 -18 Q -56 -48 -84 -32" fill="none" stroke="url(#limbGrad)" stroke-width="23" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M-4 12 Q -50 34 -74 18" fill="none" stroke="url(#limbGrad)" stroke-width="23" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="0" cy="-4" r="31" fill="url(#limbGrad)" stroke="#2D2438" stroke-width="5"/>
+  </g>
+  <g transform="translate(96 470) rotate(-10)">
+  <rect x="-40" y="-28" width="80" height="56" rx="8" fill="#FFFCF3" stroke="#2D2438" stroke-width="4.5"/>
+  <rect x="-40" y="-28" width="12" height="56" rx="6" fill="#EADCC0" stroke="#2D2438" stroke-width="4.5"/>
+  <line x1="-20" y1="-12" x2="26" y2="-12" stroke="#B08968" stroke-width="5" stroke-linecap="round"/>
+  <line x1="-20" y1="0" x2="34" y2="0" stroke="#B08968" stroke-width="5" stroke-linecap="round"/>
+  <line x1="-20" y1="12" x2="10" y2="12" stroke="#B08968" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(584 176) rotate(-10)">
+  <rect x="-42" y="-16" width="84" height="32" rx="16" fill="url(#dataGlow)" stroke="#2E7FA8" stroke-width="3.5"/>
+  </g>
+  <g transform="translate(522 176) rotate(180) scale(0.95)">
+  <path d="M-4 -18 Q -56 -48 -84 -32" fill="none" stroke="#2D2438" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M-4 12 Q -50 34 -74 18" fill="none" stroke="#2D2438" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M-4 -18 Q -56 -48 -84 -32" fill="none" stroke="url(#limbGrad)" stroke-width="23" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M-4 12 Q -50 34 -74 18" fill="none" stroke="url(#limbGrad)" stroke-width="23" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="0" cy="-4" r="31" fill="url(#limbGrad)" stroke="#2D2438" stroke-width="5"/>
+  </g>
+  <ellipse cx="360" cy="206" rx="124" ry="88" fill="url(#shellGrad)" stroke="#2D2438" stroke-width="5"/>
+  <ellipse cx="306" cy="144" rx="54" ry="27" fill="#FFFFFF" opacity="0.24" transform="rotate(-16 306 144)"/>
+  <path d="M252 228 C 304 208, 416 208, 468 228" fill="none" stroke="#8E2413" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M274 260 C 318 274, 402 274, 446 260" fill="none" stroke="#8E2413" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M340 150 L326 110" fill="none" stroke="#2D2438" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M340 150 L326 110" fill="none" stroke="url(#limbGrad)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M380 150 L394 110" fill="none" stroke="#2D2438" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M380 150 L394 110" fill="none" stroke="url(#limbGrad)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="322" cy="102" r="26" fill="#FFFFFF" stroke="#2D2438" stroke-width="5"/>
+  <circle cx="327" cy="106" r="11.5" fill="#22202B"/>
+  <circle cx="322" cy="99" r="4" fill="#FFFFFF"/>
+  <circle cx="398" cy="102" r="26" fill="#FFFFFF" stroke="#2D2438" stroke-width="5"/>
+  <circle cx="403" cy="106" r="11.5" fill="#22202B"/>
+  <circle cx="398" cy="99" r="4" fill="#FFFFFF"/>
+  <ellipse cx="310" cy="246" rx="17" ry="9.5" fill="#FF8A66" opacity="0.4"/>
+  <ellipse cx="410" cy="246" rx="17" ry="9.5" fill="#FF8A66" opacity="0.4"/>
+  <path d="M338 238 Q 360 260 382 238" fill="none" stroke="#7A2414" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g></g><g class="ex-face"><ellipse cx="360" cy="120" rx="68" ry="46" fill="#E85D2A"/><ellipse cx="322" cy="102" rx="26" ry="29.64" fill="#FFFFFF" stroke="#22202B" stroke-width="4.16"/><ellipse cx="322" cy="102" rx="12.48" ry="16.3" fill="#22202B"/><circle cx="316.28" cy="93.7" r="5.2" fill="#FFFFFF"/><path d="M 373.3,109.28 Q 398,72.1 422.7,109.28" fill="none" stroke="#22202B" stroke-width="5.2" stroke-linecap="round"/><path d="M 330.1,153.32 Q 360,197.31 389.9,153.32 Z" fill="#4A1D2E" stroke="#22202B" stroke-width="3.33"/><path d="M 349.83,168.3 Q 360,202.93 370.17,168.3 Z" fill="#FF5C8A" stroke="#22202B" stroke-width="1.87"/><path d="M 360,171.1 L 360,187.95" stroke="#22202B" stroke-width="1.46" opacity=".55"/><ellipse cx="302.5" cy="137.1" rx="20.28" ry="10.92" fill="#FF8FB3" opacity="0.55"/><ellipse cx="417.5" cy="137.1" rx="20.28" ry="10.92" fill="#FF8FB3" opacity="0.55"/><path class="ex-anim-spark" style="animation-delay:0.2s" d="M 285.33,34.16 L 288.24,41.65 L 295.73,44.56 L 288.24,47.47 L 285.33,54.96 L 282.42,47.47 L 274.93,44.56 L 282.42,41.65 Z" fill="#FF5C8A"/></g></g></svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 320 400" width="320" height="400" role="img" aria-label="Consu · 欢乐 Joy"><title>Consu · 欢乐 Joy</title><desc>Consu 的 欢乐 表情形态 · animated expression form</desc><style>
+.ex-motion { animation: ex-bounce 1.15s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+.ex-anim-tear { animation: ex-tear 1.8s ease-in infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-sweat { animation: ex-tear 1.5s ease-in infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-heart { animation: ex-heart 2.2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-spark { animation: ex-spark 1.9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-rain { animation: ex-rain 1.4s linear infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-confetti { animation: ex-confetti 2.4s linear infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-pulse { animation: ex-pulse 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-knock { animation: ex-knock 0.55s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-knockline { animation: ex-knockline 0.55s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-palm { animation: ex-palm 0.9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-steam { animation: ex-steam 1.8s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-shock { animation: ex-shock 0.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-please { animation: ex-please 1.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-drift { animation: ex-drift 4.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes ex-bounce { 0%,100% { transform: translateY(0); } 35% { transform: translateY(-4.62px); } 55% { transform: translateY(-1.36px); } 75% { transform: translateY(0); } }
+@keyframes ex-tear { 0% { transform: translateY(0); opacity: 0; } 18% { opacity: 1; } 100% { transform: translateY(9.35px); opacity: 0; } }
+@keyframes ex-heart { 0% { transform: translateY(0) scale(.65); opacity: 0; } 20% { opacity: 1; } 100% { transform: translateY(-15.3px) scale(1.15); opacity: 0; } }
+@keyframes ex-spark { 0%,100% { transform: scale(.6) rotate(0deg); opacity: .3; } 50% { transform: scale(1.15) rotate(25deg); opacity: 1; } }
+@keyframes ex-rain { 0% { transform: translateY(0); opacity: 0; } 20% { opacity: 1; } 100% { transform: translateY(10.2px); opacity: 0; } }
+@keyframes ex-confetti { 0% { transform: translateY(-4px) rotate(0deg); opacity: 1; } 100% { transform: translateY(14px) rotate(200deg); opacity: 0; } }
+@keyframes ex-pulse { 0%,100% { transform: scale(1); opacity: .35; } 50% { transform: scale(1.18); opacity: .7; } }
+@keyframes ex-knock { 0%,100% { transform: translateX(3.83px); } 35% { transform: translateX(0); } }
+@keyframes ex-knockline { 0%,100% { transform: scaleX(.6); opacity: .35; } 35% { transform: scaleX(1); opacity: 1; } }
+@keyframes ex-palm { 0%,100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-1.02px) rotate(-4deg); } }
+@keyframes ex-steam { 0% { transform: translateY(0); opacity: .7; } 100% { transform: translateY(-7.65px); opacity: 0; } }
+@keyframes ex-shock { 0%,100% { transform: scaleX(.7); opacity: .4; } 50% { transform: scaleX(1.25); opacity: 1; } }
+@keyframes ex-please { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-1.53px); } }
+@keyframes ex-drift { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-1.7px); } }
+@media (prefers-reduced-motion: reduce) {
+  .ex-motion, [class*="ex-anim-"] { animation: none !important; }
+}
+</style><g class="ex-motion ex-joy"><g class="ex-base"><defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9297F0"/>
+      <stop offset="1" stop-color="#575CB4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7A7FE0" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#7A7FE0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  
+  <circle cx="160" cy="185" r="150" fill="url(#glow)"/>
+
+  <g transform="translate(160,200)">
+    <g>
+      
+
+      
+      <ellipse cx="0" cy="140" rx="88" ry="15" fill="#080A11" opacity="0.55"/>
+
+      
+      <line x1="0" y1="-62" x2="0" y2="-100" stroke="#5A5FA8" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="0" cy="-110" r="19" fill="none" stroke="#35D07F" stroke-width="2">
+        
+        
+      </circle>
+      <circle cx="0" cy="-110" r="11" fill="#35D07F"/>
+
+      
+      <rect x="-102" y="-18" width="24" height="72" rx="12" fill="#4C508F"/>
+      <rect x="78" y="-18" width="24" height="72" rx="12" fill="#4C508F"/>
+
+      
+      <rect x="-58" y="106" width="46" height="28" rx="14" fill="#464A85"/>
+      <rect x="12" y="106" width="46" height="28" rx="14" fill="#464A85"/>
+
+      
+      <rect x="-80" y="-64" width="160" height="176" rx="48" fill="url(#body)" stroke="#A9ADF7" stroke-width="2"/>
+
+      
+      <rect x="-58" y="-50" width="116" height="52" rx="24" fill="#10131F" stroke="#333857" stroke-width="1.5"/>
+      <ellipse cx="-22" cy="-24" rx="8.5" ry="8.5" fill="#9DF0C0">
+        
+      </ellipse>
+      <ellipse cx="22" cy="-24" rx="8.5" ry="8.5" fill="#9DF0C0">
+        
+      </ellipse>
+
+      
+      <rect x="-48" y="20" width="96" height="48" rx="14" fill="#10131F" stroke="#333857" stroke-width="1.5"/>
+      <path d="M-37 44 H-22 L-15 30 L-6 58 L3 36 L10 44 H37" fill="none" stroke="#E03875" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 8">
+        
+      </path>
+
+      
+      <circle cx="66" cy="72" r="13" fill="#10131F" stroke="#F5A623" stroke-width="2.5"/>
+      <rect x="62" y="84" width="8" height="14" rx="3" fill="#F5A623"/>
+    </g>
+  </g></g><g class="ex-face"><rect x="102" y="150" width="116" height="52" rx="24" fill="#10131F"/><path d="M 129.93,178.38 Q 138,166.22 146.07,178.38" fill="none" stroke="#9DF0C0" stroke-width="1.8" stroke-linecap="round"/><path d="M 173.93,178.38 Q 182,166.22 190.07,178.38" fill="none" stroke="#9DF0C0" stroke-width="1.8" stroke-linecap="round"/><path d="M 150.22,188.47 Q 160,204.08 169.78,188.47 Z" fill="#4A1D2E" stroke="#9DF0C0" stroke-width="1.36"/><ellipse cx="160" cy="193.37" rx="4.3" ry="3.37" fill="#FF6B8A"/><ellipse class="ex-anim-pulse" cx="131.62" cy="187.47" rx="6.63" ry="3.57" fill="#FF8FB3" opacity="0.6"/><ellipse class="ex-anim-pulse" cx="188.38" cy="187.47" rx="6.63" ry="3.57" fill="#FF8FB3" opacity="0.6"/><g transform="translate(189.52 176.86)"><circle class="ex-anim-confetti" style="animation-delay:0.0s" r="1.97" fill="#FF6B9D"/></g><g transform="translate(181.88 189.63)"><rect class="ex-anim-confetti" style="animation-delay:0.16s" x="-1.4" y="-2.81" width="2.81" height="5.62" rx="0.84" fill="#FFD166"/></g><g transform="translate(160.6 194.67)"><circle class="ex-anim-confetti" style="animation-delay:0.32s" r="1.97" fill="#4FA3FF"/></g><g transform="translate(142.19 190.05)"><rect class="ex-anim-confetti" style="animation-delay:0.48s" x="-1.4" y="-2.81" width="2.81" height="5.62" rx="0.84" fill="#5FBF9F"/></g><g transform="translate(125.43 177.54)"><circle class="ex-anim-confetti" style="animation-delay:0.64s" r="1.97" fill="#9B7BFF"/></g><g transform="translate(119.74 161.92)"><rect class="ex-anim-confetti" style="animation-delay:0.8s" x="-1.4" y="-2.81" width="2.81" height="5.62" rx="0.84" fill="#F97316"/></g><g transform="translate(141.48 149.15)"><circle class="ex-anim-confetti" style="animation-delay:0.96s" r="1.97" fill="#FF6B9D"/></g><g transform="translate(159.48 144.11)"><rect class="ex-anim-confetti" style="animation-delay:1.12s" x="-1.4" y="-2.81" width="2.81" height="5.62" rx="0.84" fill="#FFD166"/></g><g transform="translate(184.28 148.73)"><circle class="ex-anim-confetti" style="animation-delay:1.28s" r="1.97" fill="#4FA3FF"/></g><g transform="translate(189.25 161.24)"><rect class="ex-anim-confetti" style="animation-delay:1.44s" x="-1.4" y="-2.81" width="2.81" height="5.62" rx="0.84" fill="#5FBF9F"/></g></g></g></svg>

@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Pet Emoji Atlas';
+  src: url('emoji.ttf') format('truetype');
+  font-display: swap;
+}
+
+.mood-emoji { font-family: 'Pet Emoji Atlas', sans-serif; }
+img.emoji { width: 1em; height: 1em; vertical-align: -0.125em; }

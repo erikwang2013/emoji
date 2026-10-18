@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 280 250" width="280" height="250" role="img" aria-label="哈希迪 Hashy · 惊恐 Terrified"><title>哈希迪 Hashy · 惊恐 Terrified</title><desc>哈希迪 Hashy 的 惊恐 表情形态 · animated expression form</desc><style>
+.ex-motion { animation: ex-tremble 0.18s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+.ex-anim-tear { animation: ex-tear 1.8s ease-in infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-sweat { animation: ex-tear 1.5s ease-in infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-heart { animation: ex-heart 2.2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-spark { animation: ex-spark 1.9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-rain { animation: ex-rain 1.4s linear infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-confetti { animation: ex-confetti 2.4s linear infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-pulse { animation: ex-pulse 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-knock { animation: ex-knock 0.55s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-knockline { animation: ex-knockline 0.55s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-palm { animation: ex-palm 0.9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-steam { animation: ex-steam 1.8s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-shock { animation: ex-shock 0.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-please { animation: ex-please 1.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ex-anim-drift { animation: ex-drift 4.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes ex-tremble { 0%,100% { transform: translate(0,0); } 25% { transform: translate(-4.48px,2.46px); } 50% { transform: translate(4.48px,-2.46px); } 75% { transform: translate(-3.58px,2.46px); } }
+@keyframes ex-tear { 0% { transform: translateY(0); opacity: 0; } 18% { opacity: 1; } 100% { transform: translateY(15.4px); opacity: 0; } }
+@keyframes ex-heart { 0% { transform: translateY(0) scale(.65); opacity: 0; } 20% { opacity: 1; } 100% { transform: translateY(-25.2px) scale(1.15); opacity: 0; } }
+@keyframes ex-spark { 0%,100% { transform: scale(.6) rotate(0deg); opacity: .3; } 50% { transform: scale(1.15) rotate(25deg); opacity: 1; } }
+@keyframes ex-rain { 0% { transform: translateY(0); opacity: 0; } 20% { opacity: 1; } 100% { transform: translateY(16.8px); opacity: 0; } }
+@keyframes ex-confetti { 0% { transform: translateY(-4.9px) rotate(0deg); opacity: 1; } 100% { transform: translateY(22.4px) rotate(200deg); opacity: 0; } }
+@keyframes ex-pulse { 0%,100% { transform: scale(1); opacity: .35; } 50% { transform: scale(1.18); opacity: .7; } }
+@keyframes ex-knock { 0%,100% { transform: translateX(6.3px); } 35% { transform: translateX(0); } }
+@keyframes ex-knockline { 0%,100% { transform: scaleX(.6); opacity: .35; } 35% { transform: scaleX(1); opacity: 1; } }
+@keyframes ex-palm { 0%,100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-1.68px) rotate(-4deg); } }
+@keyframes ex-steam { 0% { transform: translateY(0); opacity: .7; } 100% { transform: translateY(-12.6px); opacity: 0; } }
+@keyframes ex-shock { 0%,100% { transform: scaleX(.7); opacity: .4; } 50% { transform: scaleX(1.25); opacity: 1; } }
+@keyframes ex-please { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-2.52px); } }
+@keyframes ex-drift { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-2.8px); } }
+@media (prefers-reduced-motion: reduce) {
+  .ex-motion, [class*="ex-anim-"] { animation: none !important; }
+}
+</style><g class="ex-motion ex-terrified"><g class="ex-base"><defs>
+    <style>text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", "PingFang SC", "Microsoft YaHei", monospace; }
+      .m-shadow { fill: rgba(15,23,42,.12); }
+      .m-accent { color: #0891b2; }
+      .m-panel  { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1.5; }
+      .m-cheek  { fill: rgba(255,255,255,.42); }
+      .m-ink    { stroke: rgba(15,23,42,.78); }
+      .m-id     { fill: #0891b2; }
+
+      @media (prefers-color-scheme: dark) {
+        .m-shadow { fill: rgba(0,0,0,.45); }
+        .m-accent { color: #22d3ee; }
+        .m-panel  { fill: #0f172a; stroke: #1e293b; }
+        .m-cheek  { fill: rgba(255,255,255,.32); }
+        .m-ink    { stroke: rgba(15,23,42,.82); }
+        .m-id     { fill: #22d3ee; }
+      }</style>
+
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+
+  
+  <ellipse class="m-shadow" cx="110" cy="226" rx="58" ry="10"/>
+
+  
+  <g class="m-accent" stroke="currentColor" fill="currentColor">
+    <line x1="110" y1="66" x2="110" y2="46" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="110" cy="40" r="7" stroke="none"/>
+  </g>
+
+  
+  <rect x="76"  y="200" width="28" height="16" rx="8" fill="#22d3ee"/>
+  <rect x="116" y="200" width="28" height="16" rx="8" fill="#34d399"/>
+
+  
+  <path d="M58 134 Q42 140 40 152"   fill="none" stroke="#22d3ee" stroke-width="5" stroke-linecap="round"/>
+  <path d="M162 134 Q178 140 180 152" fill="none" stroke="#34d399" stroke-width="5" stroke-linecap="round"/>
+
+  
+  <rect x="56" y="64" width="108" height="140" rx="38" fill="url(#bodyGrad)" stroke="rgba(15,23,42,.08)" stroke-width="1.5"/>
+
+  
+  <ellipse cx="91"  cy="110" rx="14" ry="15" fill="#ffffff"/>
+  <ellipse cx="129" cy="110" rx="14" ry="15" fill="#ffffff"/>
+  <circle cx="93"  cy="113" r="7" fill="#0f172a"/>
+  <circle cx="131" cy="113" r="7" fill="#0f172a"/>
+  <circle cx="90"  cy="109" r="2.6" fill="#ffffff"/>
+  <circle cx="128" cy="109" r="2.6" fill="#ffffff"/>
+
+  
+  <circle class="m-cheek" cx="70"  cy="132" r="5.5"/>
+  <circle class="m-cheek" cx="150" cy="132" r="5.5"/>
+
+  
+  <path class="m-ink" d="M95 136 Q110 149 125 136" fill="none" stroke-width="3.5" stroke-linecap="round"/>
+
+  
+  <g stroke="rgba(255,255,255,.6)" stroke-width="5.5" stroke-linecap="round">
+    <line x1="96"  y1="164" x2="96"  y2="188"/>
+    <line x1="124" y1="164" x2="124" y2="188"/>
+    <line x1="88"  y1="169" x2="132" y2="169"/>
+    <line x1="88"  y1="183" x2="132" y2="183"/>
+  </g>
+
+  
+  <path class="m-panel" d="M190 98 L168 132 L208 106 Z"/>
+  <rect class="m-panel" x="186" y="64" width="82" height="48" rx="14"/>
+  <text class="m-id" x="227" y="95" text-anchor="middle" font-size="17" font-weight="600">3kTMd</text></g><g class="ex-face"><ellipse cx="110" cy="122" rx="36" ry="28" fill="#FFFFFF"/><path d="M 79.1,88.3 Q 91,82.7 102.9,88.3" fill="none" stroke="#0F172A" stroke-width="1.96" stroke-linecap="round"/><path d="M 117.1,88.3 Q 129,82.7 140.9,88.3" fill="none" stroke="#0F172A" stroke-width="1.96" stroke-linecap="round"/><ellipse cx="91" cy="110" rx="15.68" ry="19.32" fill="#FFFFFF" stroke="#0F172A" stroke-width="2.24"/><ellipse cx="91" cy="110" rx="7.53" ry="10.63" fill="#0F172A"/><circle cx="87.55" cy="104.59" r="3.14" fill="#FFFFFF"/><ellipse cx="129" cy="110" rx="15.68" ry="19.32" fill="#FFFFFF" stroke="#0F172A" stroke-width="2.24"/><ellipse cx="129" cy="110" rx="7.53" ry="10.63" fill="#0F172A"/><circle cx="125.55" cy="104.59" r="3.14" fill="#FFFFFF"/><ellipse cx="110" cy="140.8" rx="10.95" ry="14.62" fill="#4A1D2E" stroke="#0F172A" stroke-width="1.79"/><ellipse cx="110" cy="146.34" rx="5.8" ry="6.05" fill="#FF6B8A"/><g transform="translate(0 0)"><path class="ex-anim-sweat" style="animation-delay:0.2s" d="M 147.9,87.74 C 153.78,97.15 153.78,105.77 147.9,105.77 C 142.02,105.77 142.02,97.15 147.9,87.74 Z" fill="#6FB2F0"/><circle cx="147.9" cy="96.76" r="1.72" fill="#FFFFFF" opacity=".8"/></g><g transform="translate(0 0)"><path class="ex-anim-sweat" style="animation-delay:0.2s" d="M 154.2,103 C 158.4,109.72 158.4,115.88 154.2,115.88 C 150,115.88 150,109.72 154.2,103 Z" fill="#6FB2F0"/><circle cx="154.2" cy="109.44" r="1.23" fill="#FFFFFF" opacity=".8"/></g><circle class="ex-anim-pulse" cx="110" cy="110" r="46.13" fill="none" stroke="#9B7BFF" stroke-width="4.15" opacity=".35"/><g transform="translate(63.87 76.52) rotate(-25)"><path class="ex-anim-shock" style="animation-delay:0.0s" d="M 0 0 L 7.7 0" stroke="#9B7BFF" stroke-width="1.96" stroke-linecap="round"/></g><g transform="translate(156.13 76.52) rotate(25)"><path class="ex-anim-shock" style="animation-delay:0.08s" d="M 0 0 L 7.7 0" stroke="#9B7BFF" stroke-width="1.96" stroke-linecap="round"/></g><g transform="translate(60.9 128.6) rotate(-12)"><path class="ex-anim-shock" style="animation-delay:0.16s" d="M 0 0 L 7.7 0" stroke="#9B7BFF" stroke-width="1.96" stroke-linecap="round"/></g><g transform="translate(159.1 128.6) rotate(12)"><path class="ex-anim-shock" style="animation-delay:0.24s" d="M 0 0 L 7.7 0" stroke="#9B7BFF" stroke-width="1.96" stroke-linecap="round"/></g></g></g></svg>
