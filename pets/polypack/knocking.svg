@@ -1,12 +1,14 @@
 <svg width="640" height="384" viewBox="0 0 720 432" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pax-t pax-d">
   <title id="pax-t">Pax · 邮差蟹 — 敲打表情（动态）</title>
   <desc id="pax-d">PolyPack 项目宠物 Pax 的敲打表情（knocking），带该表情专属的 CSS 动效；减弱动态效果时定格为静态形态。</desc>
-  <style>@media (prefers-reduced-motion: no-preference) {
+  <style>
     .pax-crab { animation: pax-tap 0.9s ease-in-out infinite; }
     .pax-impact { animation: pax-impact 0.9s ease-out infinite; }
-  }
   @keyframes pax-tap { 0%, 100% { transform: translateX(0); } 30% { transform: translateX(6px); } 55% { transform: translateX(-1px); } }
   @keyframes pax-impact { 0%, 100% { opacity: 0.2; transform: scale(0.7); } 35% { opacity: 1; transform: scale(1); } }
+  @media (prefers-reduced-motion: reduce) {
+    .pax-crab, [class*="pax-"] { animation: none !important; }
+  }
   </style>
 
   <defs>

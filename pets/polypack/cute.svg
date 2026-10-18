@@ -1,16 +1,18 @@
 <svg width="640" height="384" viewBox="0 0 720 432" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pax-t pax-d">
   <title id="pax-t">Pax · 邮差蟹 — 卖萌表情（动态）</title>
   <desc id="pax-d">PolyPack 项目宠物 Pax 的卖萌表情（cute），带该表情专属的 CSS 动效；减弱动态效果时定格为静态形态。</desc>
-  <style>@media (prefers-reduced-motion: no-preference) {
+  <style>
     .pax-crab { animation: pax-bounce 1.5s ease-in-out infinite; }
     .pax-heart-eye { transform-origin: 0 8px; animation: pax-heart-eye 1.4s ease-in-out infinite; }
     .pax-sparkle { animation: pax-sparkle 1.2s ease-in-out infinite; }
     .pax-sparkle-b { animation-delay: -0.4s; }
     .pax-sparkle-c { animation-delay: -0.8s; }
-  }
   @keyframes pax-bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
   @keyframes pax-heart-eye { 0%, 100% { transform: scale(0.92); } 50% { transform: scale(1.08); } }
   @keyframes pax-sparkle { 0%, 100% { opacity: 0.25; transform: scale(0.72); } 50% { opacity: 1; transform: scale(1.18); } }
+  @media (prefers-reduced-motion: reduce) {
+    .pax-crab, [class*="pax-"] { animation: none !important; }
+  }
   </style>
 
   <defs>

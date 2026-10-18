@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 240 250" width="240" height="250" role="img" aria-label="OPI 小欧 · 沮丧"><defs>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 240 250" width="240" height="250" role="img" aria-label="OPI 小欧 · 沮丧"><style>.opi-motion { animation: opi-droop 4.5s ease-in-out infinite; transform-origin: 120px 125px; }
+@keyframes opi-droop { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(5px); } }
+@media (prefers-reduced-motion: reduce) { .opi-motion { animation: none !important; } }</style><defs>
     <linearGradient id="forms-skirt" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#E9F3F1" />
       <stop offset="1" stop-color="#D8E9E6" />
@@ -32,7 +34,7 @@
     </g>
   </defs>
 
-  <g><use href="#forms-back" xlink:href="#forms-back" />
+  <g class="opi-motion"><use href="#forms-back" xlink:href="#forms-back" />
       <g transform="rotate(10 120 48)">
         <use href="#forms-antenna" xlink:href="#forms-antenna" />
       </g>

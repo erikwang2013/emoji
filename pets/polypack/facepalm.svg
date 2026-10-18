@@ -1,12 +1,14 @@
 <svg width="640" height="384" viewBox="0 0 720 432" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pax-t pax-d">
   <title id="pax-t">Pax · 邮差蟹 — 捂脸表情（动态）</title>
   <desc id="pax-d">PolyPack 项目宠物 Pax 的捂脸表情（covering face），带该表情专属的 CSS 动效；减弱动态效果时定格为静态形态。</desc>
-  <style>@media (prefers-reduced-motion: no-preference) {
+  <style>
     .pax-crab { transform-origin: 300px 300px; animation: pax-sway 3.2s ease-in-out infinite; }
     .pax-sweat { animation: pax-drip 2s ease-in infinite; }
-  }
   @keyframes pax-sway { 0%, 100% { transform: rotate(-2.5deg); } 50% { transform: rotate(2.5deg); } }
   @keyframes pax-drip { 0% { transform: translateY(0); opacity: 0.3; } 40% { opacity: 1; } 100% { transform: translateY(12px); opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) {
+    .pax-crab, [class*="pax-"] { animation: none !important; }
+  }
   </style>
 
   <defs>

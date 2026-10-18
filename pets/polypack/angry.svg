@@ -1,15 +1,17 @@
 <svg width="640" height="384" viewBox="0 0 720 432" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pax-t pax-d">
   <title id="pax-t">Pax · 邮差蟹 — 愤怒表情（动态）</title>
   <desc id="pax-d">PolyPack 项目宠物 Pax 的愤怒表情（angry），带该表情专属的 CSS 动效；减弱动态效果时定格为静态形态。</desc>
-  <style>@media (prefers-reduced-motion: no-preference) {
+  <style>
     .pax-crab { animation: pax-rage 0.32s linear infinite; }
     .pax-vein { animation: pax-vein 0.7s ease-in-out infinite; }
     .pax-steam { animation: pax-steam 1.3s ease-out infinite; }
     .pax-steam-b { animation-delay: -0.65s; }
-  }
   @keyframes pax-rage { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-2.4px); } 75% { transform: translateX(2.4px); } }
   @keyframes pax-vein { 0%, 100% { opacity: 0.75; transform: scale(0.9); } 50% { opacity: 1; transform: scale(1.15); } }
   @keyframes pax-steam { 0% { opacity: 0; transform: translateY(6px) scale(0.8); } 30% { opacity: 1; } 100% { opacity: 0; transform: translateY(-16px) scale(1.1); } }
+  @media (prefers-reduced-motion: reduce) {
+    .pax-crab, [class*="pax-"] { animation: none !important; }
+  }
   </style>
 
   <defs>
