@@ -119,19 +119,17 @@ def write_manifest(projects, entries):
 
 def write_readme(projects, entries, manifest):
     def cell(e):
-        return (f'<td align="center"><img src="{e["image"]}" width="72" alt="{html.escape(e["mood_zh"])}"><br>'
-                f'<b>{e["mood_zh"]}</b><br><code>{e["shortcode"]}</code></td>')
+        return f'![{e["mood_zh"]}]({e["image"]}) `{e["shortcode"]}`'
     summary = '\n'.join(
-        f'| {i+1} | {html.escape(p["pet"])} | `{p["project"]}` | `:{p["project_slug"]}-*:` | {p["count"]} |'
+        f'| {i+1} | {p["pet"]} | `{p["project"]}` | `:{p["project_slug"]}-*:` | {p["count"]} |'
         for i, p in enumerate(projects))
     details = []
     for p in projects:
         cells = [cell(e) for e in p['forms']]
-        rows = ['<tr>' + ''.join(cells[i:i+6]) + '</tr>' for i in range(0, 12, 6)]
+        rows = [' · '.join(cells[i:i+6]) for i in range(0, len(cells), 6)]
         details.append(
-            f'<details>\n<summary><b>{html.escape(p["pet"])}</b> · <code>{p["project"]}</code> · '
-            f'<code>:{p["project_slug"]}-*:</code></summary>\n\n'
-            '<table align="center">\n' + '\n'.join(rows) + '\n</table>\n\n</details>')
+            f'### {p["pet"]} · `{p["project"]}` · `:{p["project_slug"]}-*:`\n\n'
+            + '\n\n'.join(rows))
     first = entries[0]
     readme = f'''# 项目宠物 Emoji 图鉴 · Pet Emoji Atlas
 
@@ -149,25 +147,26 @@ def write_readme(projects, entries, manifest):
 
 ### 1. 图片
 
-```html
-<img src="{first["image"]}" width="48" alt="{html.escape(first["mood_zh"])}">
-<img src="{first["png"]}" width="48" alt="{html.escape(first["mood_zh"])}">
+```markdown
+![{first["mood_zh"]}]({first["image"]})
+![{first["mood_zh"]}]({first["png"]})
 ```
 
 ### 2. 字体
 
-```html
-<link rel="stylesheet" href="font/emoji.css">
-<span class="mood-emoji">&#x{int(first["codepoint"][2:],16):X};</span>
+引入 `font/emoji.css` 后，使用字体族 `Pet Emoji Atlas` 与码位 `{first["codepoint"]}` 显示对应字形；支持 `liga` 连字的编辑器也可直接输入短码。
+
+```css
+@import url("font/emoji.css");
 ```
 
 字体为 CBDT/CBLC 彩色位图字体；支持彩色位图字体的环境会显示对应宠物表情，否则请使用图片。
 
 ### 3. 短码
 
-```html
-<span class="mood-emoji">{first["shortcode"]}</span>
-<span class="mood-emoji">{first["alias"]}</span>
+```text
+{first["shortcode"]}
+{first["alias"]}
 ```
 
 - 主短码：`:<项目>-<形态>:`
@@ -184,7 +183,7 @@ def write_readme(projects, entries, manifest):
 
 ## 逐项目预览
 
-{chr(10).join(details)}
+{(chr(10) * 2).join(details)}
 
 ## 说明
 

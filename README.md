@@ -14,25 +14,26 @@
 
 ### 1. 图片
 
-```html
-<img src="pets/ads-php/smile.svg" width="48" alt="笑">
-<img src="png/ads-php/smile.png" width="48" alt="笑">
+```markdown
+![笑](pets/ads-php/smile.svg)
+![笑](png/ads-php/smile.png)
 ```
 
 ### 2. 字体
 
-```html
-<link rel="stylesheet" href="font/emoji.css">
-<span class="mood-emoji">&#xE000;</span>
+引入 `font/emoji.css` 后，使用字体族 `Pet Emoji Atlas` 与码位 `U+E000` 显示对应字形；支持 `liga` 连字的编辑器也可直接输入短码。
+
+```css
+@import url("font/emoji.css");
 ```
 
 字体为 CBDT/CBLC 彩色位图字体；支持彩色位图字体的环境会显示对应宠物表情，否则请使用图片。
 
 ### 3. 短码
 
-```html
-<span class="mood-emoji">:ads-php-smile:</span>
-<span class="mood-emoji">:emoji-ads-php-smile:</span>
+```text
+:ads-php-smile:
+:emoji-ads-php-smile:
 ```
 
 - 主短码：`:<项目>-<形态>:`
@@ -99,465 +100,311 @@
 
 ## 逐项目预览
 
-<details>
-<summary><b>阿章</b> · <code>ads-php</code> · <code>:ads-php-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/ads-php/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:ads-php-smile:</code></td><td align="center"><img src="pets/ads-php/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:ads-php-joy:</code></td><td align="center"><img src="pets/ads-php/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:ads-php-cry:</code></td><td align="center"><img src="pets/ads-php/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:ads-php-depressed:</code></td><td align="center"><img src="pets/ads-php/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:ads-php-terrified:</code></td><td align="center"><img src="pets/ads-php/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:ads-php-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/ads-php/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:ads-php-coquettish:</code></td><td align="center"><img src="pets/ads-php/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:ads-php-cute:</code></td><td align="center"><img src="pets/ads-php/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:ads-php-pleasing:</code></td><td align="center"><img src="pets/ads-php/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:ads-php-knocking:</code></td><td align="center"><img src="pets/ads-php/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:ads-php-facepalm:</code></td><td align="center"><img src="pets/ads-php/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:ads-php-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>小约</b> · <code>appointment-php</code> · <code>:appointment-php-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/appointment-php/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:appointment-php-smile:</code></td><td align="center"><img src="pets/appointment-php/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:appointment-php-joy:</code></td><td align="center"><img src="pets/appointment-php/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:appointment-php-cry:</code></td><td align="center"><img src="pets/appointment-php/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:appointment-php-depressed:</code></td><td align="center"><img src="pets/appointment-php/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:appointment-php-terrified:</code></td><td align="center"><img src="pets/appointment-php/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:appointment-php-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/appointment-php/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:appointment-php-coquettish:</code></td><td align="center"><img src="pets/appointment-php/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:appointment-php-cute:</code></td><td align="center"><img src="pets/appointment-php/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:appointment-php-pleasing:</code></td><td align="center"><img src="pets/appointment-php/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:appointment-php-knocking:</code></td><td align="center"><img src="pets/appointment-php/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:appointment-php-facepalm:</code></td><td align="center"><img src="pets/appointment-php/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:appointment-php-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Rusty</b> · <code>bee-rust</code> · <code>:bee-rust-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/bee-rust/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:bee-rust-smile:</code></td><td align="center"><img src="pets/bee-rust/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:bee-rust-joy:</code></td><td align="center"><img src="pets/bee-rust/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:bee-rust-cry:</code></td><td align="center"><img src="pets/bee-rust/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:bee-rust-depressed:</code></td><td align="center"><img src="pets/bee-rust/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:bee-rust-terrified:</code></td><td align="center"><img src="pets/bee-rust/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:bee-rust-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/bee-rust/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:bee-rust-coquettish:</code></td><td align="center"><img src="pets/bee-rust/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:bee-rust-cute:</code></td><td align="center"><img src="pets/bee-rust/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:bee-rust-pleasing:</code></td><td align="center"><img src="pets/bee-rust/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:bee-rust-knocking:</code></td><td align="center"><img src="pets/bee-rust/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:bee-rust-facepalm:</code></td><td align="center"><img src="pets/bee-rust/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:bee-rust-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>阿守</b> · <code>bee-rust-admin</code> · <code>:bee-rust-admin-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/bee-rust-admin/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:bee-rust-admin-smile:</code></td><td align="center"><img src="pets/bee-rust-admin/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:bee-rust-admin-joy:</code></td><td align="center"><img src="pets/bee-rust-admin/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:bee-rust-admin-cry:</code></td><td align="center"><img src="pets/bee-rust-admin/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:bee-rust-admin-depressed:</code></td><td align="center"><img src="pets/bee-rust-admin/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:bee-rust-admin-terrified:</code></td><td align="center"><img src="pets/bee-rust-admin/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:bee-rust-admin-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/bee-rust-admin/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:bee-rust-admin-coquettish:</code></td><td align="center"><img src="pets/bee-rust-admin/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:bee-rust-admin-cute:</code></td><td align="center"><img src="pets/bee-rust-admin/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:bee-rust-admin-pleasing:</code></td><td align="center"><img src="pets/bee-rust-admin/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:bee-rust-admin-knocking:</code></td><td align="center"><img src="pets/bee-rust-admin/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:bee-rust-admin-facepalm:</code></td><td align="center"><img src="pets/bee-rust-admin/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:bee-rust-admin-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>云团</b> · <code>cloud-php</code> · <code>:cloud-php-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/cloud-php/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:cloud-php-smile:</code></td><td align="center"><img src="pets/cloud-php/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:cloud-php-joy:</code></td><td align="center"><img src="pets/cloud-php/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:cloud-php-cry:</code></td><td align="center"><img src="pets/cloud-php/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:cloud-php-depressed:</code></td><td align="center"><img src="pets/cloud-php/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:cloud-php-terrified:</code></td><td align="center"><img src="pets/cloud-php/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:cloud-php-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/cloud-php/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:cloud-php-coquettish:</code></td><td align="center"><img src="pets/cloud-php/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:cloud-php-cute:</code></td><td align="center"><img src="pets/cloud-php/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:cloud-php-pleasing:</code></td><td align="center"><img src="pets/cloud-php/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:cloud-php-knocking:</code></td><td align="center"><img src="pets/cloud-php/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:cloud-php-facepalm:</code></td><td align="center"><img src="pets/cloud-php/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:cloud-php-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>E-Cat</b> · <code>e-cat</code> · <code>:e-cat-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/e-cat/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:e-cat-smile:</code></td><td align="center"><img src="pets/e-cat/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:e-cat-joy:</code></td><td align="center"><img src="pets/e-cat/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:e-cat-cry:</code></td><td align="center"><img src="pets/e-cat/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:e-cat-depressed:</code></td><td align="center"><img src="pets/e-cat/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:e-cat-terrified:</code></td><td align="center"><img src="pets/e-cat/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:e-cat-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/e-cat/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:e-cat-coquettish:</code></td><td align="center"><img src="pets/e-cat/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:e-cat-cute:</code></td><td align="center"><img src="pets/e-cat/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:e-cat-pleasing:</code></td><td align="center"><img src="pets/e-cat/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:e-cat-knocking:</code></td><td align="center"><img src="pets/e-cat/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:e-cat-facepalm:</code></td><td align="center"><img src="pets/e-cat/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:e-cat-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Lumi</b> · <code>erik-talk</code> · <code>:erik-talk-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/erik-talk/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:erik-talk-smile:</code></td><td align="center"><img src="pets/erik-talk/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:erik-talk-joy:</code></td><td align="center"><img src="pets/erik-talk/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:erik-talk-cry:</code></td><td align="center"><img src="pets/erik-talk/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:erik-talk-depressed:</code></td><td align="center"><img src="pets/erik-talk/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:erik-talk-terrified:</code></td><td align="center"><img src="pets/erik-talk/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:erik-talk-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/erik-talk/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:erik-talk-coquettish:</code></td><td align="center"><img src="pets/erik-talk/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:erik-talk-cute:</code></td><td align="center"><img src="pets/erik-talk/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:erik-talk-pleasing:</code></td><td align="center"><img src="pets/erik-talk/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:erik-talk-knocking:</code></td><td align="center"><img src="pets/erik-talk/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:erik-talk-facepalm:</code></td><td align="center"><img src="pets/erik-talk/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:erik-talk-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>小八爪</b> · <code>erp-php</code> · <code>:erp-php-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/erp-php/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:erp-php-smile:</code></td><td align="center"><img src="pets/erp-php/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:erp-php-joy:</code></td><td align="center"><img src="pets/erp-php/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:erp-php-cry:</code></td><td align="center"><img src="pets/erp-php/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:erp-php-depressed:</code></td><td align="center"><img src="pets/erp-php/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:erp-php-terrified:</code></td><td align="center"><img src="pets/erp-php/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:erp-php-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/erp-php/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:erp-php-coquettish:</code></td><td align="center"><img src="pets/erp-php/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:erp-php-cute:</code></td><td align="center"><img src="pets/erp-php/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:erp-php-pleasing:</code></td><td align="center"><img src="pets/erp-php/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:erp-php-knocking:</code></td><td align="center"><img src="pets/erp-php/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:erp-php-facepalm:</code></td><td align="center"><img src="pets/erp-php/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:erp-php-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Dicey</b> · <code>game-platform-php</code> · <code>:game-platform-php-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/game-platform-php/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:game-platform-php-smile:</code></td><td align="center"><img src="pets/game-platform-php/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:game-platform-php-joy:</code></td><td align="center"><img src="pets/game-platform-php/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:game-platform-php-cry:</code></td><td align="center"><img src="pets/game-platform-php/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:game-platform-php-depressed:</code></td><td align="center"><img src="pets/game-platform-php/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:game-platform-php-terrified:</code></td><td align="center"><img src="pets/game-platform-php/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:game-platform-php-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/game-platform-php/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:game-platform-php-coquettish:</code></td><td align="center"><img src="pets/game-platform-php/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:game-platform-php-cute:</code></td><td align="center"><img src="pets/game-platform-php/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:game-platform-php-pleasing:</code></td><td align="center"><img src="pets/game-platform-php/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:game-platform-php-knocking:</code></td><td align="center"><img src="pets/game-platform-php/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:game-platform-php-facepalm:</code></td><td align="center"><img src="pets/game-platform-php/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:game-platform-php-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>霜霜</b> · <code>insurance-service</code> · <code>:insurance-service-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/insurance-service/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:insurance-service-smile:</code></td><td align="center"><img src="pets/insurance-service/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:insurance-service-joy:</code></td><td align="center"><img src="pets/insurance-service/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:insurance-service-cry:</code></td><td align="center"><img src="pets/insurance-service/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:insurance-service-depressed:</code></td><td align="center"><img src="pets/insurance-service/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:insurance-service-terrified:</code></td><td align="center"><img src="pets/insurance-service/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:insurance-service-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/insurance-service/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:insurance-service-coquettish:</code></td><td align="center"><img src="pets/insurance-service/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:insurance-service-cute:</code></td><td align="center"><img src="pets/insurance-service/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:insurance-service-pleasing:</code></td><td align="center"><img src="pets/insurance-service/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:insurance-service-knocking:</code></td><td align="center"><img src="pets/insurance-service/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:insurance-service-facepalm:</code></td><td align="center"><img src="pets/insurance-service/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:insurance-service-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>E-Cat</b> · <code>integrated-global-logistics</code> · <code>:integrated-global-logistics-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/integrated-global-logistics/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:integrated-global-logistics-smile:</code></td><td align="center"><img src="pets/integrated-global-logistics/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:integrated-global-logistics-joy:</code></td><td align="center"><img src="pets/integrated-global-logistics/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:integrated-global-logistics-cry:</code></td><td align="center"><img src="pets/integrated-global-logistics/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:integrated-global-logistics-depressed:</code></td><td align="center"><img src="pets/integrated-global-logistics/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:integrated-global-logistics-terrified:</code></td><td align="center"><img src="pets/integrated-global-logistics/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:integrated-global-logistics-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/integrated-global-logistics/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:integrated-global-logistics-coquettish:</code></td><td align="center"><img src="pets/integrated-global-logistics/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:integrated-global-logistics-cute:</code></td><td align="center"><img src="pets/integrated-global-logistics/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:integrated-global-logistics-pleasing:</code></td><td align="center"><img src="pets/integrated-global-logistics/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:integrated-global-logistics-knocking:</code></td><td align="center"><img src="pets/integrated-global-logistics/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:integrated-global-logistics-facepalm:</code></td><td align="center"><img src="pets/integrated-global-logistics/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:integrated-global-logistics-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>IoT Bot</b> · <code>iot-platform</code> · <code>:iot-platform-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/iot-platform/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:iot-platform-smile:</code></td><td align="center"><img src="pets/iot-platform/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:iot-platform-joy:</code></td><td align="center"><img src="pets/iot-platform/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:iot-platform-cry:</code></td><td align="center"><img src="pets/iot-platform/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:iot-platform-depressed:</code></td><td align="center"><img src="pets/iot-platform/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:iot-platform-terrified:</code></td><td align="center"><img src="pets/iot-platform/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:iot-platform-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/iot-platform/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:iot-platform-coquettish:</code></td><td align="center"><img src="pets/iot-platform/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:iot-platform-cute:</code></td><td align="center"><img src="pets/iot-platform/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:iot-platform-pleasing:</code></td><td align="center"><img src="pets/iot-platform/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:iot-platform-knocking:</code></td><td align="center"><img src="pets/iot-platform/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:iot-platform-facepalm:</code></td><td align="center"><img src="pets/iot-platform/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:iot-platform-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>租租鼠</b> · <code>item-rental</code> · <code>:item-rental-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/item-rental/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:item-rental-smile:</code></td><td align="center"><img src="pets/item-rental/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:item-rental-joy:</code></td><td align="center"><img src="pets/item-rental/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:item-rental-cry:</code></td><td align="center"><img src="pets/item-rental/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:item-rental-depressed:</code></td><td align="center"><img src="pets/item-rental/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:item-rental-terrified:</code></td><td align="center"><img src="pets/item-rental/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:item-rental-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/item-rental/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:item-rental-coquettish:</code></td><td align="center"><img src="pets/item-rental/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:item-rental-cute:</code></td><td align="center"><img src="pets/item-rental/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:item-rental-pleasing:</code></td><td align="center"><img src="pets/item-rental/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:item-rental-knocking:</code></td><td align="center"><img src="pets/item-rental/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:item-rental-facepalm:</code></td><td align="center"><img src="pets/item-rental/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:item-rental-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>小音机</b> · <code>omb</code> · <code>:omb-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/omb/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:omb-smile:</code></td><td align="center"><img src="pets/omb/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:omb-joy:</code></td><td align="center"><img src="pets/omb/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:omb-cry:</code></td><td align="center"><img src="pets/omb/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:omb-depressed:</code></td><td align="center"><img src="pets/omb/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:omb-terrified:</code></td><td align="center"><img src="pets/omb/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:omb-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/omb/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:omb-coquettish:</code></td><td align="center"><img src="pets/omb/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:omb-cute:</code></td><td align="center"><img src="pets/omb/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:omb-pleasing:</code></td><td align="center"><img src="pets/omb/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:omb-knocking:</code></td><td align="center"><img src="pets/omb/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:omb-facepalm:</code></td><td align="center"><img src="pets/omb/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:omb-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>小安</b> · <code>open-admin</code> · <code>:open-admin-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/open-admin/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:open-admin-smile:</code></td><td align="center"><img src="pets/open-admin/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:open-admin-joy:</code></td><td align="center"><img src="pets/open-admin/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:open-admin-cry:</code></td><td align="center"><img src="pets/open-admin/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:open-admin-depressed:</code></td><td align="center"><img src="pets/open-admin/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:open-admin-terrified:</code></td><td align="center"><img src="pets/open-admin/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:open-admin-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/open-admin/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:open-admin-coquettish:</code></td><td align="center"><img src="pets/open-admin/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:open-admin-cute:</code></td><td align="center"><img src="pets/open-admin/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:open-admin-pleasing:</code></td><td align="center"><img src="pets/open-admin/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:open-admin-knocking:</code></td><td align="center"><img src="pets/open-admin/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:open-admin-facepalm:</code></td><td align="center"><img src="pets/open-admin/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:open-admin-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Novi</b> · <code>open-novel</code> · <code>:open-novel-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/open-novel/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:open-novel-smile:</code></td><td align="center"><img src="pets/open-novel/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:open-novel-joy:</code></td><td align="center"><img src="pets/open-novel/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:open-novel-cry:</code></td><td align="center"><img src="pets/open-novel/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:open-novel-depressed:</code></td><td align="center"><img src="pets/open-novel/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:open-novel-terrified:</code></td><td align="center"><img src="pets/open-novel/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:open-novel-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/open-novel/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:open-novel-coquettish:</code></td><td align="center"><img src="pets/open-novel/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:open-novel-cute:</code></td><td align="center"><img src="pets/open-novel/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:open-novel-pleasing:</code></td><td align="center"><img src="pets/open-novel/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:open-novel-knocking:</code></td><td align="center"><img src="pets/open-novel/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:open-novel-facepalm:</code></td><td align="center"><img src="pets/open-novel/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:open-novel-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>南南</b> · <code>open-travel</code> · <code>:open-travel-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/open-travel/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:open-travel-smile:</code></td><td align="center"><img src="pets/open-travel/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:open-travel-joy:</code></td><td align="center"><img src="pets/open-travel/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:open-travel-cry:</code></td><td align="center"><img src="pets/open-travel/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:open-travel-depressed:</code></td><td align="center"><img src="pets/open-travel/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:open-travel-terrified:</code></td><td align="center"><img src="pets/open-travel/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:open-travel-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/open-travel/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:open-travel-coquettish:</code></td><td align="center"><img src="pets/open-travel/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:open-travel-cute:</code></td><td align="center"><img src="pets/open-travel/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:open-travel-pleasing:</code></td><td align="center"><img src="pets/open-travel/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:open-travel-knocking:</code></td><td align="center"><img src="pets/open-travel/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:open-travel-facepalm:</code></td><td align="center"><img src="pets/open-travel/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:open-travel-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>小筑</b> · <code>property-management-platform</code> · <code>:property-management-platform-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/property-management-platform/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:property-management-platform-smile:</code></td><td align="center"><img src="pets/property-management-platform/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:property-management-platform-joy:</code></td><td align="center"><img src="pets/property-management-platform/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:property-management-platform-cry:</code></td><td align="center"><img src="pets/property-management-platform/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:property-management-platform-depressed:</code></td><td align="center"><img src="pets/property-management-platform/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:property-management-platform-terrified:</code></td><td align="center"><img src="pets/property-management-platform/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:property-management-platform-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/property-management-platform/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:property-management-platform-coquettish:</code></td><td align="center"><img src="pets/property-management-platform/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:property-management-platform-cute:</code></td><td align="center"><img src="pets/property-management-platform/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:property-management-platform-pleasing:</code></td><td align="center"><img src="pets/property-management-platform/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:property-management-platform-knocking:</code></td><td align="center"><img src="pets/property-management-platform/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:property-management-platform-facepalm:</code></td><td align="center"><img src="pets/property-management-platform/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:property-management-platform-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>犇犇</b> · <code>quantitative-trading</code> · <code>:quantitative-trading-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/quantitative-trading/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:quantitative-trading-smile:</code></td><td align="center"><img src="pets/quantitative-trading/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:quantitative-trading-joy:</code></td><td align="center"><img src="pets/quantitative-trading/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:quantitative-trading-cry:</code></td><td align="center"><img src="pets/quantitative-trading/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:quantitative-trading-depressed:</code></td><td align="center"><img src="pets/quantitative-trading/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:quantitative-trading-terrified:</code></td><td align="center"><img src="pets/quantitative-trading/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:quantitative-trading-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/quantitative-trading/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:quantitative-trading-coquettish:</code></td><td align="center"><img src="pets/quantitative-trading/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:quantitative-trading-cute:</code></td><td align="center"><img src="pets/quantitative-trading/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:quantitative-trading-pleasing:</code></td><td align="center"><img src="pets/quantitative-trading/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:quantitative-trading-knocking:</code></td><td align="center"><img src="pets/quantitative-trading/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:quantitative-trading-facepalm:</code></td><td align="center"><img src="pets/quantitative-trading/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:quantitative-trading-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>雪球 Snowy</b> · <code>shop-php</code> · <code>:shop-php-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/shop-php/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:shop-php-smile:</code></td><td align="center"><img src="pets/shop-php/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:shop-php-joy:</code></td><td align="center"><img src="pets/shop-php/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:shop-php-cry:</code></td><td align="center"><img src="pets/shop-php/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:shop-php-depressed:</code></td><td align="center"><img src="pets/shop-php/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:shop-php-terrified:</code></td><td align="center"><img src="pets/shop-php/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:shop-php-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/shop-php/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:shop-php-coquettish:</code></td><td align="center"><img src="pets/shop-php/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:shop-php-cute:</code></td><td align="center"><img src="pets/shop-php/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:shop-php-pleasing:</code></td><td align="center"><img src="pets/shop-php/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:shop-php-knocking:</code></td><td align="center"><img src="pets/shop-php/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:shop-php-facepalm:</code></td><td align="center"><img src="pets/shop-php/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:shop-php-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Bub</b> · <code>social</code> · <code>:social-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/social/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:social-smile:</code></td><td align="center"><img src="pets/social/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:social-joy:</code></td><td align="center"><img src="pets/social/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:social-cry:</code></td><td align="center"><img src="pets/social/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:social-depressed:</code></td><td align="center"><img src="pets/social/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:social-terrified:</code></td><td align="center"><img src="pets/social/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:social-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/social/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:social-coquettish:</code></td><td align="center"><img src="pets/social/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:social-cute:</code></td><td align="center"><img src="pets/social/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:social-pleasing:</code></td><td align="center"><img src="pets/social/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:social-knocking:</code></td><td align="center"><img src="pets/social/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:social-facepalm:</code></td><td align="center"><img src="pets/social/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:social-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>ssd</b> · <code>ssd</code> · <code>:ssd-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/ssd/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:ssd-smile:</code></td><td align="center"><img src="pets/ssd/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:ssd-joy:</code></td><td align="center"><img src="pets/ssd/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:ssd-cry:</code></td><td align="center"><img src="pets/ssd/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:ssd-depressed:</code></td><td align="center"><img src="pets/ssd/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:ssd-terrified:</code></td><td align="center"><img src="pets/ssd/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:ssd-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/ssd/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:ssd-coquettish:</code></td><td align="center"><img src="pets/ssd/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:ssd-cute:</code></td><td align="center"><img src="pets/ssd/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:ssd-pleasing:</code></td><td align="center"><img src="pets/ssd/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:ssd-knocking:</code></td><td align="center"><img src="pets/ssd/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:ssd-facepalm:</code></td><td align="center"><img src="pets/ssd/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:ssd-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>超猫 SuperCat</b> · <code>super-ops</code> · <code>:super-ops-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/super-ops/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:super-ops-smile:</code></td><td align="center"><img src="pets/super-ops/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:super-ops-joy:</code></td><td align="center"><img src="pets/super-ops/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:super-ops-cry:</code></td><td align="center"><img src="pets/super-ops/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:super-ops-depressed:</code></td><td align="center"><img src="pets/super-ops/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:super-ops-terrified:</code></td><td align="center"><img src="pets/super-ops/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:super-ops-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/super-ops/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:super-ops-coquettish:</code></td><td align="center"><img src="pets/super-ops/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:super-ops-cute:</code></td><td align="center"><img src="pets/super-ops/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:super-ops-pleasing:</code></td><td align="center"><img src="pets/super-ops/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:super-ops-knocking:</code></td><td align="center"><img src="pets/super-ops/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:super-ops-facepalm:</code></td><td align="center"><img src="pets/super-ops/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:super-ops-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>小运</b> · <code>bag/canal</code> · <code>:canal-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/canal/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:canal-smile:</code></td><td align="center"><img src="pets/canal/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:canal-joy:</code></td><td align="center"><img src="pets/canal/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:canal-cry:</code></td><td align="center"><img src="pets/canal/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:canal-depressed:</code></td><td align="center"><img src="pets/canal/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:canal-terrified:</code></td><td align="center"><img src="pets/canal/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:canal-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/canal/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:canal-coquettish:</code></td><td align="center"><img src="pets/canal/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:canal-cute:</code></td><td align="center"><img src="pets/canal/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:canal-pleasing:</code></td><td align="center"><img src="pets/canal/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:canal-knocking:</code></td><td align="center"><img src="pets/canal/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:canal-facepalm:</code></td><td align="center"><img src="pets/canal/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:canal-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>小德</b> · <code>bag/druid-rust</code> · <code>:druid-rust-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/druid-rust/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:druid-rust-smile:</code></td><td align="center"><img src="pets/druid-rust/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:druid-rust-joy:</code></td><td align="center"><img src="pets/druid-rust/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:druid-rust-cry:</code></td><td align="center"><img src="pets/druid-rust/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:druid-rust-depressed:</code></td><td align="center"><img src="pets/druid-rust/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:druid-rust-terrified:</code></td><td align="center"><img src="pets/druid-rust/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:druid-rust-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/druid-rust/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:druid-rust-coquettish:</code></td><td align="center"><img src="pets/druid-rust/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:druid-rust-cute:</code></td><td align="center"><img src="pets/druid-rust/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:druid-rust-pleasing:</code></td><td align="center"><img src="pets/druid-rust/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:druid-rust-knocking:</code></td><td align="center"><img src="pets/druid-rust/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:druid-rust-facepalm:</code></td><td align="center"><img src="pets/druid-rust/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:druid-rust-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Locky</b> · <code>bag/encryption-rust</code> · <code>:encryption-rust-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/encryption-rust/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:encryption-rust-smile:</code></td><td align="center"><img src="pets/encryption-rust/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:encryption-rust-joy:</code></td><td align="center"><img src="pets/encryption-rust/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:encryption-rust-cry:</code></td><td align="center"><img src="pets/encryption-rust/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:encryption-rust-depressed:</code></td><td align="center"><img src="pets/encryption-rust/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:encryption-rust-terrified:</code></td><td align="center"><img src="pets/encryption-rust/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:encryption-rust-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/encryption-rust/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:encryption-rust-coquettish:</code></td><td align="center"><img src="pets/encryption-rust/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:encryption-rust-cute:</code></td><td align="center"><img src="pets/encryption-rust/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:encryption-rust-pleasing:</code></td><td align="center"><img src="pets/encryption-rust/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:encryption-rust-knocking:</code></td><td align="center"><img src="pets/encryption-rust/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:encryption-rust-facepalm:</code></td><td align="center"><img src="pets/encryption-rust/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:encryption-rust-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>小侦 Scouty</b> · <code>bag/go-scout</code> · <code>:go-scout-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/go-scout/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:go-scout-smile:</code></td><td align="center"><img src="pets/go-scout/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:go-scout-joy:</code></td><td align="center"><img src="pets/go-scout/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:go-scout-cry:</code></td><td align="center"><img src="pets/go-scout/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:go-scout-depressed:</code></td><td align="center"><img src="pets/go-scout/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:go-scout-terrified:</code></td><td align="center"><img src="pets/go-scout/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:go-scout-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/go-scout/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:go-scout-coquettish:</code></td><td align="center"><img src="pets/go-scout/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:go-scout-cute:</code></td><td align="center"><img src="pets/go-scout/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:go-scout-pleasing:</code></td><td align="center"><img src="pets/go-scout/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:go-scout-knocking:</code></td><td align="center"><img src="pets/go-scout/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:go-scout-facepalm:</code></td><td align="center"><img src="pets/go-scout/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:go-scout-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Kee · 橘猫</b> · <code>bag/jwt-rust</code> · <code>:jwt-rust-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/jwt-rust/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:jwt-rust-smile:</code></td><td align="center"><img src="pets/jwt-rust/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:jwt-rust-joy:</code></td><td align="center"><img src="pets/jwt-rust/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:jwt-rust-cry:</code></td><td align="center"><img src="pets/jwt-rust/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:jwt-rust-depressed:</code></td><td align="center"><img src="pets/jwt-rust/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:jwt-rust-terrified:</code></td><td align="center"><img src="pets/jwt-rust/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:jwt-rust-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/jwt-rust/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:jwt-rust-coquettish:</code></td><td align="center"><img src="pets/jwt-rust/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:jwt-rust-cute:</code></td><td align="center"><img src="pets/jwt-rust/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:jwt-rust-pleasing:</code></td><td align="center"><img src="pets/jwt-rust/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:jwt-rust-knocking:</code></td><td align="center"><img src="pets/jwt-rust/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:jwt-rust-facepalm:</code></td><td align="center"><img src="pets/jwt-rust/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:jwt-rust-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Posty</b> · <code>bag/poster-rust</code> · <code>:poster-rust-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/poster-rust/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:poster-rust-smile:</code></td><td align="center"><img src="pets/poster-rust/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:poster-rust-joy:</code></td><td align="center"><img src="pets/poster-rust/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:poster-rust-cry:</code></td><td align="center"><img src="pets/poster-rust/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:poster-rust-depressed:</code></td><td align="center"><img src="pets/poster-rust/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:poster-rust-terrified:</code></td><td align="center"><img src="pets/poster-rust/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:poster-rust-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/poster-rust/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:poster-rust-coquettish:</code></td><td align="center"><img src="pets/poster-rust/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:poster-rust-cute:</code></td><td align="center"><img src="pets/poster-rust/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:poster-rust-pleasing:</code></td><td align="center"><img src="pets/poster-rust/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:poster-rust-knocking:</code></td><td align="center"><img src="pets/poster-rust/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:poster-rust-facepalm:</code></td><td align="center"><img src="pets/poster-rust/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:poster-rust-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Scout</b> · <code>bag/rust-scout</code> · <code>:rust-scout-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/rust-scout/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:rust-scout-smile:</code></td><td align="center"><img src="pets/rust-scout/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:rust-scout-joy:</code></td><td align="center"><img src="pets/rust-scout/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:rust-scout-cry:</code></td><td align="center"><img src="pets/rust-scout/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:rust-scout-depressed:</code></td><td align="center"><img src="pets/rust-scout/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:rust-scout-terrified:</code></td><td align="center"><img src="pets/rust-scout/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:rust-scout-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/rust-scout/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:rust-scout-coquettish:</code></td><td align="center"><img src="pets/rust-scout/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:rust-scout-cute:</code></td><td align="center"><img src="pets/rust-scout/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:rust-scout-pleasing:</code></td><td align="center"><img src="pets/rust-scout/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:rust-scout-knocking:</code></td><td align="center"><img src="pets/rust-scout/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:rust-scout-facepalm:</code></td><td align="center"><img src="pets/rust-scout/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:rust-scout-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>哨兵鼠</b> · <code>bag/security-go</code> · <code>:security-go-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/security-go/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:security-go-smile:</code></td><td align="center"><img src="pets/security-go/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:security-go-joy:</code></td><td align="center"><img src="pets/security-go/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:security-go-cry:</code></td><td align="center"><img src="pets/security-go/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:security-go-depressed:</code></td><td align="center"><img src="pets/security-go/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:security-go-terrified:</code></td><td align="center"><img src="pets/security-go/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:security-go-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/security-go/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:security-go-coquettish:</code></td><td align="center"><img src="pets/security-go/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:security-go-cute:</code></td><td align="center"><img src="pets/security-go/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:security-go-pleasing:</code></td><td align="center"><img src="pets/security-go/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:security-go-knocking:</code></td><td align="center"><img src="pets/security-go/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:security-go-facepalm:</code></td><td align="center"><img src="pets/security-go/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:security-go-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>甲哨 Sentri</b> · <code>bag/security-rust</code> · <code>:security-rust-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/security-rust/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:security-rust-smile:</code></td><td align="center"><img src="pets/security-rust/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:security-rust-joy:</code></td><td align="center"><img src="pets/security-rust/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:security-rust-cry:</code></td><td align="center"><img src="pets/security-rust/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:security-rust-depressed:</code></td><td align="center"><img src="pets/security-rust/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:security-rust-terrified:</code></td><td align="center"><img src="pets/security-rust/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:security-rust-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/security-rust/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:security-rust-coquettish:</code></td><td align="center"><img src="pets/security-rust/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:security-rust-cute:</code></td><td align="center"><img src="pets/security-rust/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:security-rust-pleasing:</code></td><td align="center"><img src="pets/security-rust/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:security-rust-knocking:</code></td><td align="center"><img src="pets/security-rust/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:security-rust-facepalm:</code></td><td align="center"><img src="pets/security-rust/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:security-rust-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>以太兽</b> · <code>erikwang2013/aetherupload-webman</code> · <code>:aetherupload-webman-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/aetherupload-webman/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:aetherupload-webman-smile:</code></td><td align="center"><img src="pets/aetherupload-webman/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:aetherupload-webman-joy:</code></td><td align="center"><img src="pets/aetherupload-webman/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:aetherupload-webman-cry:</code></td><td align="center"><img src="pets/aetherupload-webman/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:aetherupload-webman-depressed:</code></td><td align="center"><img src="pets/aetherupload-webman/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:aetherupload-webman-terrified:</code></td><td align="center"><img src="pets/aetherupload-webman/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:aetherupload-webman-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/aetherupload-webman/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:aetherupload-webman-coquettish:</code></td><td align="center"><img src="pets/aetherupload-webman/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:aetherupload-webman-cute:</code></td><td align="center"><img src="pets/aetherupload-webman/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:aetherupload-webman-pleasing:</code></td><td align="center"><img src="pets/aetherupload-webman/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:aetherupload-webman-knocking:</code></td><td align="center"><img src="pets/aetherupload-webman/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:aetherupload-webman-facepalm:</code></td><td align="center"><img src="pets/aetherupload-webman/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:aetherupload-webman-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Apidoc</b> · <code>erikwang2013/apidoc-php</code> · <code>:apidoc-php-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/apidoc-php/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:apidoc-php-smile:</code></td><td align="center"><img src="pets/apidoc-php/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:apidoc-php-joy:</code></td><td align="center"><img src="pets/apidoc-php/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:apidoc-php-cry:</code></td><td align="center"><img src="pets/apidoc-php/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:apidoc-php-depressed:</code></td><td align="center"><img src="pets/apidoc-php/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:apidoc-php-terrified:</code></td><td align="center"><img src="pets/apidoc-php/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:apidoc-php-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/apidoc-php/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:apidoc-php-coquettish:</code></td><td align="center"><img src="pets/apidoc-php/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:apidoc-php-cute:</code></td><td align="center"><img src="pets/apidoc-php/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:apidoc-php-pleasing:</code></td><td align="center"><img src="pets/apidoc-php/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:apidoc-php-knocking:</code></td><td align="center"><img src="pets/apidoc-php/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:apidoc-php-facepalm:</code></td><td align="center"><img src="pets/apidoc-php/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:apidoc-php-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>ClickHouse 仓鼠</b> · <code>erikwang2013/clickhouse-php</code> · <code>:clickhouse-php-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/clickhouse-php/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:clickhouse-php-smile:</code></td><td align="center"><img src="pets/clickhouse-php/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:clickhouse-php-joy:</code></td><td align="center"><img src="pets/clickhouse-php/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:clickhouse-php-cry:</code></td><td align="center"><img src="pets/clickhouse-php/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:clickhouse-php-depressed:</code></td><td align="center"><img src="pets/clickhouse-php/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:clickhouse-php-terrified:</code></td><td align="center"><img src="pets/clickhouse-php/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:clickhouse-php-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/clickhouse-php/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:clickhouse-php-coquettish:</code></td><td align="center"><img src="pets/clickhouse-php/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:clickhouse-php-cute:</code></td><td align="center"><img src="pets/clickhouse-php/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:clickhouse-php-pleasing:</code></td><td align="center"><img src="pets/clickhouse-php/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:clickhouse-php-knocking:</code></td><td align="center"><img src="pets/clickhouse-php/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:clickhouse-php-facepalm:</code></td><td align="center"><img src="pets/clickhouse-php/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:clickhouse-php-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Consu</b> · <code>erikwang2013/consul-php</code> · <code>:consul-php-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/consul-php/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:consul-php-smile:</code></td><td align="center"><img src="pets/consul-php/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:consul-php-joy:</code></td><td align="center"><img src="pets/consul-php/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:consul-php-cry:</code></td><td align="center"><img src="pets/consul-php/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:consul-php-depressed:</code></td><td align="center"><img src="pets/consul-php/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:consul-php-terrified:</code></td><td align="center"><img src="pets/consul-php/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:consul-php-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/consul-php/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:consul-php-coquettish:</code></td><td align="center"><img src="pets/consul-php/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:consul-php-cute:</code></td><td align="center"><img src="pets/consul-php/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:consul-php-pleasing:</code></td><td align="center"><img src="pets/consul-php/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:consul-php-knocking:</code></td><td align="center"><img src="pets/consul-php/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:consul-php-facepalm:</code></td><td align="center"><img src="pets/consul-php/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:consul-php-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Locky</b> · <code>erikwang2013/encryptable</code> · <code>:encryptable-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/encryptable/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:encryptable-smile:</code></td><td align="center"><img src="pets/encryptable/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:encryptable-joy:</code></td><td align="center"><img src="pets/encryptable/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:encryptable-cry:</code></td><td align="center"><img src="pets/encryptable/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:encryptable-depressed:</code></td><td align="center"><img src="pets/encryptable/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:encryptable-terrified:</code></td><td align="center"><img src="pets/encryptable/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:encryptable-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/encryptable/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:encryptable-coquettish:</code></td><td align="center"><img src="pets/encryptable/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:encryptable-cute:</code></td><td align="center"><img src="pets/encryptable/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:encryptable-pleasing:</code></td><td align="center"><img src="pets/encryptable/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:encryptable-knocking:</code></td><td align="center"><img src="pets/encryptable/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:encryptable-facepalm:</code></td><td align="center"><img src="pets/encryptable/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:encryptable-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Locky</b> · <code>erikwang2013/encryption</code> · <code>:encryption-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/encryption/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:encryption-smile:</code></td><td align="center"><img src="pets/encryption/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:encryption-joy:</code></td><td align="center"><img src="pets/encryption/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:encryption-cry:</code></td><td align="center"><img src="pets/encryption/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:encryption-depressed:</code></td><td align="center"><img src="pets/encryption/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:encryption-terrified:</code></td><td align="center"><img src="pets/encryption/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:encryption-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/encryption/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:encryption-coquettish:</code></td><td align="center"><img src="pets/encryption/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:encryption-cute:</code></td><td align="center"><img src="pets/encryption/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:encryption-pleasing:</code></td><td align="center"><img src="pets/encryption/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:encryption-knocking:</code></td><td align="center"><img src="pets/encryption/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:encryption-facepalm:</code></td><td align="center"><img src="pets/encryption/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:encryption-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Etchy</b> · <code>erikwang2013/etcd</code> · <code>:etcd-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/etcd/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:etcd-smile:</code></td><td align="center"><img src="pets/etcd/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:etcd-joy:</code></td><td align="center"><img src="pets/etcd/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:etcd-cry:</code></td><td align="center"><img src="pets/etcd/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:etcd-depressed:</code></td><td align="center"><img src="pets/etcd/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:etcd-terrified:</code></td><td align="center"><img src="pets/etcd/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:etcd-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/etcd/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:etcd-coquettish:</code></td><td align="center"><img src="pets/etcd/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:etcd-cute:</code></td><td align="center"><img src="pets/etcd/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:etcd-pleasing:</code></td><td align="center"><img src="pets/etcd/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:etcd-knocking:</code></td><td align="center"><img src="pets/etcd/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:etcd-facepalm:</code></td><td align="center"><img src="pets/etcd/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:etcd-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>哈希迪 Hashy</b> · <code>erikwang2013/hashids</code> · <code>:hashids-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/hashids/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:hashids-smile:</code></td><td align="center"><img src="pets/hashids/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:hashids-joy:</code></td><td align="center"><img src="pets/hashids/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:hashids-cry:</code></td><td align="center"><img src="pets/hashids/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:hashids-depressed:</code></td><td align="center"><img src="pets/hashids/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:hashids-terrified:</code></td><td align="center"><img src="pets/hashids/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:hashids-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/hashids/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:hashids-coquettish:</code></td><td align="center"><img src="pets/hashids/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:hashids-cute:</code></td><td align="center"><img src="pets/hashids/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:hashids-pleasing:</code></td><td align="center"><img src="pets/hashids/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:hashids-knocking:</code></td><td align="center"><img src="pets/hashids/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:hashids-facepalm:</code></td><td align="center"><img src="pets/hashids/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:hashids-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Kee · 柴犬门卫</b> · <code>erikwang2013/jwt-webman</code> · <code>:jwt-webman-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/jwt-webman/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:jwt-webman-smile:</code></td><td align="center"><img src="pets/jwt-webman/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:jwt-webman-joy:</code></td><td align="center"><img src="pets/jwt-webman/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:jwt-webman-cry:</code></td><td align="center"><img src="pets/jwt-webman/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:jwt-webman-depressed:</code></td><td align="center"><img src="pets/jwt-webman/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:jwt-webman-terrified:</code></td><td align="center"><img src="pets/jwt-webman/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:jwt-webman-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/jwt-webman/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:jwt-webman-coquettish:</code></td><td align="center"><img src="pets/jwt-webman/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:jwt-webman-cute:</code></td><td align="center"><img src="pets/jwt-webman/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:jwt-webman-pleasing:</code></td><td align="center"><img src="pets/jwt-webman/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:jwt-webman-knocking:</code></td><td align="center"><img src="pets/jwt-webman/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:jwt-webman-facepalm:</code></td><td align="center"><img src="pets/jwt-webman/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:jwt-webman-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Posty</b> · <code>erikwang2013/poster-php</code> · <code>:poster-php-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/poster-php/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:poster-php-smile:</code></td><td align="center"><img src="pets/poster-php/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:poster-php-joy:</code></td><td align="center"><img src="pets/poster-php/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:poster-php-cry:</code></td><td align="center"><img src="pets/poster-php/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:poster-php-depressed:</code></td><td align="center"><img src="pets/poster-php/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:poster-php-terrified:</code></td><td align="center"><img src="pets/poster-php/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:poster-php-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/poster-php/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:poster-php-coquettish:</code></td><td align="center"><img src="pets/poster-php/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:poster-php-cute:</code></td><td align="center"><img src="pets/poster-php/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:poster-php-pleasing:</code></td><td align="center"><img src="pets/poster-php/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:poster-php-knocking:</code></td><td align="center"><img src="pets/poster-php/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:poster-php-facepalm:</code></td><td align="center"><img src="pets/poster-php/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:poster-php-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Seasony 季灵</b> · <code>erikwang2013/season</code> · <code>:season-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/season/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:season-smile:</code></td><td align="center"><img src="pets/season/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:season-joy:</code></td><td align="center"><img src="pets/season/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:season-cry:</code></td><td align="center"><img src="pets/season/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:season-depressed:</code></td><td align="center"><img src="pets/season/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:season-terrified:</code></td><td align="center"><img src="pets/season/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:season-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/season/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:season-coquettish:</code></td><td align="center"><img src="pets/season/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:season-cute:</code></td><td align="center"><img src="pets/season/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:season-pleasing:</code></td><td align="center"><img src="pets/season/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:season-knocking:</code></td><td align="center"><img src="pets/season/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:season-facepalm:</code></td><td align="center"><img src="pets/season/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:season-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>小盾</b> · <code>erikwang2013/security-php</code> · <code>:security-php-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/security-php/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:security-php-smile:</code></td><td align="center"><img src="pets/security-php/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:security-php-joy:</code></td><td align="center"><img src="pets/security-php/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:security-php-cry:</code></td><td align="center"><img src="pets/security-php/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:security-php-depressed:</code></td><td align="center"><img src="pets/security-php/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:security-php-terrified:</code></td><td align="center"><img src="pets/security-php/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:security-php-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/security-php/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:security-php-coquettish:</code></td><td align="center"><img src="pets/security-php/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:security-php-cute:</code></td><td align="center"><img src="pets/security-php/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:security-php-pleasing:</code></td><td align="center"><img src="pets/security-php/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:security-php-knocking:</code></td><td align="center"><img src="pets/security-php/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:security-php-facepalm:</code></td><td align="center"><img src="pets/security-php/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:security-php-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>雪花精灵</b> · <code>erikwang2013/snowflake-php</code> · <code>:snowflake-php-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/snowflake-php/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:snowflake-php-smile:</code></td><td align="center"><img src="pets/snowflake-php/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:snowflake-php-joy:</code></td><td align="center"><img src="pets/snowflake-php/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:snowflake-php-cry:</code></td><td align="center"><img src="pets/snowflake-php/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:snowflake-php-depressed:</code></td><td align="center"><img src="pets/snowflake-php/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:snowflake-php-terrified:</code></td><td align="center"><img src="pets/snowflake-php/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:snowflake-php-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/snowflake-php/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:snowflake-php-coquettish:</code></td><td align="center"><img src="pets/snowflake-php/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:snowflake-php-cute:</code></td><td align="center"><img src="pets/snowflake-php/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:snowflake-php-pleasing:</code></td><td align="center"><img src="pets/snowflake-php/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:snowflake-php-knocking:</code></td><td align="center"><img src="pets/snowflake-php/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:snowflake-php-facepalm:</code></td><td align="center"><img src="pets/snowflake-php/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:snowflake-php-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Sniffy</b> · <code>erikwang2013/webman-scout</code> · <code>:webman-scout-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/webman-scout/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:webman-scout-smile:</code></td><td align="center"><img src="pets/webman-scout/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:webman-scout-joy:</code></td><td align="center"><img src="pets/webman-scout/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:webman-scout-cry:</code></td><td align="center"><img src="pets/webman-scout/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:webman-scout-depressed:</code></td><td align="center"><img src="pets/webman-scout/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:webman-scout-terrified:</code></td><td align="center"><img src="pets/webman-scout/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:webman-scout-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/webman-scout/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:webman-scout-coquettish:</code></td><td align="center"><img src="pets/webman-scout/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:webman-scout-cute:</code></td><td align="center"><img src="pets/webman-scout/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:webman-scout-pleasing:</code></td><td align="center"><img src="pets/webman-scout/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:webman-scout-knocking:</code></td><td align="center"><img src="pets/webman-scout/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:webman-scout-facepalm:</code></td><td align="center"><img src="pets/webman-scout/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:webman-scout-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Xhpy</b> · <code>erikwang2013/xhprof</code> · <code>:xhprof-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/xhprof/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:xhprof-smile:</code></td><td align="center"><img src="pets/xhprof/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:xhprof-joy:</code></td><td align="center"><img src="pets/xhprof/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:xhprof-cry:</code></td><td align="center"><img src="pets/xhprof/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:xhprof-depressed:</code></td><td align="center"><img src="pets/xhprof/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:xhprof-terrified:</code></td><td align="center"><img src="pets/xhprof/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:xhprof-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/xhprof/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:xhprof-coquettish:</code></td><td align="center"><img src="pets/xhprof/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:xhprof-cute:</code></td><td align="center"><img src="pets/xhprof/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:xhprof-pleasing:</code></td><td align="center"><img src="pets/xhprof/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:xhprof-knocking:</code></td><td align="center"><img src="pets/xhprof/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:xhprof-facepalm:</code></td><td align="center"><img src="pets/xhprof/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:xhprof-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>焰焰</b> · <code>erikwang2013/xhprof-webman</code> · <code>:xhprof-webman-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/xhprof-webman/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:xhprof-webman-smile:</code></td><td align="center"><img src="pets/xhprof-webman/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:xhprof-webman-joy:</code></td><td align="center"><img src="pets/xhprof-webman/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:xhprof-webman-cry:</code></td><td align="center"><img src="pets/xhprof-webman/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:xhprof-webman-depressed:</code></td><td align="center"><img src="pets/xhprof-webman/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:xhprof-webman-terrified:</code></td><td align="center"><img src="pets/xhprof-webman/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:xhprof-webman-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/xhprof-webman/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:xhprof-webman-coquettish:</code></td><td align="center"><img src="pets/xhprof-webman/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:xhprof-webman-cute:</code></td><td align="center"><img src="pets/xhprof-webman/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:xhprof-webman-pleasing:</code></td><td align="center"><img src="pets/xhprof-webman/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:xhprof-webman-knocking:</code></td><td align="center"><img src="pets/xhprof-webman/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:xhprof-webman-facepalm:</code></td><td align="center"><img src="pets/xhprof-webman/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:xhprof-webman-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>吞吞</b> · <code>oss</code> · <code>:oss-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/oss/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:oss-smile:</code></td><td align="center"><img src="pets/oss/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:oss-joy:</code></td><td align="center"><img src="pets/oss/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:oss-cry:</code></td><td align="center"><img src="pets/oss/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:oss-depressed:</code></td><td align="center"><img src="pets/oss/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:oss-terrified:</code></td><td align="center"><img src="pets/oss/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:oss-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/oss/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:oss-coquettish:</code></td><td align="center"><img src="pets/oss/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:oss-cute:</code></td><td align="center"><img src="pets/oss/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:oss-pleasing:</code></td><td align="center"><img src="pets/oss/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:oss-knocking:</code></td><td align="center"><img src="pets/oss/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:oss-facepalm:</code></td><td align="center"><img src="pets/oss/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:oss-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>Pax</b> · <code>polypack</code> · <code>:polypack-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/polypack/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:polypack-smile:</code></td><td align="center"><img src="pets/polypack/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:polypack-joy:</code></td><td align="center"><img src="pets/polypack/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:polypack-cry:</code></td><td align="center"><img src="pets/polypack/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:polypack-depressed:</code></td><td align="center"><img src="pets/polypack/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:polypack-terrified:</code></td><td align="center"><img src="pets/polypack/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:polypack-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/polypack/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:polypack-coquettish:</code></td><td align="center"><img src="pets/polypack/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:polypack-cute:</code></td><td align="center"><img src="pets/polypack/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:polypack-pleasing:</code></td><td align="center"><img src="pets/polypack/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:polypack-knocking:</code></td><td align="center"><img src="pets/polypack/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:polypack-facepalm:</code></td><td align="center"><img src="pets/polypack/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:polypack-tongue:</code></td></tr>
-</table>
-
-</details>
-<details>
-<summary><b>小欧</b> · <code>opi</code> · <code>:opi-*:</code></summary>
-
-<table align="center">
-<tr><td align="center"><img src="pets/opi/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:opi-smile:</code></td><td align="center"><img src="pets/opi/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:opi-joy:</code></td><td align="center"><img src="pets/opi/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:opi-cry:</code></td><td align="center"><img src="pets/opi/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:opi-depressed:</code></td><td align="center"><img src="pets/opi/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:opi-terrified:</code></td><td align="center"><img src="pets/opi/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:opi-angry:</code></td></tr>
-<tr><td align="center"><img src="pets/opi/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:opi-coquettish:</code></td><td align="center"><img src="pets/opi/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:opi-cute:</code></td><td align="center"><img src="pets/opi/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:opi-pleasing:</code></td><td align="center"><img src="pets/opi/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:opi-knocking:</code></td><td align="center"><img src="pets/opi/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:opi-facepalm:</code></td><td align="center"><img src="pets/opi/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:opi-tongue:</code></td></tr>
-</table>
-
-</details>
+### 阿章 · `ads-php` · `:ads-php-*:`
+
+![笑](pets/ads-php/smile.svg) `:ads-php-smile:` · ![欢乐](pets/ads-php/joy.svg) `:ads-php-joy:` · ![哭](pets/ads-php/cry.svg) `:ads-php-cry:` · ![沮丧](pets/ads-php/depressed.svg) `:ads-php-depressed:` · ![惊恐](pets/ads-php/terrified.svg) `:ads-php-terrified:` · ![愤怒](pets/ads-php/angry.svg) `:ads-php-angry:`
+
+![撒娇](pets/ads-php/coquettish.svg) `:ads-php-coquettish:` · ![卖萌](pets/ads-php/cute.svg) `:ads-php-cute:` · ![讨好](pets/ads-php/pleasing.svg) `:ads-php-pleasing:` · ![敲打](pets/ads-php/knocking.svg) `:ads-php-knocking:` · ![捂脸](pets/ads-php/facepalm.svg) `:ads-php-facepalm:` · ![吐舌头](pets/ads-php/tongue.svg) `:ads-php-tongue:`
+
+### 小约 · `appointment-php` · `:appointment-php-*:`
+
+![笑](pets/appointment-php/smile.svg) `:appointment-php-smile:` · ![欢乐](pets/appointment-php/joy.svg) `:appointment-php-joy:` · ![哭](pets/appointment-php/cry.svg) `:appointment-php-cry:` · ![沮丧](pets/appointment-php/depressed.svg) `:appointment-php-depressed:` · ![惊恐](pets/appointment-php/terrified.svg) `:appointment-php-terrified:` · ![愤怒](pets/appointment-php/angry.svg) `:appointment-php-angry:`
+
+![撒娇](pets/appointment-php/coquettish.svg) `:appointment-php-coquettish:` · ![卖萌](pets/appointment-php/cute.svg) `:appointment-php-cute:` · ![讨好](pets/appointment-php/pleasing.svg) `:appointment-php-pleasing:` · ![敲打](pets/appointment-php/knocking.svg) `:appointment-php-knocking:` · ![捂脸](pets/appointment-php/facepalm.svg) `:appointment-php-facepalm:` · ![吐舌头](pets/appointment-php/tongue.svg) `:appointment-php-tongue:`
+
+### Rusty · `bee-rust` · `:bee-rust-*:`
+
+![笑](pets/bee-rust/smile.svg) `:bee-rust-smile:` · ![欢乐](pets/bee-rust/joy.svg) `:bee-rust-joy:` · ![哭](pets/bee-rust/cry.svg) `:bee-rust-cry:` · ![沮丧](pets/bee-rust/depressed.svg) `:bee-rust-depressed:` · ![惊恐](pets/bee-rust/terrified.svg) `:bee-rust-terrified:` · ![愤怒](pets/bee-rust/angry.svg) `:bee-rust-angry:`
+
+![撒娇](pets/bee-rust/coquettish.svg) `:bee-rust-coquettish:` · ![卖萌](pets/bee-rust/cute.svg) `:bee-rust-cute:` · ![讨好](pets/bee-rust/pleasing.svg) `:bee-rust-pleasing:` · ![敲打](pets/bee-rust/knocking.svg) `:bee-rust-knocking:` · ![捂脸](pets/bee-rust/facepalm.svg) `:bee-rust-facepalm:` · ![吐舌头](pets/bee-rust/tongue.svg) `:bee-rust-tongue:`
+
+### 阿守 · `bee-rust-admin` · `:bee-rust-admin-*:`
+
+![笑](pets/bee-rust-admin/smile.svg) `:bee-rust-admin-smile:` · ![欢乐](pets/bee-rust-admin/joy.svg) `:bee-rust-admin-joy:` · ![哭](pets/bee-rust-admin/cry.svg) `:bee-rust-admin-cry:` · ![沮丧](pets/bee-rust-admin/depressed.svg) `:bee-rust-admin-depressed:` · ![惊恐](pets/bee-rust-admin/terrified.svg) `:bee-rust-admin-terrified:` · ![愤怒](pets/bee-rust-admin/angry.svg) `:bee-rust-admin-angry:`
+
+![撒娇](pets/bee-rust-admin/coquettish.svg) `:bee-rust-admin-coquettish:` · ![卖萌](pets/bee-rust-admin/cute.svg) `:bee-rust-admin-cute:` · ![讨好](pets/bee-rust-admin/pleasing.svg) `:bee-rust-admin-pleasing:` · ![敲打](pets/bee-rust-admin/knocking.svg) `:bee-rust-admin-knocking:` · ![捂脸](pets/bee-rust-admin/facepalm.svg) `:bee-rust-admin-facepalm:` · ![吐舌头](pets/bee-rust-admin/tongue.svg) `:bee-rust-admin-tongue:`
+
+### 云团 · `cloud-php` · `:cloud-php-*:`
+
+![笑](pets/cloud-php/smile.svg) `:cloud-php-smile:` · ![欢乐](pets/cloud-php/joy.svg) `:cloud-php-joy:` · ![哭](pets/cloud-php/cry.svg) `:cloud-php-cry:` · ![沮丧](pets/cloud-php/depressed.svg) `:cloud-php-depressed:` · ![惊恐](pets/cloud-php/terrified.svg) `:cloud-php-terrified:` · ![愤怒](pets/cloud-php/angry.svg) `:cloud-php-angry:`
+
+![撒娇](pets/cloud-php/coquettish.svg) `:cloud-php-coquettish:` · ![卖萌](pets/cloud-php/cute.svg) `:cloud-php-cute:` · ![讨好](pets/cloud-php/pleasing.svg) `:cloud-php-pleasing:` · ![敲打](pets/cloud-php/knocking.svg) `:cloud-php-knocking:` · ![捂脸](pets/cloud-php/facepalm.svg) `:cloud-php-facepalm:` · ![吐舌头](pets/cloud-php/tongue.svg) `:cloud-php-tongue:`
+
+### E-Cat · `e-cat` · `:e-cat-*:`
+
+![笑](pets/e-cat/smile.svg) `:e-cat-smile:` · ![欢乐](pets/e-cat/joy.svg) `:e-cat-joy:` · ![哭](pets/e-cat/cry.svg) `:e-cat-cry:` · ![沮丧](pets/e-cat/depressed.svg) `:e-cat-depressed:` · ![惊恐](pets/e-cat/terrified.svg) `:e-cat-terrified:` · ![愤怒](pets/e-cat/angry.svg) `:e-cat-angry:`
+
+![撒娇](pets/e-cat/coquettish.svg) `:e-cat-coquettish:` · ![卖萌](pets/e-cat/cute.svg) `:e-cat-cute:` · ![讨好](pets/e-cat/pleasing.svg) `:e-cat-pleasing:` · ![敲打](pets/e-cat/knocking.svg) `:e-cat-knocking:` · ![捂脸](pets/e-cat/facepalm.svg) `:e-cat-facepalm:` · ![吐舌头](pets/e-cat/tongue.svg) `:e-cat-tongue:`
+
+### Lumi · `erik-talk` · `:erik-talk-*:`
+
+![笑](pets/erik-talk/smile.svg) `:erik-talk-smile:` · ![欢乐](pets/erik-talk/joy.svg) `:erik-talk-joy:` · ![哭](pets/erik-talk/cry.svg) `:erik-talk-cry:` · ![沮丧](pets/erik-talk/depressed.svg) `:erik-talk-depressed:` · ![惊恐](pets/erik-talk/terrified.svg) `:erik-talk-terrified:` · ![愤怒](pets/erik-talk/angry.svg) `:erik-talk-angry:`
+
+![撒娇](pets/erik-talk/coquettish.svg) `:erik-talk-coquettish:` · ![卖萌](pets/erik-talk/cute.svg) `:erik-talk-cute:` · ![讨好](pets/erik-talk/pleasing.svg) `:erik-talk-pleasing:` · ![敲打](pets/erik-talk/knocking.svg) `:erik-talk-knocking:` · ![捂脸](pets/erik-talk/facepalm.svg) `:erik-talk-facepalm:` · ![吐舌头](pets/erik-talk/tongue.svg) `:erik-talk-tongue:`
+
+### 小八爪 · `erp-php` · `:erp-php-*:`
+
+![笑](pets/erp-php/smile.svg) `:erp-php-smile:` · ![欢乐](pets/erp-php/joy.svg) `:erp-php-joy:` · ![哭](pets/erp-php/cry.svg) `:erp-php-cry:` · ![沮丧](pets/erp-php/depressed.svg) `:erp-php-depressed:` · ![惊恐](pets/erp-php/terrified.svg) `:erp-php-terrified:` · ![愤怒](pets/erp-php/angry.svg) `:erp-php-angry:`
+
+![撒娇](pets/erp-php/coquettish.svg) `:erp-php-coquettish:` · ![卖萌](pets/erp-php/cute.svg) `:erp-php-cute:` · ![讨好](pets/erp-php/pleasing.svg) `:erp-php-pleasing:` · ![敲打](pets/erp-php/knocking.svg) `:erp-php-knocking:` · ![捂脸](pets/erp-php/facepalm.svg) `:erp-php-facepalm:` · ![吐舌头](pets/erp-php/tongue.svg) `:erp-php-tongue:`
+
+### Dicey · `game-platform-php` · `:game-platform-php-*:`
+
+![笑](pets/game-platform-php/smile.svg) `:game-platform-php-smile:` · ![欢乐](pets/game-platform-php/joy.svg) `:game-platform-php-joy:` · ![哭](pets/game-platform-php/cry.svg) `:game-platform-php-cry:` · ![沮丧](pets/game-platform-php/depressed.svg) `:game-platform-php-depressed:` · ![惊恐](pets/game-platform-php/terrified.svg) `:game-platform-php-terrified:` · ![愤怒](pets/game-platform-php/angry.svg) `:game-platform-php-angry:`
+
+![撒娇](pets/game-platform-php/coquettish.svg) `:game-platform-php-coquettish:` · ![卖萌](pets/game-platform-php/cute.svg) `:game-platform-php-cute:` · ![讨好](pets/game-platform-php/pleasing.svg) `:game-platform-php-pleasing:` · ![敲打](pets/game-platform-php/knocking.svg) `:game-platform-php-knocking:` · ![捂脸](pets/game-platform-php/facepalm.svg) `:game-platform-php-facepalm:` · ![吐舌头](pets/game-platform-php/tongue.svg) `:game-platform-php-tongue:`
+
+### 霜霜 · `insurance-service` · `:insurance-service-*:`
+
+![笑](pets/insurance-service/smile.svg) `:insurance-service-smile:` · ![欢乐](pets/insurance-service/joy.svg) `:insurance-service-joy:` · ![哭](pets/insurance-service/cry.svg) `:insurance-service-cry:` · ![沮丧](pets/insurance-service/depressed.svg) `:insurance-service-depressed:` · ![惊恐](pets/insurance-service/terrified.svg) `:insurance-service-terrified:` · ![愤怒](pets/insurance-service/angry.svg) `:insurance-service-angry:`
+
+![撒娇](pets/insurance-service/coquettish.svg) `:insurance-service-coquettish:` · ![卖萌](pets/insurance-service/cute.svg) `:insurance-service-cute:` · ![讨好](pets/insurance-service/pleasing.svg) `:insurance-service-pleasing:` · ![敲打](pets/insurance-service/knocking.svg) `:insurance-service-knocking:` · ![捂脸](pets/insurance-service/facepalm.svg) `:insurance-service-facepalm:` · ![吐舌头](pets/insurance-service/tongue.svg) `:insurance-service-tongue:`
+
+### E-Cat · `integrated-global-logistics` · `:integrated-global-logistics-*:`
+
+![笑](pets/integrated-global-logistics/smile.svg) `:integrated-global-logistics-smile:` · ![欢乐](pets/integrated-global-logistics/joy.svg) `:integrated-global-logistics-joy:` · ![哭](pets/integrated-global-logistics/cry.svg) `:integrated-global-logistics-cry:` · ![沮丧](pets/integrated-global-logistics/depressed.svg) `:integrated-global-logistics-depressed:` · ![惊恐](pets/integrated-global-logistics/terrified.svg) `:integrated-global-logistics-terrified:` · ![愤怒](pets/integrated-global-logistics/angry.svg) `:integrated-global-logistics-angry:`
+
+![撒娇](pets/integrated-global-logistics/coquettish.svg) `:integrated-global-logistics-coquettish:` · ![卖萌](pets/integrated-global-logistics/cute.svg) `:integrated-global-logistics-cute:` · ![讨好](pets/integrated-global-logistics/pleasing.svg) `:integrated-global-logistics-pleasing:` · ![敲打](pets/integrated-global-logistics/knocking.svg) `:integrated-global-logistics-knocking:` · ![捂脸](pets/integrated-global-logistics/facepalm.svg) `:integrated-global-logistics-facepalm:` · ![吐舌头](pets/integrated-global-logistics/tongue.svg) `:integrated-global-logistics-tongue:`
+
+### IoT Bot · `iot-platform` · `:iot-platform-*:`
+
+![笑](pets/iot-platform/smile.svg) `:iot-platform-smile:` · ![欢乐](pets/iot-platform/joy.svg) `:iot-platform-joy:` · ![哭](pets/iot-platform/cry.svg) `:iot-platform-cry:` · ![沮丧](pets/iot-platform/depressed.svg) `:iot-platform-depressed:` · ![惊恐](pets/iot-platform/terrified.svg) `:iot-platform-terrified:` · ![愤怒](pets/iot-platform/angry.svg) `:iot-platform-angry:`
+
+![撒娇](pets/iot-platform/coquettish.svg) `:iot-platform-coquettish:` · ![卖萌](pets/iot-platform/cute.svg) `:iot-platform-cute:` · ![讨好](pets/iot-platform/pleasing.svg) `:iot-platform-pleasing:` · ![敲打](pets/iot-platform/knocking.svg) `:iot-platform-knocking:` · ![捂脸](pets/iot-platform/facepalm.svg) `:iot-platform-facepalm:` · ![吐舌头](pets/iot-platform/tongue.svg) `:iot-platform-tongue:`
+
+### 租租鼠 · `item-rental` · `:item-rental-*:`
+
+![笑](pets/item-rental/smile.svg) `:item-rental-smile:` · ![欢乐](pets/item-rental/joy.svg) `:item-rental-joy:` · ![哭](pets/item-rental/cry.svg) `:item-rental-cry:` · ![沮丧](pets/item-rental/depressed.svg) `:item-rental-depressed:` · ![惊恐](pets/item-rental/terrified.svg) `:item-rental-terrified:` · ![愤怒](pets/item-rental/angry.svg) `:item-rental-angry:`
+
+![撒娇](pets/item-rental/coquettish.svg) `:item-rental-coquettish:` · ![卖萌](pets/item-rental/cute.svg) `:item-rental-cute:` · ![讨好](pets/item-rental/pleasing.svg) `:item-rental-pleasing:` · ![敲打](pets/item-rental/knocking.svg) `:item-rental-knocking:` · ![捂脸](pets/item-rental/facepalm.svg) `:item-rental-facepalm:` · ![吐舌头](pets/item-rental/tongue.svg) `:item-rental-tongue:`
+
+### 小音机 · `omb` · `:omb-*:`
+
+![笑](pets/omb/smile.svg) `:omb-smile:` · ![欢乐](pets/omb/joy.svg) `:omb-joy:` · ![哭](pets/omb/cry.svg) `:omb-cry:` · ![沮丧](pets/omb/depressed.svg) `:omb-depressed:` · ![惊恐](pets/omb/terrified.svg) `:omb-terrified:` · ![愤怒](pets/omb/angry.svg) `:omb-angry:`
+
+![撒娇](pets/omb/coquettish.svg) `:omb-coquettish:` · ![卖萌](pets/omb/cute.svg) `:omb-cute:` · ![讨好](pets/omb/pleasing.svg) `:omb-pleasing:` · ![敲打](pets/omb/knocking.svg) `:omb-knocking:` · ![捂脸](pets/omb/facepalm.svg) `:omb-facepalm:` · ![吐舌头](pets/omb/tongue.svg) `:omb-tongue:`
+
+### 小安 · `open-admin` · `:open-admin-*:`
+
+![笑](pets/open-admin/smile.svg) `:open-admin-smile:` · ![欢乐](pets/open-admin/joy.svg) `:open-admin-joy:` · ![哭](pets/open-admin/cry.svg) `:open-admin-cry:` · ![沮丧](pets/open-admin/depressed.svg) `:open-admin-depressed:` · ![惊恐](pets/open-admin/terrified.svg) `:open-admin-terrified:` · ![愤怒](pets/open-admin/angry.svg) `:open-admin-angry:`
+
+![撒娇](pets/open-admin/coquettish.svg) `:open-admin-coquettish:` · ![卖萌](pets/open-admin/cute.svg) `:open-admin-cute:` · ![讨好](pets/open-admin/pleasing.svg) `:open-admin-pleasing:` · ![敲打](pets/open-admin/knocking.svg) `:open-admin-knocking:` · ![捂脸](pets/open-admin/facepalm.svg) `:open-admin-facepalm:` · ![吐舌头](pets/open-admin/tongue.svg) `:open-admin-tongue:`
+
+### Novi · `open-novel` · `:open-novel-*:`
+
+![笑](pets/open-novel/smile.svg) `:open-novel-smile:` · ![欢乐](pets/open-novel/joy.svg) `:open-novel-joy:` · ![哭](pets/open-novel/cry.svg) `:open-novel-cry:` · ![沮丧](pets/open-novel/depressed.svg) `:open-novel-depressed:` · ![惊恐](pets/open-novel/terrified.svg) `:open-novel-terrified:` · ![愤怒](pets/open-novel/angry.svg) `:open-novel-angry:`
+
+![撒娇](pets/open-novel/coquettish.svg) `:open-novel-coquettish:` · ![卖萌](pets/open-novel/cute.svg) `:open-novel-cute:` · ![讨好](pets/open-novel/pleasing.svg) `:open-novel-pleasing:` · ![敲打](pets/open-novel/knocking.svg) `:open-novel-knocking:` · ![捂脸](pets/open-novel/facepalm.svg) `:open-novel-facepalm:` · ![吐舌头](pets/open-novel/tongue.svg) `:open-novel-tongue:`
+
+### 南南 · `open-travel` · `:open-travel-*:`
+
+![笑](pets/open-travel/smile.svg) `:open-travel-smile:` · ![欢乐](pets/open-travel/joy.svg) `:open-travel-joy:` · ![哭](pets/open-travel/cry.svg) `:open-travel-cry:` · ![沮丧](pets/open-travel/depressed.svg) `:open-travel-depressed:` · ![惊恐](pets/open-travel/terrified.svg) `:open-travel-terrified:` · ![愤怒](pets/open-travel/angry.svg) `:open-travel-angry:`
+
+![撒娇](pets/open-travel/coquettish.svg) `:open-travel-coquettish:` · ![卖萌](pets/open-travel/cute.svg) `:open-travel-cute:` · ![讨好](pets/open-travel/pleasing.svg) `:open-travel-pleasing:` · ![敲打](pets/open-travel/knocking.svg) `:open-travel-knocking:` · ![捂脸](pets/open-travel/facepalm.svg) `:open-travel-facepalm:` · ![吐舌头](pets/open-travel/tongue.svg) `:open-travel-tongue:`
+
+### 小筑 · `property-management-platform` · `:property-management-platform-*:`
+
+![笑](pets/property-management-platform/smile.svg) `:property-management-platform-smile:` · ![欢乐](pets/property-management-platform/joy.svg) `:property-management-platform-joy:` · ![哭](pets/property-management-platform/cry.svg) `:property-management-platform-cry:` · ![沮丧](pets/property-management-platform/depressed.svg) `:property-management-platform-depressed:` · ![惊恐](pets/property-management-platform/terrified.svg) `:property-management-platform-terrified:` · ![愤怒](pets/property-management-platform/angry.svg) `:property-management-platform-angry:`
+
+![撒娇](pets/property-management-platform/coquettish.svg) `:property-management-platform-coquettish:` · ![卖萌](pets/property-management-platform/cute.svg) `:property-management-platform-cute:` · ![讨好](pets/property-management-platform/pleasing.svg) `:property-management-platform-pleasing:` · ![敲打](pets/property-management-platform/knocking.svg) `:property-management-platform-knocking:` · ![捂脸](pets/property-management-platform/facepalm.svg) `:property-management-platform-facepalm:` · ![吐舌头](pets/property-management-platform/tongue.svg) `:property-management-platform-tongue:`
+
+### 犇犇 · `quantitative-trading` · `:quantitative-trading-*:`
+
+![笑](pets/quantitative-trading/smile.svg) `:quantitative-trading-smile:` · ![欢乐](pets/quantitative-trading/joy.svg) `:quantitative-trading-joy:` · ![哭](pets/quantitative-trading/cry.svg) `:quantitative-trading-cry:` · ![沮丧](pets/quantitative-trading/depressed.svg) `:quantitative-trading-depressed:` · ![惊恐](pets/quantitative-trading/terrified.svg) `:quantitative-trading-terrified:` · ![愤怒](pets/quantitative-trading/angry.svg) `:quantitative-trading-angry:`
+
+![撒娇](pets/quantitative-trading/coquettish.svg) `:quantitative-trading-coquettish:` · ![卖萌](pets/quantitative-trading/cute.svg) `:quantitative-trading-cute:` · ![讨好](pets/quantitative-trading/pleasing.svg) `:quantitative-trading-pleasing:` · ![敲打](pets/quantitative-trading/knocking.svg) `:quantitative-trading-knocking:` · ![捂脸](pets/quantitative-trading/facepalm.svg) `:quantitative-trading-facepalm:` · ![吐舌头](pets/quantitative-trading/tongue.svg) `:quantitative-trading-tongue:`
+
+### 雪球 Snowy · `shop-php` · `:shop-php-*:`
+
+![笑](pets/shop-php/smile.svg) `:shop-php-smile:` · ![欢乐](pets/shop-php/joy.svg) `:shop-php-joy:` · ![哭](pets/shop-php/cry.svg) `:shop-php-cry:` · ![沮丧](pets/shop-php/depressed.svg) `:shop-php-depressed:` · ![惊恐](pets/shop-php/terrified.svg) `:shop-php-terrified:` · ![愤怒](pets/shop-php/angry.svg) `:shop-php-angry:`
+
+![撒娇](pets/shop-php/coquettish.svg) `:shop-php-coquettish:` · ![卖萌](pets/shop-php/cute.svg) `:shop-php-cute:` · ![讨好](pets/shop-php/pleasing.svg) `:shop-php-pleasing:` · ![敲打](pets/shop-php/knocking.svg) `:shop-php-knocking:` · ![捂脸](pets/shop-php/facepalm.svg) `:shop-php-facepalm:` · ![吐舌头](pets/shop-php/tongue.svg) `:shop-php-tongue:`
+
+### Bub · `social` · `:social-*:`
+
+![笑](pets/social/smile.svg) `:social-smile:` · ![欢乐](pets/social/joy.svg) `:social-joy:` · ![哭](pets/social/cry.svg) `:social-cry:` · ![沮丧](pets/social/depressed.svg) `:social-depressed:` · ![惊恐](pets/social/terrified.svg) `:social-terrified:` · ![愤怒](pets/social/angry.svg) `:social-angry:`
+
+![撒娇](pets/social/coquettish.svg) `:social-coquettish:` · ![卖萌](pets/social/cute.svg) `:social-cute:` · ![讨好](pets/social/pleasing.svg) `:social-pleasing:` · ![敲打](pets/social/knocking.svg) `:social-knocking:` · ![捂脸](pets/social/facepalm.svg) `:social-facepalm:` · ![吐舌头](pets/social/tongue.svg) `:social-tongue:`
+
+### ssd · `ssd` · `:ssd-*:`
+
+![笑](pets/ssd/smile.svg) `:ssd-smile:` · ![欢乐](pets/ssd/joy.svg) `:ssd-joy:` · ![哭](pets/ssd/cry.svg) `:ssd-cry:` · ![沮丧](pets/ssd/depressed.svg) `:ssd-depressed:` · ![惊恐](pets/ssd/terrified.svg) `:ssd-terrified:` · ![愤怒](pets/ssd/angry.svg) `:ssd-angry:`
+
+![撒娇](pets/ssd/coquettish.svg) `:ssd-coquettish:` · ![卖萌](pets/ssd/cute.svg) `:ssd-cute:` · ![讨好](pets/ssd/pleasing.svg) `:ssd-pleasing:` · ![敲打](pets/ssd/knocking.svg) `:ssd-knocking:` · ![捂脸](pets/ssd/facepalm.svg) `:ssd-facepalm:` · ![吐舌头](pets/ssd/tongue.svg) `:ssd-tongue:`
+
+### 超猫 SuperCat · `super-ops` · `:super-ops-*:`
+
+![笑](pets/super-ops/smile.svg) `:super-ops-smile:` · ![欢乐](pets/super-ops/joy.svg) `:super-ops-joy:` · ![哭](pets/super-ops/cry.svg) `:super-ops-cry:` · ![沮丧](pets/super-ops/depressed.svg) `:super-ops-depressed:` · ![惊恐](pets/super-ops/terrified.svg) `:super-ops-terrified:` · ![愤怒](pets/super-ops/angry.svg) `:super-ops-angry:`
+
+![撒娇](pets/super-ops/coquettish.svg) `:super-ops-coquettish:` · ![卖萌](pets/super-ops/cute.svg) `:super-ops-cute:` · ![讨好](pets/super-ops/pleasing.svg) `:super-ops-pleasing:` · ![敲打](pets/super-ops/knocking.svg) `:super-ops-knocking:` · ![捂脸](pets/super-ops/facepalm.svg) `:super-ops-facepalm:` · ![吐舌头](pets/super-ops/tongue.svg) `:super-ops-tongue:`
+
+### 小运 · `bag/canal` · `:canal-*:`
+
+![笑](pets/canal/smile.svg) `:canal-smile:` · ![欢乐](pets/canal/joy.svg) `:canal-joy:` · ![哭](pets/canal/cry.svg) `:canal-cry:` · ![沮丧](pets/canal/depressed.svg) `:canal-depressed:` · ![惊恐](pets/canal/terrified.svg) `:canal-terrified:` · ![愤怒](pets/canal/angry.svg) `:canal-angry:`
+
+![撒娇](pets/canal/coquettish.svg) `:canal-coquettish:` · ![卖萌](pets/canal/cute.svg) `:canal-cute:` · ![讨好](pets/canal/pleasing.svg) `:canal-pleasing:` · ![敲打](pets/canal/knocking.svg) `:canal-knocking:` · ![捂脸](pets/canal/facepalm.svg) `:canal-facepalm:` · ![吐舌头](pets/canal/tongue.svg) `:canal-tongue:`
+
+### 小德 · `bag/druid-rust` · `:druid-rust-*:`
+
+![笑](pets/druid-rust/smile.svg) `:druid-rust-smile:` · ![欢乐](pets/druid-rust/joy.svg) `:druid-rust-joy:` · ![哭](pets/druid-rust/cry.svg) `:druid-rust-cry:` · ![沮丧](pets/druid-rust/depressed.svg) `:druid-rust-depressed:` · ![惊恐](pets/druid-rust/terrified.svg) `:druid-rust-terrified:` · ![愤怒](pets/druid-rust/angry.svg) `:druid-rust-angry:`
+
+![撒娇](pets/druid-rust/coquettish.svg) `:druid-rust-coquettish:` · ![卖萌](pets/druid-rust/cute.svg) `:druid-rust-cute:` · ![讨好](pets/druid-rust/pleasing.svg) `:druid-rust-pleasing:` · ![敲打](pets/druid-rust/knocking.svg) `:druid-rust-knocking:` · ![捂脸](pets/druid-rust/facepalm.svg) `:druid-rust-facepalm:` · ![吐舌头](pets/druid-rust/tongue.svg) `:druid-rust-tongue:`
+
+### Locky · `bag/encryption-rust` · `:encryption-rust-*:`
+
+![笑](pets/encryption-rust/smile.svg) `:encryption-rust-smile:` · ![欢乐](pets/encryption-rust/joy.svg) `:encryption-rust-joy:` · ![哭](pets/encryption-rust/cry.svg) `:encryption-rust-cry:` · ![沮丧](pets/encryption-rust/depressed.svg) `:encryption-rust-depressed:` · ![惊恐](pets/encryption-rust/terrified.svg) `:encryption-rust-terrified:` · ![愤怒](pets/encryption-rust/angry.svg) `:encryption-rust-angry:`
+
+![撒娇](pets/encryption-rust/coquettish.svg) `:encryption-rust-coquettish:` · ![卖萌](pets/encryption-rust/cute.svg) `:encryption-rust-cute:` · ![讨好](pets/encryption-rust/pleasing.svg) `:encryption-rust-pleasing:` · ![敲打](pets/encryption-rust/knocking.svg) `:encryption-rust-knocking:` · ![捂脸](pets/encryption-rust/facepalm.svg) `:encryption-rust-facepalm:` · ![吐舌头](pets/encryption-rust/tongue.svg) `:encryption-rust-tongue:`
+
+### 小侦 Scouty · `bag/go-scout` · `:go-scout-*:`
+
+![笑](pets/go-scout/smile.svg) `:go-scout-smile:` · ![欢乐](pets/go-scout/joy.svg) `:go-scout-joy:` · ![哭](pets/go-scout/cry.svg) `:go-scout-cry:` · ![沮丧](pets/go-scout/depressed.svg) `:go-scout-depressed:` · ![惊恐](pets/go-scout/terrified.svg) `:go-scout-terrified:` · ![愤怒](pets/go-scout/angry.svg) `:go-scout-angry:`
+
+![撒娇](pets/go-scout/coquettish.svg) `:go-scout-coquettish:` · ![卖萌](pets/go-scout/cute.svg) `:go-scout-cute:` · ![讨好](pets/go-scout/pleasing.svg) `:go-scout-pleasing:` · ![敲打](pets/go-scout/knocking.svg) `:go-scout-knocking:` · ![捂脸](pets/go-scout/facepalm.svg) `:go-scout-facepalm:` · ![吐舌头](pets/go-scout/tongue.svg) `:go-scout-tongue:`
+
+### Kee · 橘猫 · `bag/jwt-rust` · `:jwt-rust-*:`
+
+![笑](pets/jwt-rust/smile.svg) `:jwt-rust-smile:` · ![欢乐](pets/jwt-rust/joy.svg) `:jwt-rust-joy:` · ![哭](pets/jwt-rust/cry.svg) `:jwt-rust-cry:` · ![沮丧](pets/jwt-rust/depressed.svg) `:jwt-rust-depressed:` · ![惊恐](pets/jwt-rust/terrified.svg) `:jwt-rust-terrified:` · ![愤怒](pets/jwt-rust/angry.svg) `:jwt-rust-angry:`
+
+![撒娇](pets/jwt-rust/coquettish.svg) `:jwt-rust-coquettish:` · ![卖萌](pets/jwt-rust/cute.svg) `:jwt-rust-cute:` · ![讨好](pets/jwt-rust/pleasing.svg) `:jwt-rust-pleasing:` · ![敲打](pets/jwt-rust/knocking.svg) `:jwt-rust-knocking:` · ![捂脸](pets/jwt-rust/facepalm.svg) `:jwt-rust-facepalm:` · ![吐舌头](pets/jwt-rust/tongue.svg) `:jwt-rust-tongue:`
+
+### Posty · `bag/poster-rust` · `:poster-rust-*:`
+
+![笑](pets/poster-rust/smile.svg) `:poster-rust-smile:` · ![欢乐](pets/poster-rust/joy.svg) `:poster-rust-joy:` · ![哭](pets/poster-rust/cry.svg) `:poster-rust-cry:` · ![沮丧](pets/poster-rust/depressed.svg) `:poster-rust-depressed:` · ![惊恐](pets/poster-rust/terrified.svg) `:poster-rust-terrified:` · ![愤怒](pets/poster-rust/angry.svg) `:poster-rust-angry:`
+
+![撒娇](pets/poster-rust/coquettish.svg) `:poster-rust-coquettish:` · ![卖萌](pets/poster-rust/cute.svg) `:poster-rust-cute:` · ![讨好](pets/poster-rust/pleasing.svg) `:poster-rust-pleasing:` · ![敲打](pets/poster-rust/knocking.svg) `:poster-rust-knocking:` · ![捂脸](pets/poster-rust/facepalm.svg) `:poster-rust-facepalm:` · ![吐舌头](pets/poster-rust/tongue.svg) `:poster-rust-tongue:`
+
+### Scout · `bag/rust-scout` · `:rust-scout-*:`
+
+![笑](pets/rust-scout/smile.svg) `:rust-scout-smile:` · ![欢乐](pets/rust-scout/joy.svg) `:rust-scout-joy:` · ![哭](pets/rust-scout/cry.svg) `:rust-scout-cry:` · ![沮丧](pets/rust-scout/depressed.svg) `:rust-scout-depressed:` · ![惊恐](pets/rust-scout/terrified.svg) `:rust-scout-terrified:` · ![愤怒](pets/rust-scout/angry.svg) `:rust-scout-angry:`
+
+![撒娇](pets/rust-scout/coquettish.svg) `:rust-scout-coquettish:` · ![卖萌](pets/rust-scout/cute.svg) `:rust-scout-cute:` · ![讨好](pets/rust-scout/pleasing.svg) `:rust-scout-pleasing:` · ![敲打](pets/rust-scout/knocking.svg) `:rust-scout-knocking:` · ![捂脸](pets/rust-scout/facepalm.svg) `:rust-scout-facepalm:` · ![吐舌头](pets/rust-scout/tongue.svg) `:rust-scout-tongue:`
+
+### 哨兵鼠 · `bag/security-go` · `:security-go-*:`
+
+![笑](pets/security-go/smile.svg) `:security-go-smile:` · ![欢乐](pets/security-go/joy.svg) `:security-go-joy:` · ![哭](pets/security-go/cry.svg) `:security-go-cry:` · ![沮丧](pets/security-go/depressed.svg) `:security-go-depressed:` · ![惊恐](pets/security-go/terrified.svg) `:security-go-terrified:` · ![愤怒](pets/security-go/angry.svg) `:security-go-angry:`
+
+![撒娇](pets/security-go/coquettish.svg) `:security-go-coquettish:` · ![卖萌](pets/security-go/cute.svg) `:security-go-cute:` · ![讨好](pets/security-go/pleasing.svg) `:security-go-pleasing:` · ![敲打](pets/security-go/knocking.svg) `:security-go-knocking:` · ![捂脸](pets/security-go/facepalm.svg) `:security-go-facepalm:` · ![吐舌头](pets/security-go/tongue.svg) `:security-go-tongue:`
+
+### 甲哨 Sentri · `bag/security-rust` · `:security-rust-*:`
+
+![笑](pets/security-rust/smile.svg) `:security-rust-smile:` · ![欢乐](pets/security-rust/joy.svg) `:security-rust-joy:` · ![哭](pets/security-rust/cry.svg) `:security-rust-cry:` · ![沮丧](pets/security-rust/depressed.svg) `:security-rust-depressed:` · ![惊恐](pets/security-rust/terrified.svg) `:security-rust-terrified:` · ![愤怒](pets/security-rust/angry.svg) `:security-rust-angry:`
+
+![撒娇](pets/security-rust/coquettish.svg) `:security-rust-coquettish:` · ![卖萌](pets/security-rust/cute.svg) `:security-rust-cute:` · ![讨好](pets/security-rust/pleasing.svg) `:security-rust-pleasing:` · ![敲打](pets/security-rust/knocking.svg) `:security-rust-knocking:` · ![捂脸](pets/security-rust/facepalm.svg) `:security-rust-facepalm:` · ![吐舌头](pets/security-rust/tongue.svg) `:security-rust-tongue:`
+
+### 以太兽 · `erikwang2013/aetherupload-webman` · `:aetherupload-webman-*:`
+
+![笑](pets/aetherupload-webman/smile.svg) `:aetherupload-webman-smile:` · ![欢乐](pets/aetherupload-webman/joy.svg) `:aetherupload-webman-joy:` · ![哭](pets/aetherupload-webman/cry.svg) `:aetherupload-webman-cry:` · ![沮丧](pets/aetherupload-webman/depressed.svg) `:aetherupload-webman-depressed:` · ![惊恐](pets/aetherupload-webman/terrified.svg) `:aetherupload-webman-terrified:` · ![愤怒](pets/aetherupload-webman/angry.svg) `:aetherupload-webman-angry:`
+
+![撒娇](pets/aetherupload-webman/coquettish.svg) `:aetherupload-webman-coquettish:` · ![卖萌](pets/aetherupload-webman/cute.svg) `:aetherupload-webman-cute:` · ![讨好](pets/aetherupload-webman/pleasing.svg) `:aetherupload-webman-pleasing:` · ![敲打](pets/aetherupload-webman/knocking.svg) `:aetherupload-webman-knocking:` · ![捂脸](pets/aetherupload-webman/facepalm.svg) `:aetherupload-webman-facepalm:` · ![吐舌头](pets/aetherupload-webman/tongue.svg) `:aetherupload-webman-tongue:`
+
+### Apidoc · `erikwang2013/apidoc-php` · `:apidoc-php-*:`
+
+![笑](pets/apidoc-php/smile.svg) `:apidoc-php-smile:` · ![欢乐](pets/apidoc-php/joy.svg) `:apidoc-php-joy:` · ![哭](pets/apidoc-php/cry.svg) `:apidoc-php-cry:` · ![沮丧](pets/apidoc-php/depressed.svg) `:apidoc-php-depressed:` · ![惊恐](pets/apidoc-php/terrified.svg) `:apidoc-php-terrified:` · ![愤怒](pets/apidoc-php/angry.svg) `:apidoc-php-angry:`
+
+![撒娇](pets/apidoc-php/coquettish.svg) `:apidoc-php-coquettish:` · ![卖萌](pets/apidoc-php/cute.svg) `:apidoc-php-cute:` · ![讨好](pets/apidoc-php/pleasing.svg) `:apidoc-php-pleasing:` · ![敲打](pets/apidoc-php/knocking.svg) `:apidoc-php-knocking:` · ![捂脸](pets/apidoc-php/facepalm.svg) `:apidoc-php-facepalm:` · ![吐舌头](pets/apidoc-php/tongue.svg) `:apidoc-php-tongue:`
+
+### ClickHouse 仓鼠 · `erikwang2013/clickhouse-php` · `:clickhouse-php-*:`
+
+![笑](pets/clickhouse-php/smile.svg) `:clickhouse-php-smile:` · ![欢乐](pets/clickhouse-php/joy.svg) `:clickhouse-php-joy:` · ![哭](pets/clickhouse-php/cry.svg) `:clickhouse-php-cry:` · ![沮丧](pets/clickhouse-php/depressed.svg) `:clickhouse-php-depressed:` · ![惊恐](pets/clickhouse-php/terrified.svg) `:clickhouse-php-terrified:` · ![愤怒](pets/clickhouse-php/angry.svg) `:clickhouse-php-angry:`
+
+![撒娇](pets/clickhouse-php/coquettish.svg) `:clickhouse-php-coquettish:` · ![卖萌](pets/clickhouse-php/cute.svg) `:clickhouse-php-cute:` · ![讨好](pets/clickhouse-php/pleasing.svg) `:clickhouse-php-pleasing:` · ![敲打](pets/clickhouse-php/knocking.svg) `:clickhouse-php-knocking:` · ![捂脸](pets/clickhouse-php/facepalm.svg) `:clickhouse-php-facepalm:` · ![吐舌头](pets/clickhouse-php/tongue.svg) `:clickhouse-php-tongue:`
+
+### Consu · `erikwang2013/consul-php` · `:consul-php-*:`
+
+![笑](pets/consul-php/smile.svg) `:consul-php-smile:` · ![欢乐](pets/consul-php/joy.svg) `:consul-php-joy:` · ![哭](pets/consul-php/cry.svg) `:consul-php-cry:` · ![沮丧](pets/consul-php/depressed.svg) `:consul-php-depressed:` · ![惊恐](pets/consul-php/terrified.svg) `:consul-php-terrified:` · ![愤怒](pets/consul-php/angry.svg) `:consul-php-angry:`
+
+![撒娇](pets/consul-php/coquettish.svg) `:consul-php-coquettish:` · ![卖萌](pets/consul-php/cute.svg) `:consul-php-cute:` · ![讨好](pets/consul-php/pleasing.svg) `:consul-php-pleasing:` · ![敲打](pets/consul-php/knocking.svg) `:consul-php-knocking:` · ![捂脸](pets/consul-php/facepalm.svg) `:consul-php-facepalm:` · ![吐舌头](pets/consul-php/tongue.svg) `:consul-php-tongue:`
+
+### Locky · `erikwang2013/encryptable` · `:encryptable-*:`
+
+![笑](pets/encryptable/smile.svg) `:encryptable-smile:` · ![欢乐](pets/encryptable/joy.svg) `:encryptable-joy:` · ![哭](pets/encryptable/cry.svg) `:encryptable-cry:` · ![沮丧](pets/encryptable/depressed.svg) `:encryptable-depressed:` · ![惊恐](pets/encryptable/terrified.svg) `:encryptable-terrified:` · ![愤怒](pets/encryptable/angry.svg) `:encryptable-angry:`
+
+![撒娇](pets/encryptable/coquettish.svg) `:encryptable-coquettish:` · ![卖萌](pets/encryptable/cute.svg) `:encryptable-cute:` · ![讨好](pets/encryptable/pleasing.svg) `:encryptable-pleasing:` · ![敲打](pets/encryptable/knocking.svg) `:encryptable-knocking:` · ![捂脸](pets/encryptable/facepalm.svg) `:encryptable-facepalm:` · ![吐舌头](pets/encryptable/tongue.svg) `:encryptable-tongue:`
+
+### Locky · `erikwang2013/encryption` · `:encryption-*:`
+
+![笑](pets/encryption/smile.svg) `:encryption-smile:` · ![欢乐](pets/encryption/joy.svg) `:encryption-joy:` · ![哭](pets/encryption/cry.svg) `:encryption-cry:` · ![沮丧](pets/encryption/depressed.svg) `:encryption-depressed:` · ![惊恐](pets/encryption/terrified.svg) `:encryption-terrified:` · ![愤怒](pets/encryption/angry.svg) `:encryption-angry:`
+
+![撒娇](pets/encryption/coquettish.svg) `:encryption-coquettish:` · ![卖萌](pets/encryption/cute.svg) `:encryption-cute:` · ![讨好](pets/encryption/pleasing.svg) `:encryption-pleasing:` · ![敲打](pets/encryption/knocking.svg) `:encryption-knocking:` · ![捂脸](pets/encryption/facepalm.svg) `:encryption-facepalm:` · ![吐舌头](pets/encryption/tongue.svg) `:encryption-tongue:`
+
+### Etchy · `erikwang2013/etcd` · `:etcd-*:`
+
+![笑](pets/etcd/smile.svg) `:etcd-smile:` · ![欢乐](pets/etcd/joy.svg) `:etcd-joy:` · ![哭](pets/etcd/cry.svg) `:etcd-cry:` · ![沮丧](pets/etcd/depressed.svg) `:etcd-depressed:` · ![惊恐](pets/etcd/terrified.svg) `:etcd-terrified:` · ![愤怒](pets/etcd/angry.svg) `:etcd-angry:`
+
+![撒娇](pets/etcd/coquettish.svg) `:etcd-coquettish:` · ![卖萌](pets/etcd/cute.svg) `:etcd-cute:` · ![讨好](pets/etcd/pleasing.svg) `:etcd-pleasing:` · ![敲打](pets/etcd/knocking.svg) `:etcd-knocking:` · ![捂脸](pets/etcd/facepalm.svg) `:etcd-facepalm:` · ![吐舌头](pets/etcd/tongue.svg) `:etcd-tongue:`
+
+### 哈希迪 Hashy · `erikwang2013/hashids` · `:hashids-*:`
+
+![笑](pets/hashids/smile.svg) `:hashids-smile:` · ![欢乐](pets/hashids/joy.svg) `:hashids-joy:` · ![哭](pets/hashids/cry.svg) `:hashids-cry:` · ![沮丧](pets/hashids/depressed.svg) `:hashids-depressed:` · ![惊恐](pets/hashids/terrified.svg) `:hashids-terrified:` · ![愤怒](pets/hashids/angry.svg) `:hashids-angry:`
+
+![撒娇](pets/hashids/coquettish.svg) `:hashids-coquettish:` · ![卖萌](pets/hashids/cute.svg) `:hashids-cute:` · ![讨好](pets/hashids/pleasing.svg) `:hashids-pleasing:` · ![敲打](pets/hashids/knocking.svg) `:hashids-knocking:` · ![捂脸](pets/hashids/facepalm.svg) `:hashids-facepalm:` · ![吐舌头](pets/hashids/tongue.svg) `:hashids-tongue:`
+
+### Kee · 柴犬门卫 · `erikwang2013/jwt-webman` · `:jwt-webman-*:`
+
+![笑](pets/jwt-webman/smile.svg) `:jwt-webman-smile:` · ![欢乐](pets/jwt-webman/joy.svg) `:jwt-webman-joy:` · ![哭](pets/jwt-webman/cry.svg) `:jwt-webman-cry:` · ![沮丧](pets/jwt-webman/depressed.svg) `:jwt-webman-depressed:` · ![惊恐](pets/jwt-webman/terrified.svg) `:jwt-webman-terrified:` · ![愤怒](pets/jwt-webman/angry.svg) `:jwt-webman-angry:`
+
+![撒娇](pets/jwt-webman/coquettish.svg) `:jwt-webman-coquettish:` · ![卖萌](pets/jwt-webman/cute.svg) `:jwt-webman-cute:` · ![讨好](pets/jwt-webman/pleasing.svg) `:jwt-webman-pleasing:` · ![敲打](pets/jwt-webman/knocking.svg) `:jwt-webman-knocking:` · ![捂脸](pets/jwt-webman/facepalm.svg) `:jwt-webman-facepalm:` · ![吐舌头](pets/jwt-webman/tongue.svg) `:jwt-webman-tongue:`
+
+### Posty · `erikwang2013/poster-php` · `:poster-php-*:`
+
+![笑](pets/poster-php/smile.svg) `:poster-php-smile:` · ![欢乐](pets/poster-php/joy.svg) `:poster-php-joy:` · ![哭](pets/poster-php/cry.svg) `:poster-php-cry:` · ![沮丧](pets/poster-php/depressed.svg) `:poster-php-depressed:` · ![惊恐](pets/poster-php/terrified.svg) `:poster-php-terrified:` · ![愤怒](pets/poster-php/angry.svg) `:poster-php-angry:`
+
+![撒娇](pets/poster-php/coquettish.svg) `:poster-php-coquettish:` · ![卖萌](pets/poster-php/cute.svg) `:poster-php-cute:` · ![讨好](pets/poster-php/pleasing.svg) `:poster-php-pleasing:` · ![敲打](pets/poster-php/knocking.svg) `:poster-php-knocking:` · ![捂脸](pets/poster-php/facepalm.svg) `:poster-php-facepalm:` · ![吐舌头](pets/poster-php/tongue.svg) `:poster-php-tongue:`
+
+### Seasony 季灵 · `erikwang2013/season` · `:season-*:`
+
+![笑](pets/season/smile.svg) `:season-smile:` · ![欢乐](pets/season/joy.svg) `:season-joy:` · ![哭](pets/season/cry.svg) `:season-cry:` · ![沮丧](pets/season/depressed.svg) `:season-depressed:` · ![惊恐](pets/season/terrified.svg) `:season-terrified:` · ![愤怒](pets/season/angry.svg) `:season-angry:`
+
+![撒娇](pets/season/coquettish.svg) `:season-coquettish:` · ![卖萌](pets/season/cute.svg) `:season-cute:` · ![讨好](pets/season/pleasing.svg) `:season-pleasing:` · ![敲打](pets/season/knocking.svg) `:season-knocking:` · ![捂脸](pets/season/facepalm.svg) `:season-facepalm:` · ![吐舌头](pets/season/tongue.svg) `:season-tongue:`
+
+### 小盾 · `erikwang2013/security-php` · `:security-php-*:`
+
+![笑](pets/security-php/smile.svg) `:security-php-smile:` · ![欢乐](pets/security-php/joy.svg) `:security-php-joy:` · ![哭](pets/security-php/cry.svg) `:security-php-cry:` · ![沮丧](pets/security-php/depressed.svg) `:security-php-depressed:` · ![惊恐](pets/security-php/terrified.svg) `:security-php-terrified:` · ![愤怒](pets/security-php/angry.svg) `:security-php-angry:`
+
+![撒娇](pets/security-php/coquettish.svg) `:security-php-coquettish:` · ![卖萌](pets/security-php/cute.svg) `:security-php-cute:` · ![讨好](pets/security-php/pleasing.svg) `:security-php-pleasing:` · ![敲打](pets/security-php/knocking.svg) `:security-php-knocking:` · ![捂脸](pets/security-php/facepalm.svg) `:security-php-facepalm:` · ![吐舌头](pets/security-php/tongue.svg) `:security-php-tongue:`
+
+### 雪花精灵 · `erikwang2013/snowflake-php` · `:snowflake-php-*:`
+
+![笑](pets/snowflake-php/smile.svg) `:snowflake-php-smile:` · ![欢乐](pets/snowflake-php/joy.svg) `:snowflake-php-joy:` · ![哭](pets/snowflake-php/cry.svg) `:snowflake-php-cry:` · ![沮丧](pets/snowflake-php/depressed.svg) `:snowflake-php-depressed:` · ![惊恐](pets/snowflake-php/terrified.svg) `:snowflake-php-terrified:` · ![愤怒](pets/snowflake-php/angry.svg) `:snowflake-php-angry:`
+
+![撒娇](pets/snowflake-php/coquettish.svg) `:snowflake-php-coquettish:` · ![卖萌](pets/snowflake-php/cute.svg) `:snowflake-php-cute:` · ![讨好](pets/snowflake-php/pleasing.svg) `:snowflake-php-pleasing:` · ![敲打](pets/snowflake-php/knocking.svg) `:snowflake-php-knocking:` · ![捂脸](pets/snowflake-php/facepalm.svg) `:snowflake-php-facepalm:` · ![吐舌头](pets/snowflake-php/tongue.svg) `:snowflake-php-tongue:`
+
+### Sniffy · `erikwang2013/webman-scout` · `:webman-scout-*:`
+
+![笑](pets/webman-scout/smile.svg) `:webman-scout-smile:` · ![欢乐](pets/webman-scout/joy.svg) `:webman-scout-joy:` · ![哭](pets/webman-scout/cry.svg) `:webman-scout-cry:` · ![沮丧](pets/webman-scout/depressed.svg) `:webman-scout-depressed:` · ![惊恐](pets/webman-scout/terrified.svg) `:webman-scout-terrified:` · ![愤怒](pets/webman-scout/angry.svg) `:webman-scout-angry:`
+
+![撒娇](pets/webman-scout/coquettish.svg) `:webman-scout-coquettish:` · ![卖萌](pets/webman-scout/cute.svg) `:webman-scout-cute:` · ![讨好](pets/webman-scout/pleasing.svg) `:webman-scout-pleasing:` · ![敲打](pets/webman-scout/knocking.svg) `:webman-scout-knocking:` · ![捂脸](pets/webman-scout/facepalm.svg) `:webman-scout-facepalm:` · ![吐舌头](pets/webman-scout/tongue.svg) `:webman-scout-tongue:`
+
+### Xhpy · `erikwang2013/xhprof` · `:xhprof-*:`
+
+![笑](pets/xhprof/smile.svg) `:xhprof-smile:` · ![欢乐](pets/xhprof/joy.svg) `:xhprof-joy:` · ![哭](pets/xhprof/cry.svg) `:xhprof-cry:` · ![沮丧](pets/xhprof/depressed.svg) `:xhprof-depressed:` · ![惊恐](pets/xhprof/terrified.svg) `:xhprof-terrified:` · ![愤怒](pets/xhprof/angry.svg) `:xhprof-angry:`
+
+![撒娇](pets/xhprof/coquettish.svg) `:xhprof-coquettish:` · ![卖萌](pets/xhprof/cute.svg) `:xhprof-cute:` · ![讨好](pets/xhprof/pleasing.svg) `:xhprof-pleasing:` · ![敲打](pets/xhprof/knocking.svg) `:xhprof-knocking:` · ![捂脸](pets/xhprof/facepalm.svg) `:xhprof-facepalm:` · ![吐舌头](pets/xhprof/tongue.svg) `:xhprof-tongue:`
+
+### 焰焰 · `erikwang2013/xhprof-webman` · `:xhprof-webman-*:`
+
+![笑](pets/xhprof-webman/smile.svg) `:xhprof-webman-smile:` · ![欢乐](pets/xhprof-webman/joy.svg) `:xhprof-webman-joy:` · ![哭](pets/xhprof-webman/cry.svg) `:xhprof-webman-cry:` · ![沮丧](pets/xhprof-webman/depressed.svg) `:xhprof-webman-depressed:` · ![惊恐](pets/xhprof-webman/terrified.svg) `:xhprof-webman-terrified:` · ![愤怒](pets/xhprof-webman/angry.svg) `:xhprof-webman-angry:`
+
+![撒娇](pets/xhprof-webman/coquettish.svg) `:xhprof-webman-coquettish:` · ![卖萌](pets/xhprof-webman/cute.svg) `:xhprof-webman-cute:` · ![讨好](pets/xhprof-webman/pleasing.svg) `:xhprof-webman-pleasing:` · ![敲打](pets/xhprof-webman/knocking.svg) `:xhprof-webman-knocking:` · ![捂脸](pets/xhprof-webman/facepalm.svg) `:xhprof-webman-facepalm:` · ![吐舌头](pets/xhprof-webman/tongue.svg) `:xhprof-webman-tongue:`
+
+### 吞吞 · `oss` · `:oss-*:`
+
+![笑](pets/oss/smile.svg) `:oss-smile:` · ![欢乐](pets/oss/joy.svg) `:oss-joy:` · ![哭](pets/oss/cry.svg) `:oss-cry:` · ![沮丧](pets/oss/depressed.svg) `:oss-depressed:` · ![惊恐](pets/oss/terrified.svg) `:oss-terrified:` · ![愤怒](pets/oss/angry.svg) `:oss-angry:`
+
+![撒娇](pets/oss/coquettish.svg) `:oss-coquettish:` · ![卖萌](pets/oss/cute.svg) `:oss-cute:` · ![讨好](pets/oss/pleasing.svg) `:oss-pleasing:` · ![敲打](pets/oss/knocking.svg) `:oss-knocking:` · ![捂脸](pets/oss/facepalm.svg) `:oss-facepalm:` · ![吐舌头](pets/oss/tongue.svg) `:oss-tongue:`
+
+### Pax · `polypack` · `:polypack-*:`
+
+![笑](pets/polypack/smile.svg) `:polypack-smile:` · ![欢乐](pets/polypack/joy.svg) `:polypack-joy:` · ![哭](pets/polypack/cry.svg) `:polypack-cry:` · ![沮丧](pets/polypack/depressed.svg) `:polypack-depressed:` · ![惊恐](pets/polypack/terrified.svg) `:polypack-terrified:` · ![愤怒](pets/polypack/angry.svg) `:polypack-angry:`
+
+![撒娇](pets/polypack/coquettish.svg) `:polypack-coquettish:` · ![卖萌](pets/polypack/cute.svg) `:polypack-cute:` · ![讨好](pets/polypack/pleasing.svg) `:polypack-pleasing:` · ![敲打](pets/polypack/knocking.svg) `:polypack-knocking:` · ![捂脸](pets/polypack/facepalm.svg) `:polypack-facepalm:` · ![吐舌头](pets/polypack/tongue.svg) `:polypack-tongue:`
+
+### 小欧 · `opi` · `:opi-*:`
+
+![笑](pets/opi/smile.svg) `:opi-smile:` · ![欢乐](pets/opi/joy.svg) `:opi-joy:` · ![哭](pets/opi/cry.svg) `:opi-cry:` · ![沮丧](pets/opi/depressed.svg) `:opi-depressed:` · ![惊恐](pets/opi/terrified.svg) `:opi-terrified:` · ![愤怒](pets/opi/angry.svg) `:opi-angry:`
+
+![撒娇](pets/opi/coquettish.svg) `:opi-coquettish:` · ![卖萌](pets/opi/cute.svg) `:opi-cute:` · ![讨好](pets/opi/pleasing.svg) `:opi-pleasing:` · ![敲打](pets/opi/knocking.svg) `:opi-knocking:` · ![捂脸](pets/opi/facepalm.svg) `:opi-facepalm:` · ![吐舌头](pets/opi/tongue.svg) `:opi-tongue:`
 
 ## 说明
 
