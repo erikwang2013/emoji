@@ -1,4 +1,4 @@
-<svg width="640" height="384" viewBox="0 0 720 432" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pax-t pax-d">
+<svg width="280" height="272" viewBox="150 92 280 272" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pax-t pax-d">
   <title id="pax-t">Pax · 打包机器人 — 愤怒表情（动态）</title>
   <desc id="pax-d">PolyPack 项目宠物 Pax 的愤怒表情（angry），带该表情专属的 CSS 动效；减弱动态效果时定格为静态形态。</desc>
   <style>
@@ -15,22 +15,8 @@
   </style>
 
   <defs>
-    <marker id="pax-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/>
-    </marker>
     <clipPath id="pax-screen-clip"><rect x="248" y="144" width="104" height="76" rx="12"/></clipPath>
   </defs>
-  <path d="M400,210 C 450,140 500,90 548,76" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 6" marker-end="url(#pax-arrow)"/>
-  <path d="M392,226 C 480,190 560,160 622,144" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 6" marker-end="url(#pax-arrow)"/>
-  <path d="M372,292 C 440,318 520,315 586,300" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 6" marker-end="url(#pax-arrow)"/>
-  <g stroke="#64748b" stroke-width="3" fill="#ffffff" stroke-linejoin="round">
-    <rect x="552" y="50" width="28" height="48" rx="7"/>
-    <rect x="626" y="126" width="26" height="32" rx="7"/>
-    <path d="M630,126 v-10 h18 v10 M630,158 v10 h18 v-10" fill="none"/>
-    <rect x="588" y="276" width="66" height="42" rx="7"/>
-    <path d="M621,318 v9 M607,327 h28" fill="none"/>
-  </g>
-  <circle cx="566" cy="88" r="2.6" fill="#64748b" stroke="none"/>
   <ellipse cx="300" cy="352" rx="88" ry="9" fill="#0f172a" opacity="0.07"/>
   <g class="pax-bot">
     <g stroke="#9a3412" stroke-width="7" stroke-linecap="round" fill="none">
