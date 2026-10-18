@@ -1,6 +1,6 @@
 # 项目宠物 Emoji 图鉴 · Pet Emoji Atlas
 
-**50 个项目 × 12 种形态 = 600 枚宠物表情 emoji。**
+**51 个项目 × 12 种形态 = 612 枚宠物表情 emoji。**
 每一枚同时提供 **图片（SVG / PNG）+ 彩色字体（CBDT/CBLC TTF）+ 短码（shortcode）**。
 
 > **授权 / License**：本项目中的项目宠物、图片、图标、表情及字体中的图形字形均为
@@ -37,7 +37,7 @@
 
 - 主短码：`:<项目>-<形态>:`
 - 别名：`:emoji-<项目>-<形态>:`
-- 字体码位：`U+E000..U+E257`
+- 字体码位：`U+E000..U+E263`
 - 全量映射见 [shortcodes.json](shortcodes.json)；字体内置主短码 `:<项目>-<形态>:` 的 `liga` 连字。
 - `:emoji-<项目>-<形态>:` 别名可用 `shortcodes.json` 映射为图片或对应码位；需要把短码渲染成图片时，查 `image` 字段。
 
@@ -51,7 +51,7 @@
 | 4 | 阿守 | `bee-rust-admin` | `:bee-rust-admin-*:` | 12 |
 | 5 | 云团 | `cloud-php` | `:cloud-php-*:` | 12 |
 | 6 | E-Cat | `e-cat` | `:e-cat-*:` | 12 |
-| 7 | Loupi | `erik-talk` | `:erik-talk-*:` | 12 |
+| 7 | Lumi | `erik-talk` | `:erik-talk-*:` | 12 |
 | 8 | 小八爪 | `erp-php` | `:erp-php-*:` | 12 |
 | 9 | Dicey | `game-platform-php` | `:game-platform-php-*:` | 12 |
 | 10 | 霜霜 | `insurance-service` | `:insurance-service-*:` | 12 |
@@ -63,7 +63,7 @@
 | 16 | Novi | `open-novel` | `:open-novel-*:` | 12 |
 | 17 | 南南 | `open-travel` | `:open-travel-*:` | 12 |
 | 18 | 小筑 | `property-management-platform` | `:property-management-platform-*:` | 12 |
-| 19 | 算子 | `quantitative-trading` | `:quantitative-trading-*:` | 12 |
+| 19 | 犇犇 | `quantitative-trading` | `:quantitative-trading-*:` | 12 |
 | 20 | 雪球 Snowy | `shop-php` | `:shop-php-*:` | 12 |
 | 21 | Bub | `social` | `:social-*:` | 12 |
 | 22 | ssd | `ssd` | `:ssd-*:` | 12 |
@@ -72,29 +72,30 @@
 | 25 | 小德 | `bag/druid-rust` | `:druid-rust-*:` | 12 |
 | 26 | Locky | `bag/encryption-rust` | `:encryption-rust-*:` | 12 |
 | 27 | 小侦 Scouty | `bag/go-scout` | `:go-scout-*:` | 12 |
-| 28 | Posty | `bag/poster-rust` | `:poster-rust-*:` | 12 |
-| 29 | Scout | `bag/rust-scout` | `:rust-scout-*:` | 12 |
-| 30 | 哨兵鼠 | `bag/security-go` | `:security-go-*:` | 12 |
-| 31 | 甲哨 Sentri | `bag/security-rust` | `:security-rust-*:` | 12 |
-| 32 | 以太兽 | `erikwang2013/aetherupload-webman` | `:aetherupload-webman-*:` | 12 |
-| 33 | Apidoc | `erikwang2013/apidoc-php` | `:apidoc-php-*:` | 12 |
-| 34 | ClickHouse 小象 | `erikwang2013/clickhouse-php` | `:clickhouse-php-*:` | 12 |
-| 35 | Consu | `erikwang2013/consul-php` | `:consul-php-*:` | 12 |
-| 36 | Locky | `erikwang2013/encryptable` | `:encryptable-*:` | 12 |
-| 37 | Locky | `erikwang2013/encryption` | `:encryption-*:` | 12 |
-| 38 | Etchy | `erikwang2013/etcd` | `:etcd-*:` | 12 |
-| 39 | 哈希迪 Hashy | `erikwang2013/hashids` | `:hashids-*:` | 12 |
-| 40 | 钥匙小卫 Kee | `erikwang2013/jwt-webman` | `:jwt-webman-*:` | 12 |
-| 41 | Posty | `erikwang2013/poster-php` | `:poster-php-*:` | 12 |
-| 42 | Seasony 季灵 | `erikwang2013/season` | `:season-*:` | 12 |
-| 43 | 小盾 | `erikwang2013/security-php` | `:security-php-*:` | 12 |
-| 44 | 雪花精灵 | `erikwang2013/snowflake-php` | `:snowflake-php-*:` | 12 |
-| 45 | Sniffy | `erikwang2013/webman-scout` | `:webman-scout-*:` | 12 |
-| 46 | Xhpy | `erikwang2013/xhprof` | `:xhprof-*:` | 12 |
-| 47 | 焰焰 | `erikwang2013/xhprof-webman` | `:xhprof-webman-*:` | 12 |
-| 48 | 吞吞 | `oss` | `:oss-*:` | 12 |
-| 49 | Pax | `polypack` | `:polypack-*:` | 12 |
-| 50 | 小欧 | `opi` | `:opi-*:` | 12 |
+| 28 | Kee · 橘猫 | `bag/jwt-rust` | `:jwt-rust-*:` | 12 |
+| 29 | Posty | `bag/poster-rust` | `:poster-rust-*:` | 12 |
+| 30 | Scout | `bag/rust-scout` | `:rust-scout-*:` | 12 |
+| 31 | 哨兵鼠 | `bag/security-go` | `:security-go-*:` | 12 |
+| 32 | 甲哨 Sentri | `bag/security-rust` | `:security-rust-*:` | 12 |
+| 33 | 以太兽 | `erikwang2013/aetherupload-webman` | `:aetherupload-webman-*:` | 12 |
+| 34 | Apidoc | `erikwang2013/apidoc-php` | `:apidoc-php-*:` | 12 |
+| 35 | ClickHouse 仓鼠 | `erikwang2013/clickhouse-php` | `:clickhouse-php-*:` | 12 |
+| 36 | Consu | `erikwang2013/consul-php` | `:consul-php-*:` | 12 |
+| 37 | Locky | `erikwang2013/encryptable` | `:encryptable-*:` | 12 |
+| 38 | Locky | `erikwang2013/encryption` | `:encryption-*:` | 12 |
+| 39 | Etchy | `erikwang2013/etcd` | `:etcd-*:` | 12 |
+| 40 | 哈希迪 Hashy | `erikwang2013/hashids` | `:hashids-*:` | 12 |
+| 41 | Kee · 柴犬门卫 | `erikwang2013/jwt-webman` | `:jwt-webman-*:` | 12 |
+| 42 | Posty | `erikwang2013/poster-php` | `:poster-php-*:` | 12 |
+| 43 | Seasony 季灵 | `erikwang2013/season` | `:season-*:` | 12 |
+| 44 | 小盾 | `erikwang2013/security-php` | `:security-php-*:` | 12 |
+| 45 | 雪花精灵 | `erikwang2013/snowflake-php` | `:snowflake-php-*:` | 12 |
+| 46 | Sniffy | `erikwang2013/webman-scout` | `:webman-scout-*:` | 12 |
+| 47 | Xhpy | `erikwang2013/xhprof` | `:xhprof-*:` | 12 |
+| 48 | 焰焰 | `erikwang2013/xhprof-webman` | `:xhprof-webman-*:` | 12 |
+| 49 | 吞吞 | `oss` | `:oss-*:` | 12 |
+| 50 | Pax | `polypack` | `:polypack-*:` | 12 |
+| 51 | 小欧 | `opi` | `:opi-*:` | 12 |
 
 ## 逐项目预览
 
@@ -153,7 +154,7 @@
 
 </details>
 <details>
-<summary><b>Loupi</b> · <code>erik-talk</code> · <code>:erik-talk-*:</code></summary>
+<summary><b>Lumi</b> · <code>erik-talk</code> · <code>:erik-talk-*:</code></summary>
 
 <table align="center">
 <tr><td align="center"><img src="pets/erik-talk/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:erik-talk-smile:</code></td><td align="center"><img src="pets/erik-talk/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:erik-talk-joy:</code></td><td align="center"><img src="pets/erik-talk/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:erik-talk-cry:</code></td><td align="center"><img src="pets/erik-talk/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:erik-talk-depressed:</code></td><td align="center"><img src="pets/erik-talk/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:erik-talk-terrified:</code></td><td align="center"><img src="pets/erik-talk/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:erik-talk-angry:</code></td></tr>
@@ -261,7 +262,7 @@
 
 </details>
 <details>
-<summary><b>算子</b> · <code>quantitative-trading</code> · <code>:quantitative-trading-*:</code></summary>
+<summary><b>犇犇</b> · <code>quantitative-trading</code> · <code>:quantitative-trading-*:</code></summary>
 
 <table align="center">
 <tr><td align="center"><img src="pets/quantitative-trading/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:quantitative-trading-smile:</code></td><td align="center"><img src="pets/quantitative-trading/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:quantitative-trading-joy:</code></td><td align="center"><img src="pets/quantitative-trading/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:quantitative-trading-cry:</code></td><td align="center"><img src="pets/quantitative-trading/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:quantitative-trading-depressed:</code></td><td align="center"><img src="pets/quantitative-trading/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:quantitative-trading-terrified:</code></td><td align="center"><img src="pets/quantitative-trading/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:quantitative-trading-angry:</code></td></tr>
@@ -342,6 +343,15 @@
 
 </details>
 <details>
+<summary><b>Kee · 橘猫</b> · <code>bag/jwt-rust</code> · <code>:jwt-rust-*:</code></summary>
+
+<table align="center">
+<tr><td align="center"><img src="pets/jwt-rust/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:jwt-rust-smile:</code></td><td align="center"><img src="pets/jwt-rust/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:jwt-rust-joy:</code></td><td align="center"><img src="pets/jwt-rust/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:jwt-rust-cry:</code></td><td align="center"><img src="pets/jwt-rust/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:jwt-rust-depressed:</code></td><td align="center"><img src="pets/jwt-rust/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:jwt-rust-terrified:</code></td><td align="center"><img src="pets/jwt-rust/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:jwt-rust-angry:</code></td></tr>
+<tr><td align="center"><img src="pets/jwt-rust/coquettish.svg" width="72" alt="撒娇"><br><b>撒娇</b><br><code>:jwt-rust-coquettish:</code></td><td align="center"><img src="pets/jwt-rust/cute.svg" width="72" alt="卖萌"><br><b>卖萌</b><br><code>:jwt-rust-cute:</code></td><td align="center"><img src="pets/jwt-rust/pleasing.svg" width="72" alt="讨好"><br><b>讨好</b><br><code>:jwt-rust-pleasing:</code></td><td align="center"><img src="pets/jwt-rust/knocking.svg" width="72" alt="敲打"><br><b>敲打</b><br><code>:jwt-rust-knocking:</code></td><td align="center"><img src="pets/jwt-rust/facepalm.svg" width="72" alt="捂脸"><br><b>捂脸</b><br><code>:jwt-rust-facepalm:</code></td><td align="center"><img src="pets/jwt-rust/tongue.svg" width="72" alt="吐舌头"><br><b>吐舌头</b><br><code>:jwt-rust-tongue:</code></td></tr>
+</table>
+
+</details>
+<details>
 <summary><b>Posty</b> · <code>bag/poster-rust</code> · <code>:poster-rust-*:</code></summary>
 
 <table align="center">
@@ -396,7 +406,7 @@
 
 </details>
 <details>
-<summary><b>ClickHouse 小象</b> · <code>erikwang2013/clickhouse-php</code> · <code>:clickhouse-php-*:</code></summary>
+<summary><b>ClickHouse 仓鼠</b> · <code>erikwang2013/clickhouse-php</code> · <code>:clickhouse-php-*:</code></summary>
 
 <table align="center">
 <tr><td align="center"><img src="pets/clickhouse-php/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:clickhouse-php-smile:</code></td><td align="center"><img src="pets/clickhouse-php/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:clickhouse-php-joy:</code></td><td align="center"><img src="pets/clickhouse-php/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:clickhouse-php-cry:</code></td><td align="center"><img src="pets/clickhouse-php/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:clickhouse-php-depressed:</code></td><td align="center"><img src="pets/clickhouse-php/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:clickhouse-php-terrified:</code></td><td align="center"><img src="pets/clickhouse-php/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:clickhouse-php-angry:</code></td></tr>
@@ -450,7 +460,7 @@
 
 </details>
 <details>
-<summary><b>钥匙小卫 Kee</b> · <code>erikwang2013/jwt-webman</code> · <code>:jwt-webman-*:</code></summary>
+<summary><b>Kee · 柴犬门卫</b> · <code>erikwang2013/jwt-webman</code> · <code>:jwt-webman-*:</code></summary>
 
 <table align="center">
 <tr><td align="center"><img src="pets/jwt-webman/smile.svg" width="72" alt="笑"><br><b>笑</b><br><code>:jwt-webman-smile:</code></td><td align="center"><img src="pets/jwt-webman/joy.svg" width="72" alt="欢乐"><br><b>欢乐</b><br><code>:jwt-webman-joy:</code></td><td align="center"><img src="pets/jwt-webman/cry.svg" width="72" alt="哭"><br><b>哭</b><br><code>:jwt-webman-cry:</code></td><td align="center"><img src="pets/jwt-webman/depressed.svg" width="72" alt="沮丧"><br><b>沮丧</b><br><code>:jwt-webman-depressed:</code></td><td align="center"><img src="pets/jwt-webman/terrified.svg" width="72" alt="惊恐"><br><b>惊恐</b><br><code>:jwt-webman-terrified:</code></td><td align="center"><img src="pets/jwt-webman/angry.svg" width="72" alt="愤怒"><br><b>愤怒</b><br><code>:jwt-webman-angry:</code></td></tr>
@@ -553,5 +563,5 @@
 
 - 图片源文件在 `pets/<项目>/<形态>.svg`，PNG 在 `png/<项目>/<形态>.png`。
 - `preview.png` 是所有项目「笑」形态的总览。
-- 已去除与其他项目重复的 8 个宠物入口：`aetherupload-rust`、`apidoc-go`、`apidoc-rust`、`apidoc-ui`、`encryptable-rust`、`hashids-rust`、`jwt-rust`、`snowflake-rust`；保留对应的 PHP / Webman 版本。
+- 已去除与其他项目重复的 7 个宠物入口：`aetherupload-rust`、`apidoc-go`、`apidoc-rust`、`apidoc-ui`、`encryptable-rust`、`hashids-rust`、`snowflake-rust`；保留对应的 PHP / Webman 版本。`jwt-rust` 已改为独立橘猫形象，重新纳入。
 - 本项目代码与生成脚本仍遵循其原有许可；视觉资产适用 [ASSETS-LICENSE.md](ASSETS-LICENSE.md)。

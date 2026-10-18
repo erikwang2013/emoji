@@ -190,7 +190,7 @@ def write_readme(projects, entries, manifest):
 
 - 图片源文件在 `pets/<项目>/<形态>.svg`，PNG 在 `png/<项目>/<形态>.png`。
 - `preview.png` 是所有项目「笑」形态的总览。
-- 已去除与其他项目重复的 8 个宠物入口：`aetherupload-rust`、`apidoc-go`、`apidoc-rust`、`apidoc-ui`、`encryptable-rust`、`hashids-rust`、`jwt-rust`、`snowflake-rust`；保留对应的 PHP / Webman 版本。
+- 已去除与其他项目重复的 7 个宠物入口：`aetherupload-rust`、`apidoc-go`、`apidoc-rust`、`apidoc-ui`、`encryptable-rust`、`hashids-rust`、`snowflake-rust`；保留对应的 PHP / Webman 版本。`jwt-rust` 已改为独立橘猫形象，重新纳入。
 - 本项目代码与生成脚本仍遵循其原有许可；视觉资产适用 [ASSETS-LICENSE.md](ASSETS-LICENSE.md)。
 '''
     (EMOJI / 'README.md').write_text(readme, encoding='utf-8')
