@@ -49,15 +49,10 @@
       <stop offset="0" stop-color="#00add8" stop-opacity="0.30"/>
       <stop offset="1" stop-color="#00add8" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="p-grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M20 0H0V20" fill="none" stroke="#152740" stroke-width="1"/>
-    </pattern>
     <clipPath id="p-card"><rect width="320" height="400" rx="26"/></clipPath>
   </defs>
 
   <g clip-path="url(#p-card)">
-    <rect width="320" height="400" fill="#0b1220"/>
-    <rect width="320" height="400" fill="url(#p-grid)"/>
 
     
     <g fill="none" stroke="#00add8" stroke-opacity="0.10" stroke-dasharray="6 10">
