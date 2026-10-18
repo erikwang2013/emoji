@@ -1,75 +1,112 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 320 320" width="320" height="320" role="img" aria-label="算子 · 敲打 Knocking"><title>算子 · 敲打 Knocking</title><desc>算子 的 敲打 表情形态 · animated expression form</desc><style>
-.ex-motion { animation: ex-tap 0.55s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
-.ex-anim-tear { animation: ex-tear 1.8s ease-in infinite; transform-box: fill-box; transform-origin: center; }
-.ex-anim-sweat { animation: ex-tear 1.5s ease-in infinite; transform-box: fill-box; transform-origin: center; }
-.ex-anim-heart { animation: ex-heart 2.2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
-.ex-anim-spark { animation: ex-spark 1.9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-.ex-anim-rain { animation: ex-rain 1.4s linear infinite; transform-box: fill-box; transform-origin: center; }
-.ex-anim-confetti { animation: ex-confetti 2.4s linear infinite; transform-box: fill-box; transform-origin: center; }
-.ex-anim-pulse { animation: ex-pulse 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-.ex-anim-knock { animation: ex-knock 0.55s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-.ex-anim-knockline { animation: ex-knockline 0.55s ease-out infinite; transform-box: fill-box; transform-origin: center; }
-.ex-anim-palm { animation: ex-palm 0.9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-.ex-anim-steam { animation: ex-steam 1.8s ease-out infinite; transform-box: fill-box; transform-origin: center; }
-.ex-anim-shock { animation: ex-shock 0.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-.ex-anim-please { animation: ex-please 1.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-.ex-anim-drift { animation: ex-drift 4.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-@keyframes ex-tap { 0%,100% { transform: translateY(0); } 25% { transform: translateY(2.38px); } 32% { transform: translateY(0); } }
+<!--
+  Copyright (c) 2026 erik <erik@erik.xyz> — https://erik.xyz
+  项目宠物「犇犇」表情形态 · 敲打
+
+  共用同一副身体与五官骨架，只替换眼睛、眉毛、嘴与情绪特效。
+  动效遵循 prefers-reduced-motion。
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-label="犇犇 · 敲打 Knocking">
+  <title>犇犇 · 敲打 Knocking</title>
+  <desc>犇犇 的 敲打 表情形态 · animated expression form</desc>
+  <style>
+.ex-motion { transform-box: fill-box; transform-origin: 50% 100%; animation: ex-knock .55s ease-in-out infinite; }
+.ex-anim-tear, .ex-anim-sweat, .ex-anim-heart, .ex-anim-spark, .ex-anim-rain,
+.ex-anim-confetti, .ex-anim-pulse, .ex-anim-knock, .ex-anim-knockline,
+.ex-anim-palm, .ex-anim-steam, .ex-anim-shock, .ex-anim-please, .ex-anim-drift {
+  transform-box: fill-box; transform-origin: center;
+}
+.ex-anim-tear { animation: ex-tear 1.8s ease-in infinite; }
+.ex-anim-sweat { animation: ex-tear 1.5s ease-in infinite; }
+.ex-anim-heart { animation: ex-heart 2.2s ease-out infinite; }
+.ex-anim-spark { animation: ex-spark 1.9s ease-in-out infinite; }
+.ex-anim-rain { animation: ex-rain 1.4s linear infinite; }
+.ex-anim-confetti { animation: ex-confetti 2.4s linear infinite; }
+.ex-anim-pulse { animation: ex-pulse 1.6s ease-in-out infinite; }
+.ex-anim-knockline { animation: ex-knockline 0.55s ease-out infinite; }
+.ex-anim-steam { animation: ex-steam 1.8s ease-out infinite; }
+.ex-anim-shock { animation: ex-shock 0.5s ease-in-out infinite; }
+.ex-anim-please { animation: ex-please 1.4s ease-in-out infinite; }
+.ex-anim-drift { animation: ex-drift 4.5s ease-in-out infinite; }
+@keyframes ex-bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4.33px); } }
+@keyframes ex-bounce { 0%,100% { transform: translateY(0); } 35% { transform: translateY(-7.35px); } 55% { transform: translateY(-2.16px); } 75% { transform: translateY(0); } }
+@keyframes ex-slump { 0%,100% { transform: translateY(3px); } 50% { transform: translateY(0); } }
+@keyframes ex-tremble { 0%,100% { transform: translateX(-2px); } 50% { transform: translateX(2px); } }
+@keyframes ex-sway { 0%,100% { transform: rotate(-2deg); } 50% { transform: rotate(2deg); } }
+@keyframes ex-please { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-2.43px); } }
+@keyframes ex-knock { 0%,100% { transform: translateX(6.08px); } 35% { transform: translateX(0); } }
+@keyframes ex-palm { 0%,100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-1.62px) rotate(-4deg); } }
 @keyframes ex-tear { 0% { transform: translateY(0); opacity: 0; } 18% { opacity: 1; } 100% { transform: translateY(14.87px); opacity: 0; } }
 @keyframes ex-heart { 0% { transform: translateY(0) scale(.65); opacity: 0; } 20% { opacity: 1; } 100% { transform: translateY(-24.34px) scale(1.15); opacity: 0; } }
 @keyframes ex-spark { 0%,100% { transform: scale(.6) rotate(0deg); opacity: .3; } 50% { transform: scale(1.15) rotate(25deg); opacity: 1; } }
 @keyframes ex-rain { 0% { transform: translateY(0); opacity: 0; } 20% { opacity: 1; } 100% { transform: translateY(16.22px); opacity: 0; } }
 @keyframes ex-confetti { 0% { transform: translateY(-4.73px) rotate(0deg); opacity: 1; } 100% { transform: translateY(21.63px) rotate(200deg); opacity: 0; } }
 @keyframes ex-pulse { 0%,100% { transform: scale(1); opacity: .35; } 50% { transform: scale(1.18); opacity: .7; } }
-@keyframes ex-knock { 0%,100% { transform: translateX(6.08px); } 35% { transform: translateX(0); } }
 @keyframes ex-knockline { 0%,100% { transform: scaleX(.6); opacity: .35; } 35% { transform: scaleX(1); opacity: 1; } }
-@keyframes ex-palm { 0%,100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-1.62px) rotate(-4deg); } }
 @keyframes ex-steam { 0% { transform: translateY(0); opacity: .7; } 100% { transform: translateY(-12.17px); opacity: 0; } }
 @keyframes ex-shock { 0%,100% { transform: scaleX(.7); opacity: .4; } 50% { transform: scaleX(1.25); opacity: 1; } }
 @keyframes ex-please { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-2.43px); } }
 @keyframes ex-drift { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-2.7px); } }
-@media (prefers-reduced-motion: reduce) {
-  .ex-motion, [class*="ex-anim-"] { animation: none !important; }
-}
-</style><g class="ex-motion ex-knocking"><g class="ex-base"><rect x="43" y="27" width="234" height="238" rx="13" fill="none" stroke="#1E2A33" stroke-width="13"/>
+@media (prefers-reduced-motion: reduce) { .ex-motion, [class*="ex-anim-"] { animation: none !important; } }
+</style>
+  <g class="ex-motion ex-knocking">
+  <ellipse cx="160" cy="292" rx="92" ry="9" fill="#1E2A33" opacity="0.08"/>
+  <!-- 尾巴：一根上扬的行情线 -->
+  <path d="M 218,244 L 246,232 L 254,240 L 274,214" fill="none" stroke="#D9A441" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 263,219 L 276,210 L 277,225 Z" fill="#D9A441"/>
+  <!-- 腿与蹄 -->
+  <rect x="126" y="250" width="28" height="32" rx="14" fill="#1E2A33"/>
+  <rect x="166" y="250" width="28" height="32" rx="14" fill="#1E2A33"/>
+  <rect x="123" y="272" width="34" height="17" rx="8.5" fill="#D9A441"/>
+  <rect x="163" y="272" width="34" height="17" rx="8.5" fill="#D9A441"/>
+  <!-- 身体 -->
+  <path d="M 160,168 C 122,168 100,194 100,224 C 100,252 126,268 160,268 C 194,268 220,252 220,224 C 220,194 198,168 160,168 Z" fill="#1E2A33"/>
+  <ellipse cx="160" cy="230" rx="40" ry="31" fill="#2B3945"/>
+  <!-- 手臂：右手抬起打招呼 -->
+  <path d="M 108,196 C 94,208 86,222 84,234" fill="none" stroke="#1E2A33" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="82" cy="240" r="13" fill="#D9A441"/>
+  <path d="M 212,196 C 228,190 240,178 246,168" fill="none" stroke="#1E2A33" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="250" cy="162" r="13" fill="#D9A441"/>
+  <!-- 耳朵 -->
+  <ellipse cx="70" cy="122" rx="30" ry="17" transform="rotate(-20 70 122)" fill="#1E2A33"/>
+  <ellipse cx="72" cy="122" rx="16" ry="8" transform="rotate(-20 72 122)" fill="#D9A441"/>
+  <ellipse cx="250" cy="122" rx="30" ry="17" transform="rotate(20 250 122)" fill="#1E2A33"/>
+  <ellipse cx="248" cy="122" rx="16" ry="8" transform="rotate(20 248 122)" fill="#D9A441"/>
 
-  
-  <g stroke="#9AA4B0" stroke-width="3.5">
-    <path d="M 72,34 V 258"/>
-    <path d="M 116,34 V 258"/>
-    <path d="M 160,34 V 258"/>
-    <path d="M 204,34 V 258"/>
-    <path d="M 248,34 V 258"/>
+  <!-- 牛角 -->
+  <path d="M 112,68 C 101,57 97,44 101,32" fill="none" stroke="#D9A441" stroke-width="13" stroke-linecap="round"/>
+  <path d="M 208,68 C 219,57 223,44 219,32" fill="none" stroke="#D9A441" stroke-width="13" stroke-linecap="round"/>
+  <!-- 头 -->
+  <path d="M 160,58 C 105,58 74,86 74,124 C 74,160 106,184 160,184 C 214,184 246,160 246,124 C 246,86 215,58 160,58 Z" fill="#1E2A33"/>
+
+  <!-- 呆毛：一根小阳线 -->
+  <path d="M 160,16 V 62" stroke="#1E2A33" stroke-width="4" stroke-linecap="round"/>
+  <rect x="152" y="30" width="16" height="24" rx="3" fill="#C7472F"/>
+  <ellipse cx="120" cy="107" rx="21" ry="24" fill="#FFF6E8"/>
+  <ellipse cx="200" cy="107" rx="21" ry="24" fill="#FFF6E8"/>
+  <path d="M 99,93 L 141,101 L 141,83 Z" fill="#1E2A33"/>
+  <path d="M 179,101 L 221,93 L 179,83 Z" fill="#1E2A33"/>
+  <circle cx="124" cy="116" r="9.5" fill="#1E2A33"/>
+  <circle cx="196" cy="116" r="9.5" fill="#1E2A33"/>
+  <circle cx="128" cy="110" r="3.6" fill="#FFFFFF"/>
+  <circle cx="200" cy="110" r="3.6" fill="#FFFFFF"/>
+  <path d="M 101,76 Q 118,66 135,76" fill="none" stroke="#D9A441" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 185,80 Q 202,74 219,80" fill="none" stroke="#D9A441" stroke-width="5" stroke-linecap="round"/>
+  <!-- 口鼻 -->
+  <ellipse cx="160" cy="152" rx="50" ry="25" fill="#D9A441"/>
+  <ellipse cx="144" cy="147" rx="5" ry="7" fill="#1E2A33"/>
+  <ellipse cx="176" cy="147" rx="5" ry="7" fill="#1E2A33"/>
+  <rect x="142" y="156" width="36" height="16" rx="7" fill="#1E2A33"/>
+  <path d="M 145,164 L 152,158 L 159,164 L 166,158 L 173,164" fill="none" stroke="#FFF6E8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="96" cy="140" rx="13" ry="7.5" fill="#E88C7D" opacity="0.35"/>
+  <ellipse cx="224" cy="140" rx="13" ry="7.5" fill="#E88C7D" opacity="0.35"/>
+  <!-- 算珠项链 -->
+  <path d="M 116,190 Q 160,218 204,190" fill="none" stroke="#C7472F" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="160" cy="214" r="17" fill="#D9A441"/>
+  <rect x="152" y="206" width="16" height="16" fill="#1E2A33"/>
+
+  <path class="ex-anim-knockline" style="animation-delay:0s" d="M 264,148 L 278,142" stroke="#C7472F" stroke-width="4.5" stroke-linecap="round"/>
+  <path class="ex-anim-knockline" style="animation-delay:.1s" d="M 266,160 L 282,160" stroke="#C7472F" stroke-width="4.5" stroke-linecap="round"/>
+  <path class="ex-anim-knockline" style="animation-delay:.2s" d="M 264,172 L 278,178" stroke="#C7472F" stroke-width="4.5" stroke-linecap="round"/>
+  <path class="ex-anim-sweat" style="animation-delay:0s" d="M 238,92 C 231,103 234,110 238,110 C 242,110 245,103 238,92 Z" fill="#7CC4F8"/>
   </g>
-
-  
-  <rect x="50" y="94" width="220" height="14" fill="#1E2A33"/>
-
-  
-  <g fill="#D9A441">
-    <circle cx="72" cy="49" r="15"/>
-    <circle cx="72" cy="79" r="15"/>
-    <circle cx="116" cy="49" r="15"/>
-    <circle cx="116" cy="79" r="15"/>
-    <circle cx="160" cy="49" r="15"/>
-    <circle cx="160" cy="79" r="15"/>
-    <circle cx="204" cy="49" r="15"/>
-    <circle cx="204" cy="79" r="15"/>
-    <circle cx="248" cy="49" r="15"/>
-    <circle cx="248" cy="79" r="15"/>
-    <circle cx="72" cy="123" r="15"/>
-    <circle cx="116" cy="123" r="15"/>
-    <circle cx="116" cy="153" r="15"/>
-    <circle cx="160" cy="123" r="15"/>
-    <circle cx="160" cy="153" r="15"/>
-    <circle cx="160" cy="183" r="15"/>
-    <circle cx="204" cy="123" r="15"/>
-    <circle cx="204" cy="153" r="15"/>
-    <circle cx="204" cy="183" r="15"/>
-    <circle cx="204" cy="213" r="15"/>
-    <circle cx="248" cy="123" r="15"/>
-    <circle cx="248" cy="153" r="15"/>
-    <circle cx="248" cy="183" r="15"/>
-    <circle cx="248" cy="213" r="15"/>
-    <circle cx="248" cy="243" r="15"/>
-  </g></g><g><circle cx="256" cy="70" r="55.12" fill="#FFFFFF"/><circle cx="256" cy="70" r="53.56" fill="#1E2A33"/><g class="ex-face"><circle cx="256" cy="70" r="52" fill="#FFCC4D"/><path d="M 225.48,45.92 L 245.76,54.04" stroke="#5C3A21" stroke-width="2.37" stroke-linecap="round"/><path d="M 286.52,45.92 L 266.24,54.04" stroke="#5C3A21" stroke-width="2.37" stroke-linecap="round"/><ellipse cx="238.32" cy="66.88" rx="13.52" ry="8.92" fill="#FFFFFF" stroke="#5C3A21" stroke-width="2.16"/><ellipse cx="238.32" cy="66.88" rx="6.49" ry="4.91" fill="#5C3A21"/><circle cx="235.35" cy="64.38" r="2.7" fill="#FFFFFF"/><path d="M 260.84,70.67 Q 273.68,51.33 286.52,70.67" fill="none" stroke="#5C3A21" stroke-width="2.7" stroke-linecap="round"/><path d="M 245.12,87.68 L 266.88,87.68" stroke="#5C3A21" stroke-width="2.16" stroke-linecap="round"/><g transform="translate(281.69 66.88)"><g class="ex-anim-knock"><rect x="-7.44" y="-6.08" width="12.17" height="12.17" rx="4.06" fill="#FFCC4D" stroke="#5C3A21" stroke-width="1.35"/><path d="M -3.38,-1.62 L -3.38,2.03 M 0,-2.43 L 0,2.03 M 3.38,-1.62 L 3.38,2.03" stroke="#5C3A21" stroke-width="1" stroke-linecap="round"/></g></g><g transform="translate(270.2 59.44)"><path class="ex-anim-knockline" style="animation-delay:0.0s" d="M 0 0 L -7.44 0" stroke="#F59E0B" stroke-width="1.22" stroke-linecap="round"/></g><g transform="translate(270.2 66.88)"><path class="ex-anim-knockline" style="animation-delay:0.12s" d="M 0 0 L -7.44 0" stroke="#F59E0B" stroke-width="1.22" stroke-linecap="round"/></g><g transform="translate(270.2 74.32)"><path class="ex-anim-knockline" style="animation-delay:0.24s" d="M 0 0 L -7.44 0" stroke="#F59E0B" stroke-width="1.22" stroke-linecap="round"/></g><g transform="translate(226.16 35.15)"><circle class="ex-anim-steam" style="animation-delay:0.0s" r="3.35" fill="#D7DEE8" opacity=".72"/></g><g transform="translate(229.21 33.02)"><circle class="ex-anim-steam" style="animation-delay:0.28s" r="4.26" fill="#D7DEE8" opacity=".72"/></g><g transform="translate(232.25 35.45)"><circle class="ex-anim-steam" style="animation-delay:0.56s" r="3.04" fill="#D7DEE8" opacity=".72"/></g></g></g><g transform="translate(289.38 70)"><g class="ex-anim-knock"><rect x="-5.15" y="-4.21" width="8.42" height="8.42" rx="2.81" fill="#D9A441" stroke="#1E2A33" stroke-width="1.3"/><path d="M -2.34,-1.12 L -2.34,1.4 M 0,-1.68 L 0,1.4 M 2.34,-1.12 L 2.34,1.4" stroke="#1E2A33" stroke-width="1" stroke-linecap="round"/></g></g><g transform="translate(281.43 64.85)"><path class="ex-anim-knockline" style="animation-delay:0.0s" d="M 0 0 L -5.15 0" stroke="#F59E0B" stroke-width="1.2" stroke-linecap="round"/></g><g transform="translate(281.43 70)"><path class="ex-anim-knockline" style="animation-delay:0.12s" d="M 0 0 L -5.15 0" stroke="#F59E0B" stroke-width="1.2" stroke-linecap="round"/></g><g transform="translate(281.43 75.15)"><path class="ex-anim-knockline" style="animation-delay:0.24s" d="M 0 0 L -5.15 0" stroke="#F59E0B" stroke-width="1.2" stroke-linecap="round"/></g></g></svg>
+</svg>
