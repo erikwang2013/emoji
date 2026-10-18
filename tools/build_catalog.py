@@ -7,6 +7,7 @@ from PIL import Image, ImageDraw
 
 EMOJI = Path('/home/wwwroot/emoji')
 ROOT = Path('/home/wwwroot')
+THUMB_SIZE = 64
 spec = importlib.util.spec_from_file_location('gp', EMOJI / 'tools/generate_pets.py')
 gp = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(gp)
@@ -68,6 +69,10 @@ def make_entries():
                     canvas = Image.new('RGBA', (128, 128), (0, 0, 0, 0))
                     canvas.alpha_composite(im, ((128 - im.width) // 2, (128 - im.height) // 2))
                     canvas.save(png, optimize=True)
+            thumb = EMOJI / 'thumbs' / slug / f'{mood}.png'
+            thumb.parent.mkdir(parents=True, exist_ok=True)
+            Image.open(png).convert('RGBA').resize((THUMB_SIZE, THUMB_SIZE), Image.LANCZOS).save(
+                thumb, optimize=True)
             cp = 0xE000 + idx
             e = {
                 'project': cfg['key'],
@@ -118,18 +123,22 @@ def write_manifest(projects, entries):
     return manifest
 
 def write_readme(projects, entries, manifest):
-    def cell(e):
-        return f'![{e["mood_zh"]}]({e["image"]}) `{e["shortcode"]}`'
+    def grid(forms):
+        head = '| ' + ' | '.join(e['mood_zh'] for e in forms) + ' |'
+        rule = '|' + ':--:|' * len(forms)
+        imgs = '| ' + ' | '.join(
+            f'![{e["mood_zh"]}](thumbs/{e["project_slug"]}/{e["mood"]}.png)' for e in forms) + ' |'
+        return '\n'.join((head, rule, imgs))
     summary = '\n'.join(
         f'| {i+1} | {p["pet"]} | `{p["project"]}` | `:{p["project_slug"]}-*:` | {p["count"]} |'
         for i, p in enumerate(projects))
     details = []
     for p in projects:
-        cells = [cell(e) for e in p['forms']]
-        rows = [' · '.join(cells[i:i+6]) for i in range(0, len(cells), 6)]
+        grids = [grid(p['forms'][i:i + 6]) for i in range(0, len(p['forms']), 6)]
+        codes = ' · '.join(f'`{e["shortcode"]}`' for e in p['forms'])
         details.append(
             f'### {p["pet"]} · `{p["project"]}` · `:{p["project_slug"]}-*:`\n\n'
-            + '\n\n'.join(rows))
+            + '\n\n'.join(grids) + '\n\n' + codes)
     first = entries[0]
     readme = f'''# 项目宠物 Emoji 图鉴 · Pet Emoji Atlas
 
@@ -187,7 +196,7 @@ def write_readme(projects, entries, manifest):
 
 ## 说明
 
-- 图片源文件在 `pets/<项目>/<形态>.svg`，PNG 在 `png/<项目>/<形态>.png`。
+- 图片源文件在 `pets/<项目>/<形态>.svg`，PNG 在 `png/<项目>/<形态>.png`，README 预览使用 `thumbs/<项目>/<形态>.png`（{THUMB_SIZE}×{THUMB_SIZE}）。
 - `preview.png` 是所有项目「笑」形态的总览。
 - 已去除与其他项目重复的 7 个宠物入口：`aetherupload-rust`、`apidoc-go`、`apidoc-rust`、`apidoc-ui`、`encryptable-rust`、`hashids-rust`、`snowflake-rust`；保留对应的 PHP / Webman 版本。`jwt-rust` 已改为独立橘猫形象，重新纳入。
 - 本项目代码与生成脚本仍遵循其原有许可；视觉资产适用 [ASSETS-LICENSE.md](ASSETS-LICENSE.md)。
